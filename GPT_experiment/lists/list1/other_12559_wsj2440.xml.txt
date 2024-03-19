@@ -1,0 +1,20 @@
+subject: The Talking Chip (it/its)
+helper sentence: The Talking Chip - was a speech synthesiser laminated into an advertisement for
+Texas Instruments that appeared in the magazine Business Week.
+text: Business Week subscribers may hear this week 's issue
+talking back to them . A four - page ad from Texas Instruments Inc. , running in
+approximately 140,000 issues of the Oct. 20 " Corporate Elite " issue of the
+McGraw - Hill Inc. publication , contains REF 2440_1 . Readers who pull off a piece of tape and
+press a switch will hear a tiny -- but distinctly human - sounding -- voice
+announce , " I am REF 2440_2
+, " as REF 2440_3 launches into a 15
+- second discourse on REF 2440_4
+own attributes . REF 2440_5 is n't cheap --
+the per - ad cost to Texas Instruments is about $ 4 , and that 's without adding
+in Business Week 's charge -- but Texas Instruments believes REF 2440_6 is a first .
+Previous efforts have included musical ads , featuring simple tone-generating
+chips that play a tune , but REF 2440_7 is much more sophisticated , with none of the
+robotic flatness that one hears , for example , when calling telephone directory
+services. And for those who miss the message the first time around
+, not to worry : Three tiny batteries provide enough juice for as many as 650
+replays .

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+         crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+      <style>
+         #borderDemo {border: 3px outset #1C6EA4;border-radius: 20px;}
+      </style>
+      <style>
+         #boxdemo {border: 2px groove #999FA4;
+         border-radius: 10px;
+         background: #E8E8E8;}
+      </style>
+      <style>
+         #demoFont {
+         font-size: 24px;
+         letter-spacing: 0px;
+         word-spacing: 0px;
+         color: #000000;
+         text-decoration: none;
+         font-style: normal;
+         font-variant: small-caps;
+         text-transform: none;}
+      </style>
+      <style> .div-1 { background-color: #EBEBEB; } </style>
+   </head>
+   
+   <crowd-form answer-format="flatten-objects">
+      
+      <body class="container">
+         
+         <div id="firstpage">
+            
+            <div class="text-center">
+               <br>
+               
+               <div id="borderDemo">
+                  <strong>Welcome!</strong> Thank you for participating in our
+                  research. Please read the instructions carefully. 
+               </div>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <section id="Proceedings">
+                  
+                  <h3>Proceedings</h3>
+                  
+                  <p class="lead">If you have done a variant of this task today,
+                     please do not continue. We can only use one response set per
+                     responder.
+                  </p>
+                  
+                  <p class="lead"> In the next pages, you will be presented with 10
+                     texts, consisting of news texts, from an American newspaper.
+                     Each text will talk about one specific subject, which can be,
+                     for example, a person, a company, a group, a country or a
+                     commercial product. 
+                  </p>
+                  
+                  <p class="lead"> In each text, all references to one subject are
+                     replaced by empty boxes. Your goal is to fill those gaps,
+                     referring to the main subject of the text, so that the text
+                     becomes easy to understand. 
+                  </p>
+                  
+                  <p class="lead"> Always talk about the whole subject: so if the
+                     topic is *Mr and Mrs Smith* and you know they are a couple from
+                     London, then you can fill a box with "Mr and Mrs Smith", "the
+                     London couple", "this couple", "they", "Mr and Mrs Smith's",
+                     "the couple's" and so on. But a box is never about "Mr Smith" or
+                     "Mrs Smith" on their own.
+                  </p>
+                  
+                  <p class="lead"> Although we show you words like "he", "she", "it",
+                     "they" or similar, you do not have to use them. In the box you
+                     can put any way of identifying the subject. If the subject is
+                     "Joe Biden, the president of the United States" you can put "Joe
+                     Biden" or "Mr Biden" or "Joe Biden's" or "the president of the
+                     United States" or "the president" or "the president's" or "him"
+                     or "his", or any other way of identifying this person. 
+                  </p>
+                  
+                  <p class="lead"> At the start of each text, you will see a line
+                     which gives you the subject of the text, and the thing or person
+                     you need to refer to as you fill out the boxes. To help you
+                     understand how to talk about the thing or person you will also
+                     have a helper sentence providing more information. For
+                     example:
+                  </p>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Margaret Thatcher (she/her) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Margaret Thatcher was the prime
+                        minister of the United Kingdom. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  
+                  <p class="lead"> Based on that description, here is an example of
+                     what a text looks like: 
+                  </p>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     instinctive response to the latest upheaval in <input type="text" size="15" name="test_1" readonly="true">
+                     government is to promise business as usual . That may be the
+                     last thing <input type="text" size="15" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="15" name="test_1" readonly="true"> and
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     new chancellor of the exchequer , the untested John Major , need
+                     to haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="15" name="test_1" readonly="true"> has to
+                     come to terms with European economic integration , beginning
+                     with the European Monetary System , which Britain is committed
+                     to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead"> Please notice that there are many ways in which you
+                     can fill the gaps. Here, for example, is one variant: 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="18" value="Margaret Thatcher's" name="test_1" readonly="true"> instinctive response to the
+                     latest upheaval in <input type="text" value="her" size="18" name="test_1" readonly="true"> government is to promise
+                     business as usual . That may be the last thing <input type="text" value="she" size="18" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="18" value="The prime minister" name="test_1" readonly="true"> and <input type="text" size="18" value="her" name="test_1" readonly="true"> new
+                     chancellor of the exchequer , the untested John Major , need to
+                     haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="18" value="Mrs. Thatcher" name="test_1" readonly="true"> has to come to terms with European
+                     economic integration , beginning with the European Monetary
+                     System , which Britain is committed to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead">Below is another example in which the subject is a
+                     bank.
+                  </p>
+                  <br>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Banca Nazionale del Lavoro (it/its) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Banca Nazionale del Lavoro - or BNL for
+                        short - is Italy's largest bank. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     said <input type="text" size="15" name="test_1" readonly="true"> potential losses from lending to Iraq could reach 1.175
+                     trillion lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     Atlanta branch . <input type="text" size="15" name="test_1" readonly="true"> previously reported that <input type="text" size="15" name="test_1" readonly="true">
+                     Georgia branch had taken on loan commitments topping $ 3 billion
+                     without the Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="22" name="test_1" readonly="true" value="Banca Nazionale del Lavoro"> said <input type="text" size="15" name="test_1" value="its" readonly="true">
+                     potential losses from lending to Iraq could reach 1.175 trillion
+                     lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" value="this bank's" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" value="its" readonly="true"> Atlanta branch . <input type="text" size="15" name="test_1" value="BNL" readonly="true">
+                     previously reported that <input type="text" size="15" name="test_1" value="its" readonly="true"> Georgia branch
+                     had taken on loan commitments topping $ 3 billion without the
+                     Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="lead"> Feel free to fill the gaps according to your own
+                     judgment and preference. However, please, do not fill all of
+                     them with only one type of reference (e.g., always ‘Banca
+                     Nazionale del Lavoro’). For empty references, you should fill
+                     the respective gap with the symbol “-”. 
+                  </p>
+                  
+               </section>
+               
+            </div>
+            
+            <div class="text-justify">
+               
+               <h3>Demographic information</h3>
+               <br>
+               
+               <h5>Before starting the task, we would like to ask you to indicate your
+                  gender, age and your English language proficiency level. Your
+                  information will be used for research purposes only. All your data
+                  will be held anonymously.
+               </h5>
+               <br>
+               
+               <table id="ff-table" class="table table-striped small" style="font-size: 14px">
+                  
+                  <tbody>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Gender:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="male" name="gender" value="male">
+                              <label for="male">Male</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="female" name="gender" value="female">
+                              <label for="female">Female</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="other" name="gender" value="other">
+                              <label for="other">Other</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Age:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           <input type="number" name="age" min="10" max="100">
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>English language proficiency:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="native" name="lng" value="native_speaker">
+                              <label for="male">Native speaker</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="fluent" name="lng" value="fluent">
+                              <label for="female">Fluent</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="intermediate" name="lng" value="Intermediate">
+                              <label for="other">Intermediate</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="basic" name="lng" value="basic">
+                              <label for="other">Basic</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                  </tbody>
+                  
+               </table>
+               
+            </div>
+            
+         </div>
+         <br>
+         
+         <hr class="my-4">
+         <br>
+         
+         <div id="human_8019_wsj1567.xml">
+            
+            <h3>
+               <strong>Text 1</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>James Schwartz (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> WHEN <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_1" id="human_8019_wsj1567_1"> was just a lad <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_2" id="human_8019_wsj1567_2"> father gave <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_3" id="human_8019_wsj1567_3"> a piece of career
+                  advice . " He told me to choose an area where just by being mediocre I could be
+                  great , " recalls <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_4" id="human_8019_wsj1567_4"> .
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_5" id="human_8019_wsj1567_5"> tried management
+                  consulting , traded in turquoise for a while , and even managed professional
+                  wrestlers . Now <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_6" id="human_8019_wsj1567_6">
+                  has settled into a career that fits the bill -- financial planning .
+               </p>
+               
+               <p class="lead"> It should be noted that <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_7" id="human_8019_wsj1567_7"> is a puckish sort
+                  who likes to give <input type="text" required maxlength="45" autocomplete="off" name="human_8019_wsj1567_8" id="human_8019_wsj1567_8">
+                  colleagues the needle . But in this case the needle has a very sharp point
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_5616_wsj1373.xml">
+            
+            <h3>
+               <strong>Text 2</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Computer chips (they/them/their)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>This article is about new computer chips with ceramic circuits whose data
+                  survives even without power.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  Chip's Memory Is Here Today, Here Tomorrow.
+               </p>
+               
+               <p class="lead"> Two companies plan to market <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_2" id="other_5616_wsj1373_2"> .
+               </p>
+               
+               <p class="lead"> Today's most widely used data-storing chips have "
+                  volatile " memories -- their data disappear if they aren't fed a steady diet of
+                  electricity , so they need external power supplies .
+               </p>
+               
+               <p class="lead"> National Semiconductor Corp. and a start-up named
+                  Ramtron Corp. plan to start shipping so-called ferroelectric memories , which
+                  can remember data for at least 10 years without any current flowing to <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_3" id="other_5616_wsj1373_3"> . <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_4" id="other_5616_wsj1373_4"> use materials , such
+                  as lead zirconate titanate , to form microscopic switches that retain <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_5" id="other_5616_wsj1373_5"> data without
+                  electricity .
+               </p>
+               
+               <p class="lead"> Developers caution that broad applications are several
+                  years away because the technology isn't fully refined . But Ramtron of Colorado
+                  Springs , Colo. , plans to start shipping commercial quantities of <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_6" id="other_5616_wsj1373_6"> in December . The
+                  company expects <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_7" id="other_5616_wsj1373_7">
+                  eventually to be used in devices that mimic a whole range of computer memory
+                  equipment , including floppy-disk and hard-disk drives .
+               </p>
+               
+               <p class="lead"> National Semiconductor is getting ferroelectric
+                  technology from Krysalis Corp. in Albuquerque , N.M . National says it agreed to
+                  acquire Krysalis's assets and will start shipping commercial quantities of its
+                  first chips , including a 4-kilobit memory , next year .
+               </p>
+               
+               <p class="lead"> Once production hurdles are overcome , <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_8" id="other_5616_wsj1373_8"> could take over a
+                  significant part of the market . In addition to not needing an outside power
+                  source , <input type="text" required maxlength="45" autocomplete="off" name="other_5616_wsj1373_9" id="other_5616_wsj1373_9">
+                  are potentially cheaper to make because they require fewer manufacturing steps
+                  than conventional chips .
+               </p>
+               
+               <p class="lead"> Military buyers have shown interest , National says ,
+                  because ferroelectric chips resist atomic radiation .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_7567_wsj1529.xml">
+            
+            <h3>
+               <strong>Text 3</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Mexico (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Mexico is a Spanish-speaking country in North America.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Guillermo Ortiz's Sept. 15 Americas column , " <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_1" id="citycountry_7567_wsj1529_1"> Has Been
+                  Bitten by the Privatization Bug , " is a refreshingly clear statement of <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_2" id="citycountry_7567_wsj1529_2">
+                  commitment to privatization , and must be welcomed as such by all Americans who
+                  wish <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_3" id="citycountry_7567_wsj1529_3"> well .
+                  The Mexico-United States Institute is glad to see such a high official as
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_4" id="citycountry_7567_wsj1529_4">
+                  undersecretary of finance view <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_5" id="citycountry_7567_wsj1529_5"> reforms " in the context of a larger ,
+                  world-wide process " of profound change toward free-market economics ,
+                  especially in the statist countries .
+               </p>
+               
+               <p class="lead"> Having said that , we must caution against an apparent
+                  tendency to overstate the case . It is not quite true , for example , that
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_6" id="citycountry_7567_wsj1529_6"> has "
+                  privatized " Mexicana de Aviacion , as Mr. Ortiz claims . In the same sentence
+                  he contradicts himself when he reports that <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_7" id="citycountry_7567_wsj1529_7"> still
+                  retains 40 % of the total equity of the airline . How can a company be
+                  considered " privatized " if the state is so heavily represented in it ? ( True
+                  , <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_8" id="citycountry_7567_wsj1529_8"> has
+                  granted " control " over the airline to a new private consortium , but <input type="text" required maxlength="45" autocomplete="off" name="citycountry_7567_wsj1529_9" id="citycountry_7567_wsj1529_9">
+                  propensity to take back what it gives is too well known to permit one to be
+                  sanguine . )
+               </p>
+               
+               <p class="lead"> Regrettably , too , Mr. Ortiz resorts to the familiar "
+                  numbers game " when he boasts that " fewer than 392 { state enterprises }
+                  currently remain in the public sector , " down from the 1,155 public entities
+                  that existed in 1982 .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_12495_wsj2436.xml">
+            
+            <h3>
+               <strong>Text 4</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Roger Rosenblatt (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Roger Rosenblatt was the editor of the magazine "U.S. News &amp; World Report" in
+                  the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_1" id="human_12495_wsj2436_1"> resigned Friday
+                  from the weekly news magazine .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_2" id="human_12495_wsj2436_2"> said <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_3" id="human_12495_wsj2436_3"> resigned because
+                  of difficulties with commuting between <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_4" id="human_12495_wsj2436_4"> home in New York and the magazine's editorial
+                  offices in Washington . " Frankly , I missed my family , " said <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_5" id="human_12495_wsj2436_5"> .
+               </p>
+               
+               <p class="lead"> In <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_6" id="human_12495_wsj2436_6">
+                  tenure , the magazine's advertising pages and circulation have grown
+                  significantly . But at 2.3 million weekly paid circulation , U.S. News still
+                  ranks third behind Time Warner Inc.'s Time magazine , with 4.4 million
+                  circulation , and Washington Post Co.'s Newsweek , with 3.3 million circulation
+                  .
+               </p>
+               
+               <p class="lead"> Mortimer B. Zuckerman , chairman and editor in chief ,
+                  said <input type="text" required maxlength="45" autocomplete="off" name="human_12495_wsj2436_7" id="human_12495_wsj2436_7"> would be succeeded
+                  starting today by Michael Ruby , the magazine's executive editor , and Merrill
+                  McLoughlin , a senior writer . Mr. Ruby and Ms. McLoughlin are married to each
+                  other .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_5563_wsj1367.xml">
+            
+            <h3>
+               <strong>Text 5</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Anne Volokh (she/her)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Anne Volokh is a wealthy publisher in the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> When <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_1" id="human_5563_wsj1367_1"> and <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_2" id="human_5563_wsj1367_2"> family immigrated to the U.S. 14 years ago ,
+                  they started life in Los Angeles with only $ 400 . They 'd actually left the
+                  Soviet Union with $ 480 , but during a stop in Italy <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_3" id="human_5563_wsj1367_3"> dropped $ 80 on a
+                  black velvet suit . Not surprisingly , <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_4" id="human_5563_wsj1367_4"> quickly adapted to the American way . Three
+                  months after <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_5" id="human_5563_wsj1367_5">
+                  arrived in L.A. <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_6" id="human_5563_wsj1367_6">
+                  spent $ 120 <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_7" id="human_5563_wsj1367_7">
+                  didn't have for a hat . ( " A turban , " <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_8" id="human_5563_wsj1367_8"> specifies , " though it wasn't the time for
+                  that 14 years ago . But I loved turbans . " )
+               </p>
+               
+               <p class="lead"> Since then <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_9" id="human_5563_wsj1367_9"> has become wealthy . <input type="text" required maxlength="45" autocomplete="off" name="human_5563_wsj1367_10" id="human_5563_wsj1367_10"> husband and older
+                  son -- a computer prodigy profiled in The Wall Street Journal in 1981 , when he
+                  was 13 -- run a software company with expected sales this year of $ 10 million .
+                  Most recently , she has become the publisher of Movieline , a four-year-old Los
+                  Angeles magazine that began national distribution last month , with an initial
+                  press run of 100,000 copies .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_11186_wsj2394.xml">
+            
+            <h3>
+               <strong>Text 6</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Avis Inc. (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Avis Inc. - or Avis for short - is a rental car company in the United
+                  States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_1" id="org_11186_wsj2394_1"> , following rival
+                  Hertz Corp.'s lead , said <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_2" id="org_11186_wsj2394_2"> is
+                  backing out of frequent-flier programs with three airlines .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_3" id="org_11186_wsj2394_3"> said <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_4" id="org_11186_wsj2394_4"> won't renew contracts
+                  with NWA Inc.'s Northwest Airlines unit , Pan Am Corp.'s Pan American World
+                  Airways unit and Midway Airlines at the end of this year . But <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_5" id="org_11186_wsj2394_5"> remains involved in
+                  programs with AMR Corp.'s American Airlines unit and Delta Air Lines
+                  .
+               </p>
+               
+               <p class="lead"> Industry estimates put <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_6" id="org_11186_wsj2394_6"> annual cost of all
+                  five programs at between $ 8 million and $ 14 million . A spokesman for <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_7" id="org_11186_wsj2394_7"> wouldn't specify the
+                  costs but said the three airlines being dropped account for " far less than half
+                  " of the total .
+               </p>
+               
+               <p class="lead"> Budget Rent a Car Corp. , of Chicago , and National Car
+                  Rental Systems Inc. , of Minneapolis , both said they had no plans to follow
+                  suit . In fact , Budget indicated it saw some benefit to staying involved in
+                  these programs , in which renters earn frequent-flier miles and fliers can get
+                  car-rental discounts .
+               </p>
+               
+               <p class="lead"> " I can not see how this news by Hertz and <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_8" id="org_11186_wsj2394_8"> can not benefit Budget's programs , " said Bob Wilson , Budget's vice president , marketing planning
+                  . Northwest and Midway are two of the five airlines with which Budget has
+                  agreements .
+               </p>
+               
+               <p class="lead"> National also participates in the Northwest
+                  frequent-flier program along with four other airlines , including Delta and
+                  USAir Group Inc.'s USAir unit .
+               </p>
+               
+               <p class="lead"> A month ago , Hertz , of Park Ridge , N.J. , said that it
+                  would drop its marketing agreements at year end with Delta , America West and
+                  Texas Air Corp.'s Continental Airlines and Eastern Airlines , and that pacts
+                  with American Airlines , UAL Inc's United Airlines and USAir also would be
+                  ended ... sometime after Dec. 31 . At the time , Hertz said its annual fees to
+                  those airlines amounted to $ 20 million and that the value of redeemed awards
+                  topped $ 15 million . Analysts and competitors , however , doubt the numbers
+                  were that high . Budget said its frequent-flier costs are " substantially below
+                  " <input type="text" required maxlength="45" autocomplete="off" name="org_11186_wsj2394_9" id="org_11186_wsj2394_9"> level .
+               </p>
+               
+               <p class="lead"> Robert D. Cardillo , Avis vice president of marketing ,
+                  said , " The proliferation and costs attached to ( frequent-flier programs )
+                  have significantly diminished their value . "
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_8910_wsj1846.xml">
+            
+            <h3>
+               <strong>Text 7</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Turkey (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Turkey is a country in the Middle East and a member of Nato.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> One of the most remarkable features of the forced marches
+                  of the ethnic Turks out of Bulgaria over the past five months has been the lack
+                  of international attention . The deportation of more than 315,000 men , women
+                  and children by the Bulgarian regime adds up to one of the largest migrations
+                  seen in the postwar years . Yet some people are advancing a chilling casuistry :
+                  that what we are seeing is somehow the understandable result of the historical
+                  sins committed by the Turks in the 16th century . Today's Turks in Bulgaria ,
+                  in other words , deserve what is coming to them four centuries later
+                  .
+               </p>
+               
+               <p class="lead"> As if this weren't enough , the Senate Judiciary
+                  Committee is getting into the act . On Tuesday it approved Senator Bob Dole's
+                  proposed commemorative resolution designating April 24 , 1990 , as the "
+                  National Day of Remembrance of the 75th Anniversary of the Armenian Genocide of
+                  1915-1923 , " suffered at the hands of the warring Ottoman Empire
+                  .
+               </p>
+               
+               <p class="lead"> There can be no quibbling that the Armenians endured
+                  terrible suffering , but one has to wonder what possible good such a resolution
+                  will achieve . It puts great strain on a longstanding U.S. friendship with
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_1" id="citycountry_8910_wsj1846_1"> . The
+                  resolution also comes at a time when <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_2" id="citycountry_8910_wsj1846_2"> has been seeking help from the United
+                  States in resolving <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_3" id="citycountry_8910_wsj1846_3"> Bulgarian emigration controversy and
+                  pursuing democratic reforms that may lead to membership in the European
+                  Community .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_4" id="citycountry_8910_wsj1846_4"> has been
+                  fighting <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_5" id="citycountry_8910_wsj1846_5"> past for years , and thus far has been
+                  only partially successful . Must <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_6" id="citycountry_8910_wsj1846_6"> now accept that one of <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_7" id="citycountry_8910_wsj1846_7">
+                  strongest allies blames <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_8" id="citycountry_8910_wsj1846_8"> for the genocide of another people ? Such
+                  sentiment only encourages the adverse feelings toward <input type="text" required maxlength="45" autocomplete="off" name="citycountry_8910_wsj1846_9" id="citycountry_8910_wsj1846_9"> that
+                  surfaced when Turkey asked for assistance in dealing with its Bulgarian
+                  emigration crisis .
+               </p>
+               
+               <p class="lead"> Mr. Dole's odd effort notwithstanding , most of Turkey's political problems lie with the Europeans .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_8500_wsj1587.xml">
+            
+            <h3>
+               <strong>Text 8</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Hepatitis (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Hepatitis is a group of viral infections affecting the liver.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Four workers at GTE Corp.'s headquarters have been
+                  diagnosed as having <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_1" id="other_8500_wsj1587_1"> ,
+                  and city health officials are investigating whether a cafeteria worker may have
+                  exposed hundreds of other GTE employees to <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_2" id="other_8500_wsj1587_2"> , company and city
+                  officials said .
+               </p>
+               
+               <p class="lead"> The four cases were all reported to GTE's medical
+                  director and state and local health authorities .
+               </p>
+               
+               <p class="lead"> GTE shut down its cafeteria Tuesday afternoon after
+                  testing determined that at least one cafeteria worker employed by GTE's private
+                  food vending contractor , ARA Services Inc. , was suffering from a strain of
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_3" id="other_8500_wsj1587_3"> , officials said .
+                  More than 700 people work in the GTE building . The cafeteria remains closed
+                  .
+               </p>
+               
+               <p class="lead"> Dr. Andrew McBride , city health director , said his
+                  staff suspects <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_4" id="other_8500_wsj1587_4">
+                  was spread by the cafeteria worker with <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_5" id="other_8500_wsj1587_5"> .
+               </p>
+               
+               <p class="lead"> The exact strain of <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_6" id="other_8500_wsj1587_6"> that the cafeteria
+                  worker contracted hasn't been determined but should be known by the end of the
+                  week , Dr. McBride said .
+               </p>
+               
+               <p class="lead"> Hepatitis A , considered the least dangerous strain of
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_7" id="other_8500_wsj1587_7"> , has been confirmed
+                  in at least one GTE employee , company and city officials said .
+               </p>
+               
+               <p class="lead"> " From a public health point of view we 're relieved
+                  because hepatitis A is rarely life-threatening , " said Dr. Frank Provato ,
+                  GTE's medical director . " It's a double-edged sword though , because it is
+                  also the most contagious kind of <input type="text" required maxlength="45" autocomplete="off" name="other_8500_wsj1587_8" id="other_8500_wsj1587_8"> . "
+               </p>
+               
+               <p class="lead"> GTE officials began posting warning notices about the
+                  potential threat to exposure Wednesday morning at various places at the company
+                  , said GTE spokesman Thomas Mattausch .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_2293_wsj1078.xml">
+            
+            <h3>
+               <strong>Text 9</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Saab-Scania (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace
+                  company.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Italian car manufacturer Fiat said it isn't interested
+                  in partnership or industrial cooperation with <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_1" id="org_2293_wsj1078_1"> , which faces heavy
+                  losses in <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_2" id="org_2293_wsj1078_2"> car
+                  division .
+               </p>
+               
+               <p class="lead"> Fiat said it's only interested in technical cooperation
+                  with <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_3" id="org_2293_wsj1078_3"> .
+               </p>
+               
+               <p class="lead"> " We know that <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_4" id="org_2293_wsj1078_4"> is looking for a partner for industrial and
+                  financial cooperation , " Fiat said . " But that partner isn't Fiat .
+                  "
+               </p>
+               
+               <p class="lead"> The Italian auto maker confirmed that it was discussing
+                  technical cooperation with <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_5" id="org_2293_wsj1078_5"> , but
+                  declined to comment on rumors that it was planning to buy <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_6" id="org_2293_wsj1078_6"> car division
+                  .
+               </p>
+               
+               <p class="lead"> Fiat's rejection of partnership with <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_7" id="org_2293_wsj1078_7"> means that <input type="text" required maxlength="45" autocomplete="off" name="org_2293_wsj1078_8" id="org_2293_wsj1078_8"> will have to look for a
+                  partner among other car manufacturers as both Ford Motor Corp. and Fiat have
+                  turned down the offer .
+               </p>
+               
+               <p class="lead"> News reports said yesterday that Saab is trying to start
+                  negotiations with French automakers Peugeot and Renault .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_3364_wsj1163.xml">
+            
+            <h3>
+               <strong>Text 10</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Anne Bogart (she/her)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Anne Bogart is an artistic director at a theatre.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> When the Trinity Repertory Theater named <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_1" id="human_3364_wsj1163_1"> its artistic
+                  director last spring , the nation's theatrical cognoscenti arched a collective
+                  eyebrow . <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_2" id="human_3364_wsj1163_2">
+                  is decidedly downtown . Trinity Rep meanwhile is one of the nation's oldest and
+                  most respected regional theaters , still hosting an annual " A Christmas Carol .
+                  "
+               </p>
+               
+               <p class="lead"> How would this bastion of traditional values fare in
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_3" id="human_3364_wsj1163_3"> iconoclastic hands ?
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_4" id="human_3364_wsj1163_4"> held <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_5" id="human_3364_wsj1163_5"> fire with <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_6" id="human_3364_wsj1163_6"> first production at
+                  the Trinity earlier this season . It was a predictable revival of <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_7" id="human_3364_wsj1163_7"> prize-winning
+                  off-Broadway anthology of Bertolt Brecht's theoretical writings , called " No
+                  Plays , No Poetry . "
+               </p>
+               
+               <p class="lead"> Now , with the opening of Maxim Gorky's bourgeois -
+                  bashing " Summerfolk , " <input type="text" required maxlength="45" autocomplete="off" name="human_3364_wsj1163_8" id="human_3364_wsj1163_8">
+                  has laid her cards on the table . Hers is a hand that will test the mettle of
+                  her audiences .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+      </body>
+      
+   </crowd-form>
+   
+</list>

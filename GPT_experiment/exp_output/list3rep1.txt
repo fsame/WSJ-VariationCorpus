@@ -1,0 +1,82 @@
+REF 1615_1: Heidi Ehman
+REF 1615_2: her
+REF 1615_3: she
+REF 1615_4: she
+REF 1615_5: Heidi Ehman
+REF 1615_6: her
+REF 1615_7: Heidi Ehman
+REF 1615_8: she
+REF 1615_9: Heidi Ehman
+REF 1234_1: Ronald B. Koenig
+REF 1234_2: He
+REF 1234_3: Koenig
+REF 1234_4: he
+REF 1234_5: him
+REF 1234_6: Koenig
+REF 1234_7: his
+REF 1234_8: Koenig
+REF_1316_1: Goodson Newspaper Group Inc.
+REF_1316_2: Goodson
+REF_1316_3: its
+REF_1316_4: The company
+REF_1316_5: Goodson Newspaper Group Inc.
+REF_1316_6: It
+REF_1316_7: Goodson
+REF_1316_8: it
+REF 1570_1: Allen D. Tharp
+REF 1570_2: He
+REF 1570_3: Tharp
+REF 1570_4: he
+REF 1570_5: his
+REF 1570_6: He
+REF 1570_7: Tharp
+REF 1570_8: his
+REF 1570_9: Tharp
+REF 1570_10: him
+REF 2436_1: U.S. News & World Report
+REF 2436_2: U.S. News & World Report
+REF 2436_3: U.S. News & World Report's
+REF 2436_4: U.S. News & World Report's
+REF 2436_5: U.S. News & World Report
+REF 2436_6: U.S. News & World Report's
+REF 2436_7: U.S. News & World Report
+REF 2436_8: its 
+REF 2436_9: U.S. News & World Report
+REF_1147_1: California's
+REF_1147_2: California's
+REF_1147_3: California
+REF_1147_4: Californian
+REF_1147_5: California
+REF_1147_6: California
+REF_1147_7: California's
+REF_1147_8: California
+REF 0910_1: the United States
+REF 0910_2: the United States
+REF 0910_3: United States'
+REF 0910_4: the United States
+REF 0910_5: the United States
+REF 0910_6: the United States
+REF 0910_7: the United States
+REF 0910_8: the United States
+REF 0591_1: Charles Wohlstetter
+REF 0591_2: he
+REF 0591_3: Wohlstetter
+REF 0591_4: he
+REF 0591_5: Charles
+REF 0591_6: Wohlstetter
+REF 0591_7: he
+REF 0591_8: Charles Wohlstetter
+REF 1412_1: "Days of Rage"
+REF 1412_2: the film
+REF 1412_3: "Days of Rage"
+REF 1412_4: this movie
+REF 1412_5: "Days of Rage"
+REF 1412_6: the movie
+REF 1412_7: "Days of Rage"
+REF 1175_1: Buell
+REF 1175_2: its
+REF 1175_3: The company's
+REF 1175_4: Buell Industries Inc.
+REF 1175_5: it
+REF 1175_6: its
+REF 1175_7: The Waterbury, Conn., company

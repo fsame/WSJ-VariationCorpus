@@ -1,0 +1,453 @@
+ID	gen_refex	Target	Title
+0001	Kenneth Roman	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0002	he	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0006	Kenneth Roman's	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0007	his	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0011	The United States Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0012	it	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0013	the currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0014	the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0015	the US Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0016	its	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0017	the United States Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0021	The Talking Chip	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0024	its	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0026	it	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0028	George W. Bush's	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0029	George W. Bush	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0032	George W. Bush's position	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0035	Detrex Corp.	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0036	the company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0037	its	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0039	it	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0040	The company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0045	Dr Shin Yonehara and Dr Nobuyuku Kobayashi	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0047	they	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0049	The two Japanese scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0050	their	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0051	Dr Shin Yonehara and Dr Nobuyuku Kobayashi said	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0052	Nick Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0053	he	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0055	Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0059	his	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0060	Public Service co.	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0061	the New Hampshire company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0062	the company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0063	Public Service co.'s	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0064	the corporation	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0065	It	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0066	its	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0068	Canada's	Canada (it/its)	Canada is a large country in North America with many natural resources.
+0071	Canada	Canada (it/its)	Canada is a large country in North America with many natural resources.
+0077	Venice	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0079	the city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0080	The Italian city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0081	it	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0082	Venice's	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0083	the canal city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0088	He	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0098	the U.S. Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0099	its stability	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0100	the dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0102	the U.S. currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0105	the speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0106	the advertisement	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0108	The application of this technology	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0109	this initiative	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0110	this innovation	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0115	George W. Bush's stance	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0123	The manufacturing company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0126	The corporation	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0129	Dr Yonehara and Dr Kobayashi	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0130	these two Japanese scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0132	The scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0136	the FBI Agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0137	this TV series character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0140	the show	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0141	him	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0147	the United States company's	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0150	the American company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0178	the official currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0181	the US currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0182	the state of the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0183	the value of the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0191	This technology	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0193	this speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0219	the FBI agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0222	this TV series agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0223	Nick Mancuso's performance	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0224	the character played by Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0232	it	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0233	the firm	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0244	this Italian city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0261	The official currency of the United States	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0265	the monetary unit of The United States	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0267	this currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0268	The dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0269	the American Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0270	the Talking Chip	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0276	It	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0290	It	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0305	our lead character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0306	the performance of Nick Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0331	Venetian	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0337	The former chairman and CEO	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0349	the US dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0352	US Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0359	This speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0362	Bush's	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0364	Bush's position	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0379	They	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0382	Their	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0387	Nick	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0389	the TV series detective	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0390	this character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0391	Mancuso's	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0396	the company's officials	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0409	"""Venice"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0411	"""the city"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0414	"""Venetian"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0416	the Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0417	the program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0418	it	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0419	Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0420	this software	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0421	The Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0423	Addison	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0424	Addison's	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0430	Alaska	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0432	Alaska's	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0435	Alaskan	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0437	It	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0439	a comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0440	This proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0441	the comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0442	The proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0443	this comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0444	the proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0445	this proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0447	ASKO	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0449	the West German company	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0450	it	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0452	its	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0457	Nigel Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0458	he	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0459	the Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0460	Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0463	the UK's former Chancellor	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0467	James T. Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0472	James T. Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0474	Vickers PLC	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0475	the company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0476	it	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0477	the UK defense and engineering firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0478	Vickers'	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0480	The defense and engineering firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0481	George Bush's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0482	Bush's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0483	Bush	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0484	his	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0487	he	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0489	Jim Wright's	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0490	Jim Wright	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0493	his	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0494	He	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0498	he	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0504	The Hewlett-Packard program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0507	its	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0514	it	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0517	its	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0525	The comprehensive plan	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0527	the proposed plan	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0528	the extensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0529	the American comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0532	the company	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0534	It	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0535	ASKO's	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0543	He	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0551	Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0552	him	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0555	Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0558	Vickers	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0561	Vickers PLC's	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0586	the software	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0587	This program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0597	the state	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0604	the most northerly state within the United States of America	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0608	The said proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0611	the said proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0625	the former Chancellor	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0634	Mr. Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0636	the vice-chairman of GAF Corp.	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0638	Mr. Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0639	the vice-chairman of GAF	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0642	the UK defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0645	the United Kingdom defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0646	It	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0649	George Bush	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0651	Bush administration's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0658	Wright's	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0664	Wright	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0669	this program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0689	The comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0691	The same proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0698	the lawyers of ASKO	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0700	ASKO Deutsche Kaufhaus AG	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0709	The Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0712	The former Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0713	Mr. Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0726	the firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0728	the defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0729	The UK company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0753	This system	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0772	This comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0781	the West German company's	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0831	Heidi Ehman	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0832	her	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0833	she	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0840	Ronald B. Koenig	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0841	He	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0842	Koenig	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0843	he	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0844	him	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0846	his	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0848	Goodson Newspaper Group Inc.	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0849	Goodson	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0850	its	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0851	The company	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0853	It	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0855	it	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0856	Allen D. Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0857	He	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0858	Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0859	he	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0860	his	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0865	him	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0866	U.S. News & World Report	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0868	U.S. News & World Report's	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0873	its	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0875	California's	California (it/its)	California is a state on the west coast of the United States.
+0877	California	California (it/its)	California is a state on the west coast of the United States.
+0878	Californian	California (it/its)	California is a state on the west coast of the United States.
+0883	the United States	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0885	United States'	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0891	Charles Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0892	he	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0893	Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0895	Charles	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0899	"""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0900	the film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0902	this movie	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0904	the movie	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0906	Buell	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0907	its	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0908	The company's	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0909	Buell Industries Inc.	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0910	it	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0912	The Waterbury, Conn., company	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0919	unexpectedly	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0939	Mr. Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0945	Tharp's	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0957	the California	California (it/its)	California is a state on the west coast of the United States.
+0964	it	California (it/its)	California is a state on the west coast of the United States.
+0965	The United States	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0967	American	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0977	the chairman of Contel	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0982	"the movie ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0983	"the film ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0985	the given film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0987	this film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0994	The Waterbury firm	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0997	She	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+1014	Goodson's	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+1052	America	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1053	the U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1068	"The movie ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1076	The company	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1083	suddenly	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+1113	the magazine	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1114	the magazine's	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1116	it	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1139	Mr. Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+1155	The firm	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1158	The corporation	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1174	His	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+1181	Goodson Newspaper Group	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+1213	U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1216	The U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1230	it	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1233	It	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1236	Its	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1241	Anne Bogart	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1242	She	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1243	her	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1249	Saab-Scania	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1250	its	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1251	SAAB	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1252	the Swedish auto and aerospace company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1254	Saab-Scania's	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1255	the Swedish company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1256	it	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1257	James Schwartz	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1258	his	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1259	him	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1260	Schwartz	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1261	He	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1262	he	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1265	Anne Volokh	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1266	her	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1268	she	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1274	Anne Volokh's	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1275	Hepatitis	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1276	the disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1277	this viral infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1278	it	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1280	this infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1281	the virus	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1283	Roger Rosenblatt	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1284	He	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1285	he	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1286	his	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1287	Rosenblatt	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1290	Computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1291	these chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1292	them	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1293	These computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1294	their	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1295	these computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1297	the chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1298	these devices	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1299	Turkey	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1301	its	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1306	it	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1308	Avis Inc.	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1309	it	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1310	Avis	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1313	its	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1316	Avis's	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1317	Mexico	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1318	its	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1319	it	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1329	Bogart	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1341	Saab	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1351	Volokh's	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1353	Volokh	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1359	Her	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1362	the infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1365	the viral infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1369	The magazine	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1371	His	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1378	These chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1382	These chipsets	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1385	the Middle Eastern country	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1389	the Nato member	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1391	itself	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1392	this country	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1395	The rental car company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1399	the company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1401	the company's	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1403	Mexico's	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1423	Saab-Scania AB	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1425	the said company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1433	James	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1446	the viral disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1447	this infectious disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1461	the new chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1465	the ceramic chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1468	they	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1480	the rental car company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1511	the company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1552	the computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1583	Anne Bogart's	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1617	this disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1624	A representative	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1631	these innovative computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1635	these ceramic circuit chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1637	these new technologies	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1666	Alan Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1667	his	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1668	Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1669	him	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1673	Senator Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1675	its	Canada (it/its)	Canada is a large country in North America.
+1676	it	Canada (it/its)	Canada is a large country in North America.
+1682	a converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1683	the converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1684	this technology	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1685	such a device	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1686	new converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1687	Converters	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1689	this product	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1690	Alcee Hastings	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1691	him	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1692	his	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1693	His	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1694	he	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1697	He	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1699	Drexel's	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1700	its	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1702	Drexel	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1709	Israel	Israel (it/its)	Israel is a small country on the Middle East.
+1710	it	Israel (it/its)	Israel is a small country on the Middle East.
+1711	Its	Israel (it/its)	Israel is a small country on the Middle East.
+1712	its	Israel (it/its)	Israel is a small country on the Middle East.
+1716	Carla Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1717	she	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1718	Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1719	the spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1721	the United States Trade Department's spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1724	the United States Trade Department's representative	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1725	Valley Federal	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1726	Valley Federal's	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1728	it	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1732	William McDonough	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1733	He	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1734	McDonough	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1736	his	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1742	the new guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1743	These guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1744	The guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1745	these guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1746	under these guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1748	the guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1749	these new guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1755	Senator Alan Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1765	it's	Canada (it/its)	Canada is a large country in North America.
+1768	such a converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1770	converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1772	the product	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1773	it	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1778	Hastings	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1779	his court	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1787	the company's	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1801	The spokesperson for the United States Trade Department	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1803	She	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1804	Mrs. Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1805	The U.S. spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1808	The spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1819	him	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1823	The 38-year-old architect	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1836	he	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1853	this technological innovation	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1855	These converters	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1856	the device	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1857	this converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1865	The U.S. District Judge	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1903	McDonough's approach	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1904	His	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1907	The eco-conscious architect	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1913	they	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1916	the new directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1917	these new procedures	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1945	Hastings'	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1975	The U.S. Trade Department’s spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1996	The new rules	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1998	the new regulations	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2007	Alan Cranston's	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+2043	the company	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+2055	the spokesperson for the United States Trade Department	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+2056	the U.S. spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+2073	he	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+2079	These directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2083	The regulations	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2084	these directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.

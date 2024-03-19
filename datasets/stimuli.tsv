@@ -1,0 +1,419 @@
+unique_connecting_code	uniqueID	original_ref	orig_ref_form	sentence_distance	paragraph_distance	animacy	gm	prev_ref
+human_3922_wsj1246_1	wsj_1246_1_21_2	Two Japanese scientists	description	first_mention	first_mention	human	np-subj	first_mention
+human_3922_wsj1246_2	wsj_1246_1_21_5	they	pronoun	same_sent	same_par	human	np-subj	description
+human_3922_wsj1246_3	wsj_1246_5_21_3	the researchers themselves	description	diff_sent	different_par	human	np-subj	pronoun
+human_3922_wsj1246_4	wsj_1246_5_21_6	they	pronoun	same_sent	same_par	human	np-subj	description
+human_3922_wsj1246_5	wsj_1246_5_21_14	they	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_3922_wsj1246_6	wsj_1246_8_21_11	Dr. Yonehara and his partner , Nobuyuki Kobayashi of Yamaguchi University	name	diff_sent	different_par	human	np-subj	pronoun
+human_3922_wsj1246_7	wsj_1246_8_21_14	their	pronoun	same_sent	same_par	human	subj-det	name
+human_3922_wsj1246_8	wsj_1246_9_21_15	the researchers	description	diff_sent	same_par	human	np-subj	pronoun
+human_6062_wsj1397_1	wsj_1397_1_74_10	FBI Agent Nick Mancuso	name	first_mention	first_mention	human	np-subj	first_mention
+human_6062_wsj1397_2	wsj_1397_2_74_11	the crusty FBI agent with the heart of gold	description	diff_sent	same_par	human	np-obj	name
+human_6062_wsj1397_3	wsj_1397_8_74_17	the unlovable -- even crotchety -- veteran agent	description	diff_sent	different_par	human	np-obj	description
+human_6062_wsj1397_4	wsj_1397_9_74_19	he	pronoun	diff_sent	same_par	human	np-subj	description
+human_6062_wsj1397_5	wsj_1397_12_74_17	Mancuso	name	diff_sent	different_par	human	np-subj	pronoun
+human_6062_wsj1397_6	wsj_1397_19_74_14	the character of Mancuso	description	diff_sent	different_par	human	np-obj	name
+human_6062_wsj1397_7	wsj_1397_20_74_6	the veteran FBI man	description	diff_sent	different_par	human	np-subj	description
+human_6062_wsj1397_8	wsj_1397_20_74_10	his	pronoun	same_sent	same_par	human	subj-det	description
+other_12559_wsj2440_1	wsj_2440_2_27_42	a speech synthesizer laminated * between two of the pages	description	same_sent	first_mention	other	np-obj	first_mention
+other_12559_wsj2440_2	wsj_2440_3_27_32	the talking chip	description	diff_sent	same_par	other	np-obj	description
+other_12559_wsj2440_3	wsj_2440_3_27_36	it	pronoun	same_sent	same_par	other	np-subj	description
+other_12559_wsj2440_4	wsj_2440_3_27_45	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+other_12559_wsj2440_5	wsj_2440_4_27_2	The talking chip	description	diff_sent	different_par	other	np-subj	pronoun
+other_12559_wsj2440_6	wsj_2440_4_27_38	it	pronoun	same_sent	same_par	other	np-subj	description
+other_12559_wsj2440_7	wsj_2440_5_27_25	the voice synthesizer in this effort	description	same_sent	same_par	other	np-subj	pronoun
+other_2457_wsj1102_1	wsj_1102_1_53_1	The dollar	description	first_mention	first_mention	other	np-subj	first_mention
+other_2457_wsj1102_2	wsj_1102_2_53_22	the dollar	description	diff_sent	different_par	other	np-subj	description
+other_2457_wsj1102_3	wsj_1102_3_53_26	the U.S. unit	description	diff_sent	different_par	other	np-obj	description
+other_2457_wsj1102_4	wsj_1102_5_53_17	the dollar	description	diff_sent	different_par	other	np-obj	description
+other_2457_wsj1102_5	wsj_1102_6_53_8	the dollar	description	diff_sent	different_par	other	np-subj	description
+other_2457_wsj1102_6	wsj_1102_8_53_18	the dollar	description	diff_sent	different_par	other	np-obj	description
+other_2457_wsj1102_7	wsj_1102_9_53_20	the U.S. currency	description	diff_sent	same_par	other	np-obj	description
+other_2457_wsj1102_8	wsj_1102_9_53_25	it	pronoun	same_sent	same_par	other	np-subj	description
+other_2457_wsj1102_9	wsj_1102_10_53_8	the dollar	description	diff_sent	different_par	other	np-subj	pronoun
+other_2457_wsj1102_10	wsj_1102_12_53_6	the U.S. currency	description	diff_sent	different_par	other	np-subj	description
+human_1670_wsj1017_1	wsj_1017_1_37_19	President Bush 's	name	first_mention	first_mention	human	subj-det	first_mention
+human_1670_wsj1017_2	wsj_1017_3_37_26	Mr. Bush	name	diff_sent	different_par	human	np-obj	name
+human_1670_wsj1017_3	wsj_1017_4_37_42	the president , who *T*-2 has threatened *PRO*-3 to make abortion a	description	diff_sent	different_par	human	np-obj	name
+human_1670_wsj1017_4	wsj_1017_7_37_17	the president	description	diff_sent	different_par	human	np-subj	description
+human_1670_wsj1017_5	wsj_1017_8_37_2	he	pronoun	diff_sent	same_par	human	np-subj	description
+human_1670_wsj1017_6	wsj_1017_9_37_8	the president	description	diff_sent	different_par	human	np-obj	pronoun
+human_1670_wsj1017_7	wsj_1017_15_37_41	the president	description	diff_sent	different_par	human	np-obj	description
+org_3053_wsj1145_1	wsj_1145_1_49_21	Public Service Co. of New Hampshire , which *T*-1 is operating under	name	first_mention	first_mention	other	np-obj	first_mention
+org_3053_wsj1145_2	wsj_1145_2_49_52	the company , the largest utility in New Hampshire	description	diff_sent	different_par	other	np-obj	name
+org_3053_wsj1145_3	wsj_1145_7_49_24	PS of New Hampshire	name	diff_sent	different_par	other	np-subj	description
+org_3053_wsj1145_4	wsj_1145_13_49_37	PS of New Hampshire 's	name	diff_sent	different_par	other	subj-det	name
+org_3053_wsj1145_5	wsj_1145_14_49_5	PS of New Hampshire	name	diff_sent	different_par	other	np-obj	name
+org_3053_wsj1145_6	wsj_1145_15_49_1	The company	description	diff_sent	same_par	other	np-subj	name
+org_3053_wsj1145_7	wsj_1145_15_49_9	it	pronoun	same_sent	same_par	other	np-subj	description
+org_3053_wsj1145_8	wsj_1145_17_49_14	the company	description	diff_sent	different_par	other	np-obj	pronoun
+citycountry_10328_wsj2363_1	wsj_2363_1_75_32	Canada 's	name	first_mention	first_mention	other	subj-det	first_mention
+citycountry_10328_wsj2363_2	wsj_2363_2_75_3	Canada 's	name	diff_sent	different_par	other	subj-det	name
+citycountry_10328_wsj2363_3	wsj_2363_7_75_3	Canada 's	name	diff_sent	different_par	other	subj-det	name
+citycountry_10328_wsj2363_4	wsj_2363_8_75_7	Canada	name	diff_sent	same_par	other	np-obj	name
+citycountry_10328_wsj2363_5	wsj_2363_11_75_7	Canada	name	diff_sent	different_par	other	np-subj	name
+citycountry_10328_wsj2363_6	wsj_2363_12_75_1	Canada 's	name	diff_sent	different_par	other	subj-det	name
+citycountry_10328_wsj2363_7	wsj_2363_13_75_2	Canada	name	diff_sent	same_par	other	np-obj	name
+citycountry_10328_wsj2363_8	wsj_2363_14_75_5	Canada 's	name	diff_sent	different_par	other	subj-det	name
+citycountry_10328_wsj2363_9	wsj_2363_17_75_35	Canada 's	name	diff_sent	different_par	other	subj-det	name
+citycountry_9432_wsj2136_1	wsj_2136_6_5_6	Venice	name	first_mention	first_mention	other	np-obj	first_mention
+citycountry_9432_wsj2136_2	wsj_2136_6_5_19	the 1,200 - year - old Italian city	description	same_sent	same_par	other	np-subj	name
+citycountry_9432_wsj2136_3	wsj_2136_8_5_21	town	description	diff_sent	different_par	other	np-obj	description
+citycountry_9432_wsj2136_4	wsj_2136_10_5_2	This city	description	diff_sent	same_par	other	np-subj	description
+citycountry_9432_wsj2136_5	wsj_2136_10_5_10	it	pronoun	same_sent	same_par	other	np-subj	description
+citycountry_9432_wsj2136_6	wsj_2136_10_5_27	Venice	name	same_sent	same_par	other	np-obj	pronoun
+citycountry_9432_wsj2136_7	wsj_2136_11_5_32	Venice	name	diff_sent	different_par	other	np-obj	name
+human_4932_wsj1317_1	wsj_1317_1_128_24	Kenneth Roman , Ogilvy 's chairman and chief executive officer ,	name	first_mention	first_mention	human	np-subj	first_mention
+human_4932_wsj1317_2	wsj_1317_1_128_27	he	pronoun	same_sent	same_par	human	np-subj	name
+human_4932_wsj1317_3	wsj_1317_2_128_6	Mr. Roman , 59 years old ,	name	diff_sent	different_par	human	np-subj	pronoun
+human_4932_wsj1317_4	wsj_1317_2_128_10	he	pronoun	same_sent	same_par	human	np-subj	name
+human_4932_wsj1317_5	wsj_1317_3_128_0	He	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_4932_wsj1317_6	wsj_1317_8_128_9	Mr. Roman 's	name	diff_sent	different_par	human	subj-det	pronoun
+human_4932_wsj1317_7	wsj_1317_9_128_4	his	pronoun	diff_sent	same_par	human	subj-det	name
+human_4932_wsj1317_8	wsj_1317_10_128_3	Mr. Roman	name	diff_sent	same_par	human	np-subj	pronoun
+human_4932_wsj1317_9	wsj_1317_10_128_32	Mr. Roman	name	same_sent	same_par	human	np-obj	name
+human_4932_wsj1317_10	wsj_1317_10_128_35	he	pronoun	same_sent	same_par	human	np-subj	name
+org_5431_wsj1362_1	wsj_1362_1_4_1	Detrex Corp.	name	first_mention	first_mention	other	np-subj	first_mention
+org_5431_wsj1362_2	wsj_1362_1_4_7	it	pronoun	same_sent	same_par	other	np-subj	name
+org_5431_wsj1362_3	wsj_1362_1_4_23	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+org_5431_wsj1362_4	wsj_1362_2_4_13	Detrex , which *T*-1 has annual sales of about $ 100 million *U* ,	name	same_sent	different_par	other	np-subj	pronoun
+org_5431_wsj1362_5	wsj_1362_2_4_19	it	pronoun	same_sent	same_par	other	np-subj	name
+org_5431_wsj1362_6	wsj_1362_3_4_6	The Southfield , Mich. - based company	description	diff_sent	same_par	other	np-subj	pronoun
+org_5431_wsj1362_7	wsj_1362_4_4_0	Detrex	name	diff_sent	different_par	other	np-subj	description
+org_5431_wsj1362_8	wsj_1362_4_4_18	its	pronoun	same_sent	same_par	other	subj-det	name
+org_5431_wsj1362_9	wsj_1362_5_4_4	the manufacturer	description	diff_sent	different_par	other	np-subj	pronoun
+org_5431_wsj1362_10	wsj_1362_5_4_7	it	pronoun	same_sent	same_par	other	np-subj	description
+other_7811_wsj1555_1	wsj_1555_1_59_29	a software program that *T*-1 allows computers in a network to speed up	description	first_mention	first_mention	other	np-obj	first_mention
+other_7811_wsj1555_2	wsj_1555_2_59_8	the program	description	diff_sent	different_par	other	np-subj	description
+other_7811_wsj1555_3	wsj_1555_3_59_10	Task Broker	name	diff_sent	same_par	other	np-subj	description
+other_7811_wsj1555_4	wsj_1555_4_59_0	It	pronoun	diff_sent	same_par	other	np-subj	name
+other_7811_wsj1555_5	wsj_1555_5_59_6	the software	description	diff_sent	different_par	other	np-subj	pronoun
+other_7811_wsj1555_6	wsj_1555_6_59_5	The new Hewlett - Packard program	description	diff_sent	different_par	other	np-subj	description
+other_7811_wsj1555_7	wsj_1555_8_59_5	the Hewlett - Packard program	description	diff_sent	same_par	other	np-obj	description
+org_11061_wsj2383_1	wsj_2383_1_0_7	The West German retailer ASKO Deutsche Kaufhaus AG	name	first_mention	first_mention	other	np-subj	first_mention
+org_11061_wsj2383_2	wsj_2383_2_0_16	ASKO	name	diff_sent	different_par	other	np-subj	name
+org_11061_wsj2383_3	wsj_2383_3_0_17	ASKO	name	diff_sent	different_par	other	np-subj	name
+org_11061_wsj2383_4	wsj_2383_4_0_12	ASKO	name	diff_sent	different_par	other	np-subj	name
+org_11061_wsj2383_5	wsj_2383_5_0_0	ASKO	name	diff_sent	same_par	other	np-subj	name
+org_11061_wsj2383_6	wsj_2383_5_0_34	ASKO	name	same_sent	same_par	other	np-obj	name
+org_11061_wsj2383_7	wsj_2383_6_0_3	its	pronoun	diff_sent	different_par	other	subj-det	name
+org_11061_wsj2383_8	wsj_2383_6_0_7	ASKO	name	same_sent	same_par	other	np-subj	pronoun
+org_11061_wsj2383_9	wsj_2383_6_0_11	it	pronoun	same_sent	same_par	other	np-subj	name
+org_11061_wsj2383_10	wsj_2383_7_0_7	ASKO	name	diff_sent	same_par	other	np-subj	pronoun
+citycountry_5350_wsj1347_1	wsj_1347_1_32_8	the state of Alaska	name	first_mention	first_mention	other	np-obj	first_mention
+citycountry_5350_wsj1347_2	wsj_1347_2_32_11	Alaska	name	diff_sent	different_par	other	np-obj	name
+citycountry_5350_wsj1347_3	wsj_1347_3_32_2	The state 's	description	diff_sent	same_par	other	subj-det	name
+citycountry_5350_wsj1347_4	wsj_1347_8_32_12	the state	description	diff_sent	different_par	other	np-obj	description
+citycountry_5350_wsj1347_5	wsj_1347_8_32_32	the state 's	description	same_sent	same_par	other	subj-det	description
+citycountry_5350_wsj1347_6	wsj_1347_10_32_4	Alaska	name	diff_sent	different_par	other	np-obj	description
+citycountry_5350_wsj1347_7	wsj_1347_11_32_10	the state	description	diff_sent	same_par	other	np-subj	name
+citycountry_5350_wsj1347_8	wsj_1347_12_32_1	The state	description	diff_sent	same_par	other	np-subj	description
+citycountry_5350_wsj1347_9	wsj_1347_13_32_9	the state	description	diff_sent	different_par	other	np-obj	description
+human_9636_wsj2326_1	wsj_2326_1_151_1	Bush	name	first_mention	first_mention	human	np-obj	first_mention
+human_9636_wsj2326_2	wsj_2326_4_151_2	Bush	name	diff_sent	different_par	human	np-obj	name
+human_9636_wsj2326_3	wsj_2326_10_151_1	President Bush	name	diff_sent	different_par	human	np-subj	name
+human_9636_wsj2326_4	wsj_2326_10_151_3	his	pronoun	same_sent	same_par	human	subj-det	name
+human_9636_wsj2326_5	wsj_2326_14_151_1	Bush	name	diff_sent	different_par	human	np-obj	pronoun
+human_9636_wsj2326_6	wsj_2326_15_151_4	Mr. Bush	name	diff_sent	same_par	human	np-subj	name
+human_9636_wsj2326_7	wsj_2326_15_151_15	he	pronoun	same_sent	same_par	human	np-subj	name
+human_9636_wsj2326_8	wsj_2326_15_151_24	he	pronoun	same_sent	same_par	human	np-subj	pronoun
+citycountry_10424_wsj2367_1	wsj_2367_1_0_3	This small Dallas suburb	description	first_mention	first_mention	other	np-subj	first_mention
+citycountry_10424_wsj2367_2	wsj_2367_4_0_4	Addison	name	diff_sent	different_par	other	np-obj	description
+citycountry_10424_wsj2367_3	wsj_2367_5_0_26	Addison	name	diff_sent	different_par	other	np-obj	name
+citycountry_10424_wsj2367_4	wsj_2367_16_0_0	Addison	name	diff_sent	different_par	other	np-subj	name
+citycountry_10424_wsj2367_5	wsj_2367_17_0_1	its	pronoun	diff_sent	same_par	other	subj-det	name
+citycountry_10424_wsj2367_6	wsj_2367_17_0_13	town	description	same_sent	same_par	other	np-subj	pronoun
+citycountry_10424_wsj2367_7	wsj_2367_17_0_32	town	description	same_sent	same_par	other	np-obj	description
+human_1376_wsj0909_1	wsj_0909_1_162_4	Jim Wright 's	name	first_mention	first_mention	human	subj-det	first_mention
+human_1376_wsj0909_2	wsj_0909_1_162_26	Speaker Wright 's	name	same_sent	same_par	human	subj-det	name
+human_1376_wsj0909_3	wsj_0909_2_162_19	The former congressman , who *T*-2 resigned as speaker of the House after	description	diff_sent	different_par	human	np-subj	name
+human_1376_wsj0909_4	wsj_0909_2_162_16	his	pronoun	same_sent	same_par	human	subj-det	description
+human_1376_wsj0909_5	wsj_0909_2_162_24	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_1376_wsj0909_6	wsj_0909_3_162_0	He	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_1376_wsj0909_7	wsj_0909_8_162_29	Wright	name	diff_sent	different_par	human	np-obj	pronoun
+human_1376_wsj0909_8	wsj_0909_17_162_2	he	pronoun	diff_sent	different_par	human	np-subj	name
+human_1376_wsj0909_9	wsj_0909_17_162_6	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_1376_wsj0909_10	wsj_0909_17_162_11	Mr. Wright	name	same_sent	same_par	human	np-subj	pronoun
+human_5192_wsj1331_1	wsj_1331_2_139_22	its vice chairman , James T. Sherwin ,	name	first_mention	first_mention	human	np-obj	first_mention
+human_5192_wsj1331_2	wsj_1331_4_139_22	Mr. Sherwin	name	diff_sent	different_par	human	np-obj	name
+human_5192_wsj1331_3	wsj_1331_5_139_43	Mr. Sherwin	name	diff_sent	different_par	human	np-obj	name
+human_5192_wsj1331_4	wsj_1331_15_139_10	Mr. Sherwin	name	diff_sent	different_par	human	np-obj	name
+human_5192_wsj1331_5	wsj_1331_16_139_2	Mr. Sherwin	name	diff_sent	same_par	human	np-obj	name
+human_5192_wsj1331_6	wsj_1331_19_139_24	Mr. Sherwin 's	name	diff_sent	different_par	human	subj-det	name
+human_5192_wsj1331_7	wsj_1331_19_139_35	Mr. Sherwin	name	same_sent	same_par	human	np-obj	name
+org_7471_wsj1514_1	wsj_1514_1_6_10	Vickers PLC , a United Kingdom defense and engineering company ,	name	first_mention	first_mention	other	np-subj	first_mention
+org_7471_wsj1514_2	wsj_1514_1_6_29	the company	description	same_sent	same_par	other	np-obj	name
+org_7471_wsj1514_3	wsj_1514_2_6_25	Vickers	name	diff_sent	different_par	other	np-obj	description
+org_7471_wsj1514_4	wsj_1514_5_6_6	our company	description	diff_sent	different_par	other	np-obj	name
+org_7471_wsj1514_5	wsj_1514_5_6_14	Vickers	name	same_sent	same_par	other	np-obj	description
+org_7471_wsj1514_6	wsj_1514_6_6_27	the company	description	diff_sent	same_par	other	np-obj	name
+org_7471_wsj1514_7	wsj_1514_7_6_0	Vickers	name	diff_sent	different_par	other	np-subj	description
+other_2926_wsj1135_1	wsj_1135_1_43_32	a `` comprehensive '' proposal for *PRO* overhauling agricultural trade	description	first_mention	first_mention	other	np-obj	first_mention
+other_2926_wsj1135_2	wsj_1135_2_43_1	The proposal	description	diff_sent	different_par	other	np-subj	description
+other_2926_wsj1135_3	wsj_1135_3_43_1	it	pronoun	diff_sent	same_par	other	np-subj	description
+other_2926_wsj1135_4	wsj_1135_4_43_2	The U.S. plan	description	diff_sent	same_par	other	np-subj	pronoun
+other_2926_wsj1135_5	wsj_1135_5_43_15	the proposal	description	diff_sent	different_par	other	np-obj	description
+other_2926_wsj1135_6	wsj_1135_5_43_23	it	pronoun	same_sent	same_par	other	np-subj	description
+other_2926_wsj1135_7	wsj_1135_6_43_36	the new U.S. proposal	description	diff_sent	same_par	other	np-subj	pronoun
+other_2926_wsj1135_8	wsj_1135_7_43_5	the proposal	description	diff_sent	different_par	other	np-obj	description
+human_8539_wsj1590_1	wsj_1590_1_9_30	British Chancellor of the Exchequer Nigel Lawson	name	first_mention	first_mention	human	np-subj	first_mention
+human_8539_wsj1590_2	wsj_1590_2_9_14	Mr. Lawson	name	diff_sent	different_par	human	np-subj	name
+human_8539_wsj1590_3	wsj_1590_3_9_11	he	pronoun	diff_sent	same_par	human	np-subj	name
+human_8539_wsj1590_4	wsj_1590_4_9_1	Mr. Lawson	name	diff_sent	different_par	human	np-subj	pronoun
+human_8539_wsj1590_5	wsj_1590_4_9_8	he	pronoun	same_sent	same_par	human	np-subj	name
+human_8539_wsj1590_6	wsj_1590_5_9_16	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_8539_wsj1590_7	wsj_1590_6_9_17	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_8539_wsj1590_8	wsj_1590_7_9_24	Mr. Lawson	name	diff_sent	different_par	human	np-subj	pronoun
+human_8539_wsj1590_9	wsj_1590_8_9_0	He	pronoun	diff_sent	same_par	human	np-subj	name
+human_8539_wsj1590_10	wsj_1590_8_9_3	he	pronoun	same_sent	same_par	human	np-subj	pronoun
+citycountry_1432_wsj0910_1	wsj_0910_3_33_38	the U.S. , which for many years *T*-1 tended *-2 to dominate the 32 -	name	first_mention	first_mention	other	np-obj	first_mention
+citycountry_1432_wsj0910_2	wsj_0910_4_33_3	the U.S.	name	diff_sent	different_par	other	np-subj	name
+citycountry_1432_wsj0910_3	wsj_0910_4_33_15	Washington	name	same_sent	same_par	other	np-obj	name
+citycountry_1432_wsj0910_4	wsj_0910_5_33_50	the U.S.	name	diff_sent	same_par	other	np-obj	name
+citycountry_1432_wsj0910_5	wsj_0910_9_33_31	the U.S.	name	diff_sent	different_par	other	np-obj	name
+citycountry_1432_wsj0910_6	wsj_0910_10_33_13	the U.S.	name	diff_sent	different_par	other	np-obj	name
+citycountry_1432_wsj0910_7	wsj_0910_11_33_14	the U.S.	name	diff_sent	same_par	other	np-obj	name
+citycountry_1432_wsj0910_8	wsj_0910_12_33_6	the U.S.	name	diff_sent	same_par	other	np-obj	name
+human_829_wsj0591_1	wsj_0591_2_76_20	Contel Chairman Charles Wohlstetter	name	first_mention	first_mention	human	np-subj	first_mention
+human_829_wsj0591_2	wsj_0591_2_76_23	he	pronoun	same_sent	same_par	human	np-subj	name
+human_829_wsj0591_3	wsj_0591_3_76_4	Mr. Wohlstetter	name	diff_sent	same_par	human	np-subj	pronoun
+human_829_wsj0591_4	wsj_0591_4_76_25	he	pronoun	diff_sent	same_par	human	np-subj	name
+human_829_wsj0591_5	wsj_0591_5_76_37	Mr. Wohlstetter , the 79 - year - old founder of Contel who *T*-1 's also	name	diff_sent	same_par	human	np-subj	pronoun
+human_829_wsj0591_6	wsj_0591_12_76_1	Mr. Wohlstetter	name	diff_sent	same_par	human	np-subj	name
+human_829_wsj0591_7	wsj_0591_12_76_8	he	pronoun	same_sent	same_par	human	np-subj	name
+human_829_wsj0591_8	wsj_0591_13_76_0	He	pronoun	diff_sent	same_par	human	np-subj	pronoun
+citycountry_3166_wsj1147_1	wsj_1147_1_89_40	California	name	first_mention	first_mention	other	np-obj	first_mention
+citycountry_3166_wsj1147_2	wsj_1147_4_89_30	California	name	diff_sent	different_par	other	np-obj	name
+citycountry_3166_wsj1147_3	wsj_1147_6_89_19	his state	description	diff_sent	same_par	other	np-subj	name
+citycountry_3166_wsj1147_4	wsj_1147_7_89_18	California	name	diff_sent	different_par	other	np-obj	description
+citycountry_3166_wsj1147_5	wsj_1147_15_89_6	California	name	diff_sent	different_par	other	np-obj	name
+citycountry_3166_wsj1147_6	wsj_1147_15_89_10	it	pronoun	same_sent	same_par	other	np-obj	name
+citycountry_3166_wsj1147_7	wsj_1147_16_89_3	the state 's	description	diff_sent	same_par	other	subj-det	pronoun
+citycountry_3166_wsj1147_8	wsj_1147_17_89_12	the state	description	diff_sent	different_par	other	np-obj	description
+human_8623_wsj1615_1	wsj_1615_1_27_1	Heidi Ehman	name	first_mention	first_mention	human	np-subj	first_mention
+human_8623_wsj1615_2	wsj_1615_2_27_10	her	pronoun	same_sent	same_par	human	subj-det	description
+human_8623_wsj1615_3	wsj_1615_2_27_14	she	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_8623_wsj1615_4	wsj_1615_3_27_8	she	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_8623_wsj1615_5	wsj_1615_5_27_17	Ms. Ehman	name	diff_sent	different_par	human	np-subj	pronoun
+human_8623_wsj1615_6	wsj_1615_5_27_19	her	pronoun	same_sent	same_par	human	subj-det	name
+human_8623_wsj1615_7	wsj_1615_6_27_4	a political novice	description	diff_sent	same_par	human	np-obj	pronoun
+human_8623_wsj1615_8	wsj_1615_6_27_6	she	pronoun	same_sent	same_par	human	np-subj	description
+human_8623_wsj1615_9	wsj_1615_7_27_1	she	pronoun	diff_sent	same_par	human	np-subj	pronoun
+org_4912_wsj1316_1	wsj_1316_1_5_25	Goodson Newspaper Group Inc	name	first_mention	first_mention	other	np-obj	first_mention
+org_4912_wsj1316_2	wsj_1316_2_5_6	Goodson	name	diff_sent	different_par	other	np-subj	name
+org_4912_wsj1316_3	wsj_1316_2_5_16	Goodson 's	name	same_sent	same_par	other	subj-det	name
+org_4912_wsj1316_4	wsj_1316_3_5_0	Goodson	name	diff_sent	same_par	other	np-subj	name
+org_4912_wsj1316_5	wsj_1316_4_5_22	Goodson	name	diff_sent	different_par	other	np-subj	name
+org_4912_wsj1316_6	wsj_1316_5_5_0	Goodson	name	diff_sent	same_par	other	np-subj	name
+org_4912_wsj1316_7	wsj_1316_6_5_0	Goodson	name	diff_sent	same_par	other	np-subj	name
+org_4912_wsj1316_8	wsj_1316_6_5_4	it	pronoun	same_sent	same_par	other	np-subj	name
+org_3473_wsj1175_1	wsj_1175_1_1_2	BUELL INDUSTRIES Inc.	name	first_mention	first_mention	other	np-subj	first_mention
+org_3473_wsj1175_2	wsj_1175_1_1_4	its	pronoun	same_sent	same_par	other	subj-det	name
+org_3473_wsj1175_3	wsj_1175_2_1_2	The company 's	description	diff_sent	same_par	other	subj-det	pronoun
+org_3473_wsj1175_4	wsj_1175_3_1_0	Buell	name	diff_sent	same_par	other	np-subj	description
+org_3473_wsj1175_5	wsj_1175_3_1_4	it	pronoun	same_sent	same_par	other	np-subj	name
+org_3473_wsj1175_6	wsj_1175_3_1_17	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+org_3473_wsj1175_7	wsj_1175_4_1_11	The Waterbury , Conn. , maker of industrial fasteners and metal stampings	description	diff_sent	same_par	other	np-subj	pronoun
+human_3851_wsj1234_1	wsj_1234_1_18_7	Ronald B. Koenig , 55 years old ,	name	first_mention	first_mention	human	np-subj	first_mention
+human_3851_wsj1234_2	wsj_1234_2_18_1	Mr. Koenig	name	diff_sent	same_par	human	np-subj	name
+human_3851_wsj1234_3	wsj_1234_3_18_0	He	pronoun	diff_sent	same_par	human	np-subj	name
+human_3851_wsj1234_4	wsj_1234_3_18_17	he	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_3851_wsj1234_5	wsj_1234_4_18_28	Mr. Koenig	name	diff_sent	same_par	human	np-obj	pronoun
+human_3851_wsj1234_6	wsj_1234_5_18_10	Mr. Koenig	name	diff_sent	same_par	human	np-subj	name
+human_3851_wsj1234_7	wsj_1234_5_18_14	his	pronoun	same_sent	same_par	human	subj-det	name
+human_3851_wsj1234_8	wsj_1234_6_18_1	Mr. Koenig	name	diff_sent	same_par	human	np-subj	pronoun
+human_8174_wsj1570_1	wsj_1570_1_111_19	Allen D. Tharp of Isola	name	first_mention	first_mention	human	np-subj	first_mention
+human_8174_wsj1570_2	wsj_1570_2_111_0	He	pronoun	diff_sent	different_par	human	np-subj	name
+human_8174_wsj1570_3	wsj_1570_2_111_16	he	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_8174_wsj1570_4	wsj_1570_2_111_30	he	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_8174_wsj1570_5	wsj_1570_2_111_41	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_8174_wsj1570_6	wsj_1570_3_111_1	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_8174_wsj1570_7	wsj_1570_4_111_5	Mr. Tharp	name	diff_sent	different_par	human	np-subj	pronoun
+human_8174_wsj1570_8	wsj_1570_4_111_15	his	pronoun	same_sent	same_par	human	subj-det	name
+human_8174_wsj1570_9	wsj_1570_6_111_40	Mr. Tharp	name	diff_sent	same_par	human	np-obj	pronoun
+human_8174_wsj1570_10	wsj_1570_7_111_4	Mr. Tharp	name	diff_sent	different_par	human	np-obj	name
+other_12504_wsj2436_1	wsj_2436_1_4_9	U.S. News & World Report	name	first_mention	first_mention	other	np-obj	first_mention
+other_12504_wsj2436_2	wsj_2436_1_4_17	the weekly news magazine	description	same_sent	same_par	other	np-obj	name
+other_12504_wsj2436_3	wsj_2436_2_4_20	magazine	description	diff_sent	different_par	other	subj-det	description
+other_12504_wsj2436_4	wsj_2436_4_4_7	magazine	description	diff_sent	different_par	other	subj-det	description
+other_12504_wsj2436_5	wsj_2436_5_4_9	U.S. News	name	diff_sent	same_par	other	np-subj	description
+other_12504_wsj2436_6	wsj_2436_6_4_24	magazine	description	diff_sent	different_par	other	subj-det	name
+other_12504_wsj2436_7	wsj_2436_8_4_5	his magazine	description	diff_sent	same_par	other	np-subj	description
+other_12504_wsj2436_8	wsj_2436_8_4_8	its	pronoun	same_sent	same_par	other	subj-det	description
+other_12504_wsj2436_9	wsj_2436_9_4_16	U.S. News & World Report	name	diff_sent	different_par	other	np-obj	pronoun
+other_6176_wsj1412_1	wsj_1412_1_23_25	Days of Rage	name	first_mention	first_mention	other	np-obj	first_mention
+other_6176_wsj1412_2	wsj_1412_2_23_17	her project	description	diff_sent	same_par	other	np-obj	name
+other_6176_wsj1412_3	wsj_1412_7_23_10	the film	description	diff_sent	different_par	other	np-subj	description
+other_6176_wsj1412_4	wsj_1412_7_23_13	it	pronoun	same_sent	same_par	other	np-subj	description
+other_6176_wsj1412_5	wsj_1412_9_23_7	Days of Rage	name	diff_sent	same_par	other	np-subj	pronoun
+other_6176_wsj1412_6	wsj_1412_11_23_1	This film	description	diff_sent	same_par	other	np-subj	name
+other_6176_wsj1412_7	wsj_1412_14_23_1	This film	description	diff_sent	different_par	other	np-subj	description
+human_8019_wsj1567_1	wsj_1567_1_48_2	JAMES SCHWARTZ	name	first_mention	first_mention	human	np-subj	first_mention
+human_8019_wsj1567_2	wsj_1567_1_48_8	his	pronoun	same_sent	same_par	human	subj-det	name
+human_8019_wsj1567_3	wsj_1567_1_48_11	him	pronoun	same_sent	same_par	human	np-obj	pronoun
+human_8019_wsj1567_4	wsj_1567_2_48_28	Mr. Schwartz , now 40	name	same_sent	same_par	human	np-subj	pronoun
+human_8019_wsj1567_5	wsj_1567_3_48_0	He	pronoun	diff_sent	same_par	human	np-subj	name
+human_8019_wsj1567_6	wsj_1567_4_48_1	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_8019_wsj1567_7	wsj_1567_5_48_18	Mr. Schwartz , who *T*-2 operates out of Englewood , Colo. ,	name	diff_sent	different_par	human	np-subj	pronoun
+human_8019_wsj1567_8	wsj_1567_5_48_29	his	pronoun	same_sent	same_par	human	subj-det	name
+other_5616_wsj1373_1	wsj_1373_1_66_1	Chip 's	description	first_mention	first_mention	other	subj-det	first_mention
+other_5616_wsj1373_2	wsj_1373_2_66_22	a new chip with ceramic circuits that *T*-1 store data even when the power	description	diff_sent	different_par	other	np-obj	description
+other_5616_wsj1373_3	wsj_1373_4_66_40	them	pronoun	diff_sent	different_par	other	np-obj	description
+other_5616_wsj1373_4	wsj_1373_5_66_1	The chips	description	diff_sent	same_par	other	np-subj	pronoun
+other_5616_wsj1373_5	wsj_1373_5_66_19	their	pronoun	same_sent	same_par	other	subj-det	description
+other_5616_wsj1373_6	wsj_1373_7_66_19	simple ferroelectric chips	description	diff_sent	different_par	other	np-obj	pronoun
+other_5616_wsj1373_7	wsj_1373_8_66_4	the chips	description	diff_sent	same_par	other	np-subj	description
+other_5616_wsj1373_8	wsj_1373_11_66_8	the chips	description	diff_sent	different_par	other	np-subj	description
+other_5616_wsj1373_9	wsj_1373_12_66_11	they	pronoun	diff_sent	same_par	other	np-subj	description
+citycountry_7567_wsj1529_1	wsj_1529_1_9_9	Mexico	name	first_mention	first_mention	other	np-subj	first_mention
+citycountry_7567_wsj1529_2	wsj_1529_1_9_28	his government 's	description	same_sent	same_par	other	subj-det	name
+citycountry_7567_wsj1529_3	wsj_1529_1_9_47	his country	description	same_sent	same_par	other	np-obj	description
+citycountry_7567_wsj1529_4	wsj_1529_2_9_17	Mexico 's	name	diff_sent	same_par	other	subj-det	description
+citycountry_7567_wsj1529_5	wsj_1529_2_9_24	his country 's	description	same_sent	same_par	other	subj-det	name
+citycountry_7567_wsj1529_6	wsj_1529_4_9_13	the Mexican government	description	diff_sent	different_par	other	np-subj	description
+citycountry_7567_wsj1529_7	wsj_1529_5_9_12	the government	description	diff_sent	same_par	other	np-subj	description
+citycountry_7567_wsj1529_8	wsj_1529_7_9_5	the Mexican government	description	diff_sent	same_par	other	np-subj	description
+citycountry_7567_wsj1529_9	wsj_1529_7_9_21	its	pronoun	same_sent	same_par	other	subj-det	description
+human_12495_wsj2436_1	wsj_2436_1_0_10	Roger Rosenblatt , editor of U.S. News & World Report ,	name	first_mention	first_mention	human	np-subj	first_mention
+human_12495_wsj2436_2	wsj_2436_2_0_1	Mr. Rosenblatt	name	diff_sent	different_par	human	np-subj	name
+human_12495_wsj2436_3	wsj_2436_2_0_4	he	pronoun	same_sent	same_par	human	np-subj	name
+human_12495_wsj2436_4	wsj_2436_2_0_13	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_12495_wsj2436_5	wsj_2436_3_0_12	Mr. Rosenblatt	name	same_sent	same_par	human	np-subj	pronoun
+human_12495_wsj2436_6	wsj_2436_4_0_3	Mr. Rosenblatt 's	name	diff_sent	different_par	human	subj-det	name
+human_12495_wsj2436_7	wsj_2436_6_0_13	Mr. Rosenblatt	name	diff_sent	different_par	human	np-subj	name
+human_5563_wsj1367_1	wsj_1367_1_28_2	Anne Volokh	name	first_mention	first_mention	human	np-subj	first_mention
+human_5563_wsj1367_2	wsj_1367_1_28_4	her	pronoun	same_sent	same_par	human	subj-det	name
+human_5563_wsj1367_3	wsj_1367_2_28_19	Ms. Volokh	name	diff_sent	same_par	human	np-subj	pronoun
+human_5563_wsj1367_4	wsj_1367_3_28_3	she	pronoun	diff_sent	same_par	human	np-subj	name
+human_5563_wsj1367_5	wsj_1367_4_28_3	she	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_5563_wsj1367_6	wsj_1367_4_28_7	she	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_5563_wsj1367_7	wsj_1367_4_28_13	she	pronoun	same_sent	same_par	human	np-subj	pronoun
+human_5563_wsj1367_8	wsj_1367_5_28_6	she	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_5563_wsj1367_9	wsj_1367_7_28_2	she	pronoun	diff_sent	different_par	human	np-subj	pronoun
+human_5563_wsj1367_10	wsj_1367_8_28_0	Her	pronoun	diff_sent	same_par	human	subj-det	pronoun
+org_11186_wsj2394_1	wsj_2394_1_0_1	Avis Inc.	name	first_mention	first_mention	other	np-subj	first_mention
+org_11186_wsj2394_2	wsj_2394_1_0_13	it	pronoun	same_sent	same_par	other	np-subj	name
+org_11186_wsj2394_3	wsj_2394_2_0_9	The Garden City , N.Y. , car - rental company	description	diff_sent	different_par	other	np-subj	pronoun
+org_11186_wsj2394_4	wsj_2394_2_0_12	it	pronoun	same_sent	same_par	other	np-subj	description
+org_11186_wsj2394_5	wsj_2394_3_0_1	it	pronoun	diff_sent	same_par	other	np-subj	pronoun
+org_11186_wsj2394_6	wsj_2394_4_0_3	Avis	name	diff_sent	different_par	other	np-obj	pronoun
+org_11186_wsj2394_7	wsj_2394_5_0_3	Avis	name	diff_sent	same_par	other	np-obj	name
+org_11186_wsj2394_8	wsj_2394_8_0_11	Avis	name	diff_sent	different_par	other	np-obj	name
+org_11186_wsj2394_9	wsj_2394_14_0_13	Avis	name	diff_sent	different_par	other	subj-det	name
+citycountry_8910_wsj1846_1	wsj_1846_8_40_25	Turkey , a country that *T*-1 has been one of America 's strongest allies	name	first_mention	first_mention	other	np-obj	first_mention
+citycountry_8910_wsj1846_2	wsj_1846_9_40_8	Turkey	name	diff_sent	same_par	other	np-subj	name
+citycountry_8910_wsj1846_3	wsj_1846_9_40_20	its	pronoun	same_sent	same_par	other	subj-det	name
+citycountry_8910_wsj1846_4	wsj_1846_10_40_0	Turkey	name	diff_sent	different_par	other	np-subj	pronoun
+citycountry_8910_wsj1846_5	wsj_1846_10_40_4	its	pronoun	same_sent	same_par	other	subj-det	name
+citycountry_8910_wsj1846_6	wsj_1846_11_40_1	it	pronoun	diff_sent	same_par	other	np-subj	pronoun
+citycountry_8910_wsj1846_7	wsj_1846_11_40_7	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+citycountry_8910_wsj1846_8	wsj_1846_11_40_11	it	pronoun	same_sent	same_par	other	np-obj	pronoun
+citycountry_8910_wsj1846_9	wsj_1846_12_40_8	Turkey	name	diff_sent	same_par	other	np-obj	pronoun
+other_8500_wsj1587_1	wsj_1587_1_34_14	hepatitis	description	first_mention	first_mention	other	np-obj	first_mention
+other_8500_wsj1587_2	wsj_1587_1_34_37	the viral infection	description	same_sent	same_par	other	np-obj	description
+other_8500_wsj1587_3	wsj_1587_3_34_37	the virus	description	diff_sent	different_par	other	np-obj	description
+other_8500_wsj1587_4	wsj_1587_6_34_23	the hepatitis , which *T*-2 can be highly contagious ,	description	diff_sent	different_par	other	np-subj	description
+other_8500_wsj1587_5	wsj_1587_6_34_33	the virus	description	same_sent	same_par	other	np-obj	description
+other_8500_wsj1587_6	wsj_1587_7_34_4	hepatitis	description	diff_sent	different_par	other	np-obj	description
+other_8500_wsj1587_7	wsj_1587_8_34_11	the virus	description	diff_sent	different_par	other	np-obj	description
+other_8500_wsj1587_8	wsj_1587_10_34_19	hepatitis	description	diff_sent	different_par	other	np-obj	description
+org_2293_wsj1078_1	wsj_1078_1_6_36	Swedish auto and aerospace group Saab - Scania AB , which *T*-2 faces	name	first_mention	first_mention	other	np-obj	first_mention
+org_2293_wsj1078_2	wsj_1078_1_6_34	its	pronoun	same_sent	same_par	other	subj-det	name
+org_2293_wsj1078_3	wsj_1078_2_6_11	Saab	name	diff_sent	different_par	other	np-obj	pronoun
+org_2293_wsj1078_4	wsj_1078_3_6_4	Saab	name	diff_sent	different_par	other	np-subj	name
+org_2293_wsj1078_5	wsj_1078_5_6_12	Saab	name	diff_sent	different_par	other	np-obj	name
+org_2293_wsj1078_6	wsj_1078_5_6_29	Saab 's	name	same_sent	same_par	other	subj-det	name
+org_2293_wsj1078_7	wsj_1078_6_6_6	Saab	name	diff_sent	different_par	other	np-obj	name
+org_2293_wsj1078_8	wsj_1078_6_6_30	the Swedish company , which *T*-1 announced last Friday that its pretax	description	same_sent	same_par	other	np-subj	name
+human_3364_wsj1163_1	wsj_1163_1_2_7	Anne Bogart	name	first_mention	first_mention	human	np-obj	first_mention
+human_3364_wsj1163_2	wsj_1163_2_2_26	Ms. Bogart , an acclaimed creator of deconstructed dramatic collages that	name	diff_sent	same_par	human	np-subj	name
+human_3364_wsj1163_3	wsj_1163_4_2_11	Ms. Bogart 's	name	diff_sent	different_par	human	subj-det	name
+human_3364_wsj1163_4	wsj_1163_5_2_0	She	pronoun	diff_sent	same_par	human	np-subj	name
+human_3364_wsj1163_5	wsj_1163_5_2_2	her	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_3364_wsj1163_6	wsj_1163_5_2_5	her	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_3364_wsj1163_7	wsj_1163_6_2_6	her	pronoun	diff_sent	same_par	human	subj-det	pronoun
+human_3364_wsj1163_8	wsj_1163_7_2_17	Ms. Bogart	name	diff_sent	different_par	human	np-subj	pronoun
+human_5458_wsj1366_1	wsj_1366_2_131_2	Sen. Alan Cranston	name	first_mention	first_mention	human	np-subj	first_mention
+human_5458_wsj1366_2	wsj_1366_2_131_18	his	pronoun	same_sent	same_par	human	subj-det	name
+human_5458_wsj1366_3	wsj_1366_4_131_6	Sen. Cranston	name	diff_sent	different_par	human	np-subj	pronoun
+human_5458_wsj1366_4	wsj_1366_5_131_12	him	pronoun	diff_sent	same_par	human	np-obj	name
+human_5458_wsj1366_5	wsj_1366_6_131_15	California Sen. Cranston	name	diff_sent	different_par	human	np-subj	pronoun
+human_5458_wsj1366_6	wsj_1366_8_131_12	Sen. Cranston	name	diff_sent	different_par	human	np-obj	name
+human_5458_wsj1366_7	wsj_1366_8_131_14	his	pronoun	same_sent	same_par	human	subj-det	name
+human_5458_wsj1366_8	wsj_1366_27_131_13	Sen. Cranston	name	diff_sent	different_par	human	np-obj	pronoun
+other_5851_wsj1386_1	wsj_1386_1_49_36	a converter that *T*-1 can transform conventional motion - picture film	description	first_mention	first_mention	other	np-obj	first_mention
+other_5851_wsj1386_2	wsj_1386_3_49_3	the prototype converter	description	diff_sent	different_par	other	np-subj	description
+other_5851_wsj1386_3	wsj_1386_3_49_7	it	pronoun	same_sent	same_par	other	np-subj	description
+other_5851_wsj1386_4	wsj_1386_4_49_11	the machines	description	diff_sent	different_par	other	np-subj	pronoun
+other_5851_wsj1386_5	wsj_1386_9_49_7	its new CCD HDTV converter	description	diff_sent	different_par	other	np-subj	description
+other_5851_wsj1386_6	wsj_1386_13_49_2	The new converters	description	diff_sent	different_par	other	np-subj	description
+other_5851_wsj1386_7	wsj_1386_14_49_9	its converter	description	diff_sent	different_par	other	np-subj	description
+other_5851_wsj1386_8	wsj_1386_14_49_23	the machine	description	same_sent	same_par	other	np-subj	description
+other_3261_wsj1159_1	wsj_1159_1_2_20	its new guidelines concerning prosecutions under the federal racketeering	description	first_mention	first_mention	other	np-obj	first_mention
+other_3261_wsj1159_2	wsj_1159_2_2_1	The guidelines	description	diff_sent	different_par	other	np-subj	description
+other_3261_wsj1159_3	wsj_1159_3_2_0	They	pronoun	diff_sent	same_par	other	np-subj	description
+other_3261_wsj1159_4	wsj_1159_4_2_12	the guidelines	description	diff_sent	same_par	other	np-subj	pronoun
+other_3261_wsj1159_5	wsj_1159_7_2_3	the new guidelines	description	diff_sent	different_par	other	np-obj	description
+other_3261_wsj1159_6	wsj_1159_8_2_1	The guidelines	description	diff_sent	different_par	other	np-subj	description
+other_3261_wsj1159_7	wsj_1159_10_2_9	the guidelines	description	diff_sent	different_par	other	np-subj	description
+other_3261_wsj1159_8	wsj_1159_12_2_5	the guidelines	description	diff_sent	different_par	other	np-obj	description
+human_6753_wsj1455_1	wsj_1455_1_23_13	architect William McDonough	name	first_mention	first_mention	human	np-subj	first_mention
+human_6753_wsj1455_2	wsj_1455_2_23_0	He	pronoun	diff_sent	same_par	human	np-subj	name
+human_6753_wsj1455_3	wsj_1455_3_23_12	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_6753_wsj1455_4	wsj_1455_5_23_13	the 38 - year - old Mr. McDonough	name	diff_sent	different_par	human	np-obj	pronoun
+human_6753_wsj1455_5	wsj_1455_5_23_15	his	pronoun	same_sent	same_par	human	subj-det	name
+human_6753_wsj1455_6	wsj_1455_6_23_6	he	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_6753_wsj1455_7	wsj_1455_6_23_25	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+human_6753_wsj1455_8	wsj_1455_7_23_1	Mr. McDonough	name	diff_sent	different_par	human	np-subj	pronoun
+human_6753_wsj1455_9	wsj_1455_8_23_0	He	pronoun	diff_sent	different_par	human	np-subj	name
+human_6753_wsj1455_10	wsj_1455_8_23_5	his	pronoun	same_sent	same_par	human	subj-det	pronoun
+citycountry_3018_wsj1141_1	wsj_1141_3_5_17	Israel	name	first_mention	first_mention	other	np-subj	first_mention
+citycountry_3018_wsj1141_2	wsj_1141_4_5_7	Israel	name	diff_sent	different_par	other	np-subj	name
+citycountry_3018_wsj1141_3	wsj_1141_5_5_0	Its	pronoun	diff_sent	same_par	other	subj-det	name
+citycountry_3018_wsj1141_4	wsj_1141_5_5_6	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+citycountry_3018_wsj1141_5	wsj_1141_6_5_3	Israel	name	diff_sent	same_par	other	np-subj	pronoun
+citycountry_3018_wsj1141_6	wsj_1141_9_5_1	Israel	name	diff_sent	same_par	other	np-subj	name
+citycountry_3018_wsj1141_7	wsj_1141_9_5_15	its	pronoun	same_sent	same_par	other	subj-det	name
+citycountry_1445_wsj0910_1	wsj_0910_1_6_2	The Canadian government	description	first_mention	first_mention	other	np-subj	first_mention
+citycountry_1445_wsj0910_2	wsj_0910_1_6_23	its	pronoun	same_sent	same_par	other	subj-det	description
+citycountry_1445_wsj0910_3	wsj_0910_2_6_14	Canada	name	diff_sent	different_par	other	np-subj	pronoun
+citycountry_1445_wsj0910_4	wsj_0910_3_6_6	Canada	name	diff_sent	different_par	other	np-obj	name
+citycountry_1445_wsj0910_5	wsj_0910_3_6_16	it	pronoun	same_sent	same_par	other	np-subj	name
+citycountry_1445_wsj0910_6	wsj_0910_5_6_17	Canada 's	name	same_sent	different_par	other	subj-det	pronoun
+citycountry_1445_wsj0910_7	wsj_0910_7_6_1	Canada	name	diff_sent	different_par	other	np-subj	name
+citycountry_1445_wsj0910_8	wsj_0910_8_6_7	Canada 's	name	diff_sent	different_par	other	subj-det	name
+org_10098_wsj2353_1	wsj_2353_1_0_5	Valley Federal Savings & Loan Association	name	first_mention	first_mention	other	np-subj	first_mention
+org_10098_wsj2353_2	wsj_2353_1_0_22	Valley Federal	name	same_sent	same_par	other	np-obj	name
+org_10098_wsj2353_3	wsj_2353_5_0_8	Valley Federal	name	diff_sent	different_par	other	np-subj	name
+org_10098_wsj2353_4	wsj_2353_5_0_12	it	pronoun	same_sent	same_par	other	np-subj	name
+org_10098_wsj2353_5	wsj_2353_6_0_1	Valley Federal	name	diff_sent	different_par	other	np-subj	pronoun
+org_10098_wsj2353_6	wsj_2353_6_0_5	it	pronoun	same_sent	same_par	other	np-subj	name
+org_10098_wsj2353_7	wsj_2353_7_0_10	Valley Federal , with assets of $ 3.3 billion *U* ,	name	same_sent	different_par	other	np-subj	pronoun
+human_6039_wsj1396_1	wsj_1396_1_33_9	U.S. District Judge Alcee Hastings of Florida	name	first_mention	first_mention	human	np-obj	first_mention
+human_6039_wsj1396_2	wsj_1396_1_33_23	the 53 - year - old judge	description	same_sent	same_par	human	np-obj	name
+human_6039_wsj1396_3	wsj_1396_1_33_25	his	pronoun	same_sent	same_par	human	subj-det	description
+human_6039_wsj1396_4	wsj_1396_2_33_2	Mr. Hastings 's	name	diff_sent	different_par	human	subj-det	pronoun
+human_6039_wsj1396_5	wsj_1396_3_33_4	Mr. Hastings	name	diff_sent	same_par	human	np-subj	name
+human_6039_wsj1396_6	wsj_1396_3_33_22	him	pronoun	same_sent	same_par	human	np-obj	name
+human_6039_wsj1396_7	wsj_1396_3_33_32	him	pronoun	same_sent	same_par	human	np-obj	pronoun
+human_6039_wsj1396_8	wsj_1396_4_33_0	He	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_6039_wsj1396_9	wsj_1396_5_33_17	Mr. Hastings	name	diff_sent	different_par	human	np-obj	pronoun
+human_1_wsj0020_1	wsj_0020_2_10_38	U.S. Trade Representative Carla Hills	name	first_mention	first_mention	human	np-subj	first_mention
+human_1_wsj0020_2	wsj_0020_4_10_1	Mrs. Hills	name	diff_sent	different_par	human	np-subj	name
+human_1_wsj0020_3	wsj_0020_4_10_10	she	pronoun	same_sent	same_par	human	np-subj	name
+human_1_wsj0020_4	wsj_0020_5_10_0	She	pronoun	diff_sent	same_par	human	np-subj	pronoun
+human_1_wsj0020_5	wsj_0020_7_10_1	Mrs. Hills	name	diff_sent	different_par	human	np-subj	pronoun
+human_1_wsj0020_6	wsj_0020_8_10_19	she	pronoun	diff_sent	same_par	human	np-subj	name
+human_1_wsj0020_7	wsj_0020_11_10_36	Mrs. Hills	name	diff_sent	different_par	human	np-subj	pronoun
+human_1_wsj0020_8	wsj_0020_18_10_1	Mrs. Hills	name	diff_sent	different_par	human	np-subj	name
+human_1_wsj0020_9	wsj_0020_19_10_0	She	pronoun	diff_sent	same_par	human	np-subj	name
+org_4633_wsj1296_1	wsj_1296_1_107_10	Drexel Burnham Lambert Inc. 's	name	first_mention	first_mention	other	subj-det	first_mention
+org_4633_wsj1296_2	wsj_1296_1_107_17	its	pronoun	same_sent	same_par	other	subj-det	name
+org_4633_wsj1296_3	wsj_1296_1_107_31	the firm 's	description	same_sent	same_par	other	subj-det	pronoun
+org_4633_wsj1296_4	wsj_1296_2_107_9	Drexel	name	diff_sent	different_par	other	np-subj	description
+org_4633_wsj1296_5	wsj_1296_2_107_17	the firm 's	description	same_sent	same_par	other	subj-det	name
+org_4633_wsj1296_6	wsj_1296_2_107_22	its	pronoun	same_sent	same_par	other	subj-det	description
+org_4633_wsj1296_7	wsj_1296_2_107_25	its	pronoun	same_sent	same_par	other	subj-det	pronoun
+org_4633_wsj1296_8	wsj_1296_3_107_4	Drexel	name	diff_sent	different_par	other	np-subj	pronoun
+org_4633_wsj1296_9	wsj_1296_4_107_15	Drexel	name	diff_sent	same_par	other	np-obj	name
+org_4633_wsj1296_10	wsj_1296_5_107_8	Drexel	name	diff_sent	same_par	other	np-obj	name

@@ -1,0 +1,83 @@
+REF_1555_1: Task Broker
+REF_1555_2: the program
+REF_1555_3: Task Broker
+REF_1555_4: it
+REF_1555_5: the software
+REF_1555_6: This program
+REF_1555_7: Task Broker
+REF 2367_1: Addison
+REF 2367_2: Addison's
+REF 2367_3: Addison's
+REF 2367_4: Addison
+REF 2367_5: Addison's
+REF 2367_6: Addison's
+REF 2367_7: Addison's
+REF 1347_1: Alaska
+REF 1347_2: the state
+REF 1347_3: Alaska's
+REF 1347_4: it
+REF 1347_5: its
+REF 1347_6: Alaskan
+REF 1347_7: it
+REF 1347_8: Alaska
+REF 1347_9: the most northerly state within the United States of America
+REF_1135_1: a comprehensive proposal
+REF_1135_2: The proposal
+REF_1135_3: this comprehensive proposal
+REF_1135_4: The said proposal
+REF_1135_5: the proposal
+REF_1135_6: the comprehensive proposal
+REF_1135_7: the said proposal
+REF_1135_8: the comprehensive proposal
+REF 2383_1: ASKO
+REF 2383_2: it
+REF 2383_3: ASKO's
+REF 2383_4: ASKO
+REF 2383_5: ASKO
+REF 2383_6: its
+REF 2383_7: its
+REF 2383_8: ASKO
+REF 2383_9: ASKO
+REF 2383_10: ASKO
+REF 1590_1: Nigel Lawson
+REF 1590_2: he
+REF 1590_3: the former Chancellor
+REF 1590_4: Lawson
+REF 1590_5: he
+REF 1590_6: Nigel Lawson
+REF 1590_7: he
+REF 1590_8: Lawson
+REF 1590_9: he
+REF 1590_10: Nigel Lawson
+REF_1331_1: James T. Sherwin
+REF_1331_2: Mr. Sherwin
+REF_1331_3: James T. Sherwin
+REF_1331_4: the vice-chairman of GAF Corp.
+REF_1331_5: Sherwin
+REF_1331_6: Mr. Sherwin's
+REF_1331_7: the vice-chairman of GAF
+REF 1514_1: Vickers PLC
+REF 1514_2: the company
+REF 1514_3: the UK defense and engineering company
+REF 1514_4: Vickers
+REF 1514_5: Vickers PLC's
+REF 1514_6: the United Kingdom defense and engineering company
+REF 1514_7: It
+REF 2326_1: George Bush's
+REF 2326_2: Bush's
+REF 2326_3: George Bush
+REF 2326_4: his
+REF 2326_5: Bush administration's
+REF 2326_6: Bush
+REF 2326_7: he
+REF 2326_8: he
+REF_0909_1: Jim Wright's
+REF_0909_2: Jim Wright
+REF_0909_3: Jim Wright
+REF_0909_4: Wright's
+REF_0909_5: his
+REF_0909_6: He
+REF_0909_7: Jim Wright
+REF_0909_8: Jim Wright
+REF_0909_9: his
+REF_0909_10: Wright

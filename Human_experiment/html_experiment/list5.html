@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+         crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+      <style>
+         #borderDemo {border: 3px outset #1C6EA4;border-radius: 20px;}
+      </style>
+      <style>
+         #boxdemo {border: 2px groove #999FA4;
+         border-radius: 10px;
+         background: #E8E8E8;}
+      </style>
+      <style>
+         #demoFont {
+         font-size: 24px;
+         letter-spacing: 0px;
+         word-spacing: 0px;
+         color: #000000;
+         text-decoration: none;
+         font-style: normal;
+         font-variant: small-caps;
+         text-transform: none;}
+      </style>
+      <style> .div-1 { background-color: #EBEBEB; } </style>
+   </head>
+   
+   <crowd-form answer-format="flatten-objects">
+      
+      <body class="container">
+         
+         <div id="firstpage">
+            
+            <div class="text-center">
+               <br>
+               
+               <div id="borderDemo">
+                  <strong>Welcome!</strong> Thank you for participating in our
+                  research. Please read the instructions carefully. 
+               </div>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <section id="Proceedings">
+                  
+                  <h3>Proceedings</h3>
+                  
+                  <p class="lead">If you have done a variant of this task today,
+                     please do not continue. We can only use one response set per
+                     responder.
+                  </p>
+                  
+                  <p class="lead"> In the next pages, you will be presented with 10
+                     texts, consisting of news texts, from an American newspaper.
+                     Each text will talk about one specific subject, which can be,
+                     for example, a person, a company, a group, a country or a
+                     commercial product. 
+                  </p>
+                  
+                  <p class="lead"> In each text, all references to one subject are
+                     replaced by empty boxes. Your goal is to fill those gaps,
+                     referring to the main subject of the text, so that the text
+                     becomes easy to understand. 
+                  </p>
+                  
+                  <p class="lead"> Always talk about the whole subject: so if the
+                     topic is *Mr and Mrs Smith* and you know they are a couple from
+                     London, then you can fill a box with "Mr and Mrs Smith", "the
+                     London couple", "this couple", "they", "Mr and Mrs Smith's",
+                     "the couple's" and so on. But a box is never about "Mr Smith" or
+                     "Mrs Smith" on their own.
+                  </p>
+                  
+                  <p class="lead"> Although we show you words like "he", "she", "it",
+                     "they" or similar, you do not have to use them. In the box you
+                     can put any way of identifying the subject. If the subject is
+                     "Joe Biden, the president of the United States" you can put "Joe
+                     Biden" or "Mr Biden" or "Joe Biden's" or "the president of the
+                     United States" or "the president" or "the president's" or "him"
+                     or "his", or any other way of identifying this person. 
+                  </p>
+                  
+                  <p class="lead"> At the start of each text, you will see a line
+                     which gives you the subject of the text, and the thing or person
+                     you need to refer to as you fill out the boxes. To help you
+                     understand how to talk about the thing or person you will also
+                     have a helper sentence providing more information. For
+                     example:
+                  </p>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Margaret Thatcher (she/her) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Margaret Thatcher was the prime
+                        minister of the United Kingdom. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  
+                  <p class="lead"> Based on that description, here is an example of
+                     what a text looks like: 
+                  </p>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     instinctive response to the latest upheaval in <input type="text" size="15" name="test_1" readonly="true">
+                     government is to promise business as usual . That may be the
+                     last thing <input type="text" size="15" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="15" name="test_1" readonly="true"> and
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     new chancellor of the exchequer , the untested John Major , need
+                     to haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="15" name="test_1" readonly="true"> has to
+                     come to terms with European economic integration , beginning
+                     with the European Monetary System , which Britain is committed
+                     to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead"> Please notice that there are many ways in which you
+                     can fill the gaps. Here, for example, is one variant: 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="18" value="Margaret Thatcher's" name="test_1" readonly="true"> instinctive response to the
+                     latest upheaval in <input type="text" value="her" size="18" name="test_1" readonly="true"> government is to promise
+                     business as usual . That may be the last thing <input type="text" value="she" size="18" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="18" value="The prime minister" name="test_1" readonly="true"> and <input type="text" size="18" value="her" name="test_1" readonly="true"> new
+                     chancellor of the exchequer , the untested John Major , need to
+                     haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="18" value="Mrs. Thatcher" name="test_1" readonly="true"> has to come to terms with European
+                     economic integration , beginning with the European Monetary
+                     System , which Britain is committed to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead">Below is another example in which the subject is a
+                     bank.
+                  </p>
+                  <br>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Banca Nazionale del Lavoro (it/its) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Banca Nazionale del Lavoro - or BNL for
+                        short - is Italy's largest bank. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     said <input type="text" size="15" name="test_1" readonly="true"> potential losses from lending to Iraq could reach 1.175
+                     trillion lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     Atlanta branch . <input type="text" size="15" name="test_1" readonly="true"> previously reported that <input type="text" size="15" name="test_1" readonly="true">
+                     Georgia branch had taken on loan commitments topping $ 3 billion
+                     without the Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="22" name="test_1" readonly="true" value="Banca Nazionale del Lavoro"> said <input type="text" size="15" name="test_1" value="its" readonly="true">
+                     potential losses from lending to Iraq could reach 1.175 trillion
+                     lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" value="this bank's" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" value="its" readonly="true"> Atlanta branch . <input type="text" size="15" name="test_1" value="BNL" readonly="true">
+                     previously reported that <input type="text" size="15" name="test_1" value="its" readonly="true"> Georgia branch
+                     had taken on loan commitments topping $ 3 billion without the
+                     Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="lead"> Feel free to fill the gaps according to your own
+                     judgment and preference. However, please, do not fill all of
+                     them with only one type of reference (e.g., always ‘Banca
+                     Nazionale del Lavoro’). For empty references, you should fill
+                     the respective gap with the symbol “-”. 
+                  </p>
+                  
+               </section>
+               
+            </div>
+            
+            <div class="text-justify">
+               
+               <h3>Demographic information</h3>
+               <br>
+               
+               <h5>Before starting the task, we would like to ask you to indicate your
+                  gender, age and your English language proficiency level. Your
+                  information will be used for research purposes only. All your data
+                  will be held anonymously.
+               </h5>
+               <br>
+               
+               <table id="ff-table" class="table table-striped small" style="font-size: 14px">
+                  
+                  <tbody>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Gender:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="male" name="gender" value="male">
+                              <label for="male">Male</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="female" name="gender" value="female">
+                              <label for="female">Female</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="other" name="gender" value="other">
+                              <label for="other">Other</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Age:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           <input type="number" name="age" min="10" max="100">
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>English language proficiency:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="native" name="lng" value="native_speaker">
+                              <label for="male">Native speaker</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="fluent" name="lng" value="fluent">
+                              <label for="female">Fluent</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="intermediate" name="lng" value="Intermediate">
+                              <label for="other">Intermediate</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="basic" name="lng" value="basic">
+                              <label for="other">Basic</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                  </tbody>
+                  
+               </table>
+               
+            </div>
+            
+         </div>
+         <br>
+         
+         <hr class="my-4">
+         <br>
+         
+         <div id="human_5458_wsj1366.xml">
+            
+            <h3>
+               <strong>Text 1</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Alan Cranston (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Senator Alan Cranston is a politician in the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> It was the kind of snubbing rarely seen within the
+                  Congress , let alone within the same party .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_1" id="human_5458_wsj1366_1"> trekked over to the
+                  House side of Capitol Hill a few days ago and volunteered <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_2" id="human_5458_wsj1366_2"> testimony to fellow
+                  Democrat Rep. Henry Gonzalez . It was offered as an expression of cooperation to
+                  Mr. Gonzalez , who is investigating the $ 2.5 billion failure of Lincoln Savings
+                  &amp; Loan Association .
+               </p>
+               
+               <p class="lead"> But instead of thanks , <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_3" id="human_5458_wsj1366_3"> was treated with
+                  cool formality . " Every witness receives a formal subpoena , " Rep. Gonzalez
+                  told <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_4" id="human_5458_wsj1366_4"> .
+               </p>
+               
+               <p class="lead"> Seldom have House hearings caused so much apprehension in
+                  the Senate , where <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_5" id="human_5458_wsj1366_5">
+                  and four other senators were already writhing in the glare of unfavorable
+                  publicity over the alleged looting of Lincoln by their friend and political
+                  benefactor , Charles Keating Jr. , principal stockholder of Lincoln's parent
+                  company , American Continental Corp. of Phoenix , Ariz .
+               </p>
+               
+               <p class="lead"> At the first day of the House Banking Committee's
+                  hearings last week , William Seidman , chairman of the Resolution Trust Corp. ,
+                  the federal agency created to sell sick thrifts , said the agency is
+                  investigating whether Lincoln made illegal political contributions . Mr. Keating
+                  arranged nearly $ 1 million in donations to <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_6" id="human_5458_wsj1366_6"> and <input type="text" required maxlength="45" autocomplete="off" name="human_5458_wsj1366_7" id="human_5458_wsj1366_7"> various political
+                  causes , and hundreds of thousands more to other lawmakers . Future witnesses
+                  include a former federal S&amp;L regulator who has accused the five senators of
+                  attempting to " subvert " the regulatory process by intervening on behalf of Mr.
+                  Keating .
+               </p>
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_5851_wsj1386.xml">
+            
+            <h3>
+               <strong>Text 2</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>A converter (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>This article is about a converter for transforming conventional motion-picture
+                  film into high-definition video.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Eastman Kodak Co. , seeking to position itself in the
+                  potentially huge high-definition television market , unveiled <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_1" id="other_5851_wsj1386_1"> .
+               </p>
+               
+               <p class="lead"> The move also helps the Rochester , N.Y. , photographic
+                  giant ensure that its motion-picture film business -- for which it holds a
+                  virtual monopoly , supplying every Hollywood movie company -- isn't made
+                  obsolete by the upstart HDTV business .
+               </p>
+               
+               <p class="lead"> While <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_2" id="other_5851_wsj1386_2"> is costly , <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_3" id="other_5851_wsj1386_3"> is being lauded by
+                  the infant HDTV industry as a way of increasing the number of high-quality shows
+                  that can be seen on the new medium .
+               </p>
+               
+               <p class="lead"> " The industry has been waiting with bated breath for
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_4" id="other_5851_wsj1386_4"> to come along , "
+                  says David Niles , president of Eleven Twenty Five Productions Inc. , a New York
+                  pioneer in high-definition programming . He notes that industry executives have
+                  until now worried that they would face a severe shortage of programs once
+                  consumers begin replacing their TV sets with HDTVs .
+               </p>
+               
+               <p class="lead"> Japanese electronic giants , such as Sony Corp. and
+                  Hitachi Ltd. , have focused almost entirely on HDTV hardware , and virtually
+                  ignored software or programs shot in high-definition . And only a handful of
+                  small U.S. companies are engaged in high-definition software development . It's
+                  estimated that just about 250 hours of HD programming is currently available for
+                  airing .
+               </p>
+               
+               <p class="lead"> Kodak says its <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_5" id="other_5851_wsj1386_5"> will help alleviate the problem by allowing
+                  programmers and broadcasters to convert movies and television programs shot in
+                  35mm motion-picture film into high-definition video . Consumers will be able
+                  to switch on their HDTV sets and get all the viewing benefits the high-tech
+                  medium offers . Otherwise , they 'd be watching programs that are no different
+                  in quality from what they currently view on color TVs .
+               </p>
+               
+               <p class="lead"> It would be like " watching a black and white movie on a
+                  color TV set , " says Malcolm G. Saull , chairman of the film and video
+                  department at the Rochester Institute of Technology .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_6" id="other_5851_wsj1386_6"> are " a critical
+                  link between film and the television domain , " says Joerg D. Agin , vice
+                  president and general manager of Kodak's Motion Picture and Audiovisual
+                  Products division .
+               </p>
+               
+               <p class="lead"> Kodak won't disclose the cost or when <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_7" id="other_5851_wsj1386_7"> will be on the
+                  market , but it's estimated <input type="text" required maxlength="45" autocomplete="off" name="other_5851_wsj1386_8" id="other_5851_wsj1386_8"> may be available within two years . A similar
+                  machine already on the market , made by Rank Sintel Ltd. , a unit of Rank
+                  Organisation , costs about $ 500,000 .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_3261_wsj1159.xml">
+            
+            <h3>
+               <strong>Text 3</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>New guidelines (they/them/their)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>This article is about new guidelines from the Justice Department about
+                  prosecutions under the federal racketeering law.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The Justice Department scrambled to play down the
+                  significance of <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_1" id="other_3261_wsj1159_1">
+                  .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_2" id="other_3261_wsj1159_2"> were distributed to
+                  U.S. attorneys last summer but were disclosed for the first time by press
+                  reports this week . <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_3" id="other_3261_wsj1159_3">
+                  discourage prosecutors , under certain circumstances , from seeking court orders
+                  seizing the assets of racketeering defendants prior to trial . But David Runkel
+                  , chief Justice Department spokesman , said <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_4" id="other_3261_wsj1159_4"> " are a codification
+                  and a clarification far more than a new direction . "
+               </p>
+               
+               <p class="lead"> Use of the Racketeer Influenced and Corrupt Organizations
+                  law against white-collar defendants , as opposed to alleged organized-crime
+                  figures , has come under attack from some defense lawyers and legal scholars .
+                  Critics have complained that the law unfairly strips defendants of assets before
+                  a jury determines they have committed a crime and that aggressive use of the
+                  forfeiture provisions can ruin corporate defendants or force them into
+                  unfavorable plea bargains .
+               </p>
+               
+               <p class="lead"> In <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_5" id="other_3261_wsj1159_5"> ,
+                  the Justice Department says that in attempting to freeze disputed assets before
+                  trial , " the government will not seek to disrupt the normal , legitimate
+                  business activities of the defendant " and " will not seek ... to take from
+                  third parties assets legitimately transferred to them . "
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_6" id="other_3261_wsj1159_6"> also state , " The
+                  government's policy is not to seek the fullest forfeiture permissible under the
+                  law where that forfeiture would be disproportionate to the defendant's crime .
+                  "
+               </p>
+               
+               <p class="lead"> Another provision clarifies certain limits on when
+                  prosecutors may use tax-fraud charges as a basis for bringing a racketeering
+                  case .
+               </p>
+               
+               <p class="lead"> Mr. Runkel declined to speculate on whether <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_7" id="other_3261_wsj1159_7"> would curb
+                  racketeering prosecutions against corporate defendants . " The impact , if there
+                  is any , will be impossible to judge ahead of time because the decision whether
+                  to use { racketeering charges } is made in individual cases " by Justice
+                  Department officials in Washington , he said .
+               </p>
+               
+               <p class="lead"> In a memorandum describing <input type="text" required maxlength="45" autocomplete="off" name="other_3261_wsj1159_8" id="other_3261_wsj1159_8"> , Assistant Attorney
+                  General Edward Dennis Jr. said that government efforts to freeze defendants '
+                  assets pending racketeering prosecutions " have been the subject of considerable
+                  criticism in the press . " But Mr. Runkel said the government isn't backing off
+                  on these kinds of matters at all .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_6753_wsj1455.xml">
+            
+            <h3>
+               <strong>Text 4</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>William McDonough (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>William McDonough is a 38-year-old architect concerned about ecology.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Sitting at the bar of the Four Seasons restaurant ,
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_1" id="human_6753_wsj1455_1"> seems oblivious to
+                  the glamorous clientele and the elegant setting . <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_2" id="human_6753_wsj1455_2"> is ogling the
+                  curtains rippling above the ventilation ducts . " Look how much air is moving
+                  around ! " <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_3" id="human_6753_wsj1455_3">
+                  says . " The ventilation here is great ! "
+               </p>
+               
+               <p class="lead"> You may be hearing more about <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_4" id="human_6753_wsj1455_4"> and <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_5" id="human_6753_wsj1455_5"> preoccupation with
+                  clean air . After years of relative obscurity , <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_6" id="human_6753_wsj1455_6"> is starting to
+                  attract notice for the ecological as well as the aesthetic quality of <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_7" id="human_6753_wsj1455_7"> architecture
+                  .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_8" id="human_6753_wsj1455_8"> believes that the
+                  well-being of the planet depends on such stratagems as opening windows to cut
+                  indoor air pollution , tacking down carpets instead of using toxic glues , and
+                  avoiding mahogany , which comes from endangered rain forests .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_9" id="human_6753_wsj1455_9"> has put some of
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_6753_wsj1455_10" id="human_6753_wsj1455_10"> aesthetic ideas
+                  into practice with his design of the four-star Quilted Giraffe restaurant -- "
+                  architecturally impeccable , " Progressive Architecture magazine called it --
+                  and his remodeling of Paul Stuart , the Madison Avenue clothing store . He has
+                  designed furniture and homes as well as commercial and office space
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_3018_wsj1141.xml">
+            
+            <h3>
+               <strong>Text 5</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Israel (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Israel is a small country on the Middle East.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> From the Sept. 30-Oct . 4 issue of The Economist
+                  :
+               </p>
+               
+               <p class="lead"> What defeated General Aoun was not only the weight of the
+                  Syrian army . The weight of Lebanon's history was also against him ; and it is a
+                  history <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_1" id="citycountry_3018_wsj1141_1"> is in
+                  danger of repeating .
+               </p>
+               
+               <p class="lead"> Like Lebanon , and however unfairly , <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_2" id="citycountry_3018_wsj1141_2"> is
+                  regarded by the Arab world as a colonial aberration . <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_3" id="citycountry_3018_wsj1141_3"> best
+                  hope of acceptance by <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_4" id="citycountry_3018_wsj1141_4"> neighbours lies in reaching a settlement
+                  with the Palestinians . Like Lebanon , <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_5" id="citycountry_3018_wsj1141_5"> is being remade by demography . In Greater
+                  Israel more than half the children under six are Muslims . Within 25 years Jews
+                  will probably be the minority . Yet <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_6" id="citycountry_3018_wsj1141_6"> will neither share power with all these
+                  Arabs nor , says <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3018_wsj1141_7" id="citycountry_3018_wsj1141_7"> present prime minister , redraw its
+                  borders closer to its pre-1967 Jewish heartland .
+               </p>
+               
+               <p class="lead"> By not choosing one of these options , Israelis will
+                  condemn themselves , as the Maronites did , to perpetual war with the Muslims in
+                  their midst , and so to the internal erosion of their state .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_1445_wsj0910.xml">
+            
+            <h3>
+               <strong>Text 6</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Canada (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Canada is a large country in North America.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_1" id="citycountry_1445_wsj0910_1"> , with a
+                  view to becoming more politically active in Latin America , is expected to
+                  announce tomorrow <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_2" id="citycountry_1445_wsj0910_2"> application to join the Organization of
+                  American States , a Washington-based regional agency .
+               </p>
+               
+               <p class="lead"> The expected Canadian move has been welcomed by the Bush
+                  administration even though <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_3" id="citycountry_1445_wsj0910_3"> has opposed such U.S. actions as the trade
+                  embargo against Cuba , the invasion of Grenada and the military support for
+                  Nicaragua's Contra guerrillas .
+               </p>
+               
+               <p class="lead"> Latin American countries have long urged <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_4" id="citycountry_1445_wsj0910_4"> to join
+                  the OAS in the hopes that <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_5" id="citycountry_1445_wsj0910_5"> would be a counterweight to the U.S. ,
+                  which for many years tended to dominate the 32-nation organization .
+               </p>
+               
+               <p class="lead"> Even though the U.S. also has supported Canadian
+                  membership , it hasn't been a Washington priority . " The fact that we might
+                  not side with the Americans may be a reason why <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_6" id="citycountry_1445_wsj0910_6">
+                  membership in the OAS hasn't been , over the years , an item high on the U.S.
+                  agenda , " said Allan Gotlieb , former Canadian ambassador to the U.S.
+                  .
+               </p>
+               
+               <p class="lead"> The Canadian application is expected to be announced in
+                  San Jose , Costa Rica , by Canadian Prime Minister Brian Mulroney , who is
+                  attending a centenary celebration of Costa Rican democracy . " <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_7" id="citycountry_1445_wsj0910_7"> has a
+                  larger and more beneficial role to play in the hemisphere , " Mr. Mulroney said
+                  recently .
+               </p>
+               
+               <p class="lead"> Some Canadian political commentators have opposed <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1445_wsj0910_8" id="citycountry_1445_wsj0910_8"> joining
+                  what they see as a U.S.-dominated organization . " Canada could do plenty of
+                  things to get serious about Latin America without running the risk of getting
+                  caught in the cross fire " between the U.S. and Latin American members of the
+                  OAS , said Jeffrey Simpson , a columnist in Toronto's Globe &amp; Mail
+                  newspaper .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_10098_wsj2353.xml">
+            
+            <h3>
+               <strong>Text 7</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Valley Federal (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Valley Federal Savings &amp; Loan Association - or Valley Federal for short - is
+                  a bank in the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_1" id="org_10098_wsj2353_1"> said Imperial Corp. of
+                  America withdrew from regulators its application to buy five <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_2" id="org_10098_wsj2353_2"> branches , leaving the
+                  transaction in limbo .
+               </p>
+               
+               <p class="lead"> The broken purchase appears as additional evidence of
+                  trouble at Imperial Corp. , whose spokesman said the company withdrew its
+                  application from the federal Office of Thrift Supervision because of an informal
+                  notice that Imperial's thrift unit failed to meet Community Act requirements
+                  .
+               </p>
+               
+               <p class="lead"> The Community Reinvestment Act requires savings and loan
+                  associations to lend money in amounts related to areas where deposits are
+                  received .
+               </p>
+               
+               <p class="lead"> The transaction , announced in August , included about $
+                  146 million in deposits at the five outlets in California's San Joaquin Valley
+                  . Terms weren't disclosed , but <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_3" id="org_10098_wsj2353_3"> had said <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_4" id="org_10098_wsj2353_4"> expected to post a modest pretax gain and to save
+                  about $ 2 million in operating costs annually .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_5" id="org_10098_wsj2353_5"> said Friday that
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_6" id="org_10098_wsj2353_6"> is considering whether
+                  to seek another buyer for the branches or to pursue the transaction with
+                  Imperial Corp. , which said it is attempting to meet Community Act requirements
+                  .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_10098_wsj2353_7" id="org_10098_wsj2353_7"> is based in Van Nuys .
+                  Imperial Corp. , based in San Diego , is the parent of Imperial Savings &amp;
+                  Loan .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_6039_wsj1396.xml">
+            
+            <h3>
+               <strong>Text 8</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Alcee Hastings (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Alcee Hastings is a 53-year-old male U.S. District Judge.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The Senate convicted <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_1" id="human_6039_wsj1396_1"> of eight impeachment
+                  articles , removing <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_2" id="human_6039_wsj1396_2">
+                  from <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_3" id="human_6039_wsj1396_3"> $ 89,500-a-year
+                  , lifetime job .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_4" id="human_6039_wsj1396_4"> case was
+                  particularly nettlesome because it marked the first time a federal official was
+                  impeached and removed from office on charges of which a jury had acquitted him .
+                  In 1983 , <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_5" id="human_6039_wsj1396_5">
+                  was found not guilty of accepting a $ 150,000 bribe in a case before <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_6" id="human_6039_wsj1396_6"> , the central charge
+                  on which the Senate convicted <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_7" id="human_6039_wsj1396_7"> . <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_8" id="human_6039_wsj1396_8"> was only the sixth federal judge ever ousted
+                  from office after an impeachment trial .
+               </p>
+               
+               <p class="lead"> With no floor debate , the Senate on Friday voted 69-26
+                  to convict <input type="text" required maxlength="45" autocomplete="off" name="human_6039_wsj1396_9" id="human_6039_wsj1396_9">
+                  of perjury and conspiring to accept a bribe , five votes more than needed .
+                  Conviction on any single impeachment article was enough to remove Judge Hastings
+                  from office .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_1_wsj0020.xml">
+            
+            <h3>
+               <strong>Text 9</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Carla Hills (she/her)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Carla Hills is a spokesperson for the United States Trade Department.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The U.S. , claiming some success in its trade diplomacy ,
+                  removed South Korea , Taiwan and Saudi Arabia from a list of countries it is
+                  closely watching for allegedly failing to honor U.S. patents , copyrights and
+                  other intellectual-property rights .
+               </p>
+               
+               <p class="lead"> However , five other countries -- China , Thailand ,
+                  India , Brazil and Mexico -- will remain on that so-called priority watch list
+                  as a result of an interim review , <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_1" id="human_1_wsj0020_1"> announced . Under the new U.S. trade law , those
+                  countries could face accelerated unfair-trade investigations and stiff trade
+                  sanctions if they don't improve their protection of intellectual property by
+                  next spring .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_2" id="human_1_wsj0020_2"> said many of the 25
+                  countries that <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_3" id="human_1_wsj0020_3"> placed
+                  under varying degrees of scrutiny have made " genuine progress " on this touchy
+                  issue . <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_4" id="human_1_wsj0020_4"> said there is " growing
+                  realization " around the world that denial of intellectual-property rights harms
+                  all trading nations , and particularly the " creativity and inventiveness of an
+                  { offending } country's own citizens . "
+               </p>
+               
+               <p class="lead"> U.S. trade negotiators argue that countries with
+                  inadequate protections for intellectual-property rights could be hurting
+                  themselves by discouraging their own scientists and authors and by deterring
+                  U.S. high-technology firms from investing or marketing their best products there
+                  .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_5" id="human_1_wsj0020_5"> lauded South Korea for
+                  creating an intellectual-property task force and special enforcement teams of
+                  police officers and prosecutors trained to pursue movie and book pirates . Seoul
+                  also has instituted effective search-and-seizure procedures to aid these teams ,
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_6" id="human_1_wsj0020_6"> said .
+               </p>
+               
+               <p class="lead"> Taiwan has improved its standing with the U.S. by
+                  initialing a bilateral copyright agreement , amending its trademark law and
+                  introducing legislation to protect foreign movie producers from unauthorized
+                  showings of their films . That measure could compel Taipei's growing number of
+                  small video-viewing parlors to pay movie producers for showing their films
+                  .
+               </p>
+               
+               <p class="lead"> Saudi Arabia , for its part , has vowed to enact a
+                  copyright law compatible with international standards and to apply the law to
+                  computer software as well as to literary works , <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_7" id="human_1_wsj0020_7"> said .
+               </p>
+               
+               <p class="lead"> These three countries aren't completely off the hook ,
+                  though . They will remain on a lower-priority list that includes 17 other
+                  countries . Those countries -- including Japan , Italy , Canada , Greece and
+                  Spain -- are still of some concern to the U.S. but are deemed to pose less -
+                  serious problems for American patent and copyright owners than those on the "
+                  priority " list .
+               </p>
+               
+               <p class="lead"> Gary Hoffman , a Washington lawyer specializing in
+                  intellectual-property cases , said the threat of U.S. retaliation , combined
+                  with a growing recognition that protecting intellectual property is in a country's own interest , prompted the improvements made by South Korea , Taiwan and
+                  Saudi Arabia . " What this tells us is that U.S. trade law is working , " he
+                  said . He said Mexico could be one of the next countries to be removed from the
+                  priority list because of its efforts to craft a new patent law .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_8" id="human_1_wsj0020_8"> said that the U.S. is
+                  still concerned about " disturbing developments in Turkey and continuing slow
+                  progress in Malaysia . " <input type="text" required maxlength="45" autocomplete="off" name="human_1_wsj0020_9" id="human_1_wsj0020_9"> didn't
+                  elaborate , although earlier U.S. trade reports have complained of videocassette
+                  piracy in Malaysia and disregard for U.S. pharmaceutical patents in Turkey
+                  .
+               </p>
+               
+               <p class="lead"> The 1988 trade act requires Mrs. Hills to issue another
+                  review of the performance of these countries by April 30 .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_4633_wsj1296.xml">
+            
+            <h3>
+               <strong>Text 10</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Drexel (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United
+                  States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> At least 10 states are resisting <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_1" id="org_4633_wsj1296_1"> nationwide effort to
+                  settle <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_2" id="org_4633_wsj1296_2"> legal troubles , and
+                  some might instead try to revoke <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_3" id="org_4633_wsj1296_3"> license to sell securities within their borders
+                  .
+               </p>
+               
+               <p class="lead"> The reluctance of some states to let <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_4" id="org_4633_wsj1296_4"> off the hook could
+                  hamper <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_5" id="org_4633_wsj1296_5"> attempts to polish
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_6" id="org_4633_wsj1296_6"> image after <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_7" id="org_4633_wsj1296_7"> guilty plea to six
+                  felonies last month , say several people familiar with the discussions
+                  .
+               </p>
+               
+               <p class="lead"> Up to now , <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_8" id="org_4633_wsj1296_8"> has made a rapid-fire series of settlements with
+                  25 states and the commonwealth of Puerto Rico . Just yesterday , New Hampshire
+                  announced it made a $ 75,000 settlement with <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_9" id="org_4633_wsj1296_9"> , a record-tying fine
+                  for a securities-law matter in that state . These states have been entering
+                  into settlements with <input type="text" required maxlength="45" autocomplete="off" name="org_4633_wsj1296_10" id="org_4633_wsj1296_10"> as
+                  part of the firm's efforts to operate freely anywhere in the U.S. despite its
+                  record as an admitted felon .
+               </p>
+               
+               <p class="lead"> But individuals familiar with the generally successful
+                  Drexel talks say the firm is meeting resistance from some big states , including
+                  New Jersey , New York , California , Pennsylvania , Connecticut and Missouri
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+      </body>
+      
+   </crowd-form>
+   
+</list>

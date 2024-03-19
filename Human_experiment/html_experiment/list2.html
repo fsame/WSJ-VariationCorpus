@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+         crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+      <style>
+         #borderDemo {border: 3px outset #1C6EA4;border-radius: 20px;}
+      </style>
+      <style>
+         #boxdemo {border: 2px groove #999FA4;
+         border-radius: 10px;
+         background: #E8E8E8;}
+      </style>
+      <style>
+         #demoFont {
+         font-size: 24px;
+         letter-spacing: 0px;
+         word-spacing: 0px;
+         color: #000000;
+         text-decoration: none;
+         font-style: normal;
+         font-variant: small-caps;
+         text-transform: none;}
+      </style>
+      <style> .div-1 { background-color: #EBEBEB; } </style>
+   </head>
+   <crowd-form answer-format="flatten-objects">
+      
+      <body class="container">
+         
+         <div id="firstpage">
+            
+            <div class="text-center">
+               <br>
+               
+               <div id="borderDemo">
+                  <strong>Welcome!</strong> Thank you for participating in our
+                  research. Please read the instructions carefully. 
+               </div>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <section id="Proceedings">
+                  
+                  <h3>Proceedings</h3>
+                  
+                  <p class="lead">If you have done a variant of this task today,
+                     please do not continue. We can only use one response set per
+                     responder.
+                  </p>
+                  
+                  <p class="lead"> In the next pages, you will be presented with 10
+                     texts, consisting of news texts, from an American newspaper.
+                     Each text will talk about one specific subject, which can be,
+                     for example, a person, a company, a group, a country or a
+                     commercial product. 
+                  </p>
+                  
+                  <p class="lead"> In each text, all references to one subject are
+                     replaced by empty boxes. Your goal is to fill those gaps,
+                     referring to the main subject of the text, so that the text
+                     becomes easy to understand. 
+                  </p>
+                  
+                  <p class="lead"> Always talk about the whole subject: so if the
+                     topic is *Mr and Mrs Smith* and you know they are a couple from
+                     London, then you can fill a box with "Mr and Mrs Smith", "the
+                     London couple", "this couple", "they", "Mr and Mrs Smith's",
+                     "the couple's" and so on. But a box is never about "Mr Smith" or
+                     "Mrs Smith" on their own.
+                  </p>
+                  
+                  <p class="lead"> Although we show you words like "he", "she", "it",
+                     "they" or similar, you do not have to use them. In the box you
+                     can put any way of identifying the subject. If the subject is
+                     "Joe Biden, the president of the United States" you can put "Joe
+                     Biden" or "Mr Biden" or "Joe Biden's" or "the president of the
+                     United States" or "the president" or "the president's" or "him"
+                     or "his", or any other way of identifying this person. 
+                  </p>
+                  
+                  <p class="lead"> At the start of each text, you will see a line
+                     which gives you the subject of the text, and the thing or person
+                     you need to refer to as you fill out the boxes. To help you
+                     understand how to talk about the thing or person you will also
+                     have a helper sentence providing more information. For
+                     example:
+                  </p>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Margaret Thatcher (she/her) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Margaret Thatcher was the prime
+                        minister of the United Kingdom. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  
+                  <p class="lead"> Based on that description, here is an example of
+                     what a text looks like: 
+                  </p>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     instinctive response to the latest upheaval in <input type="text" size="15" name="test_1" readonly="true">
+                     government is to promise business as usual . That may be the
+                     last thing <input type="text" size="15" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="15" name="test_1" readonly="true"> and
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     new chancellor of the exchequer , the untested John Major , need
+                     to haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="15" name="test_1" readonly="true"> has to
+                     come to terms with European economic integration , beginning
+                     with the European Monetary System , which Britain is committed
+                     to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead"> Please notice that there are many ways in which you
+                     can fill the gaps. Here, for example, is one variant: 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="18" value="Margaret Thatcher's" name="test_1" readonly="true"> instinctive response to the
+                     latest upheaval in <input type="text" value="her" size="18" name="test_1" readonly="true"> government is to promise
+                     business as usual . That may be the last thing <input type="text" value="she" size="18" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="18" value="The prime minister" name="test_1" readonly="true"> and <input type="text" size="18" value="her" name="test_1" readonly="true"> new
+                     chancellor of the exchequer , the untested John Major , need to
+                     haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="18" value="Mrs. Thatcher" name="test_1" readonly="true"> has to come to terms with European
+                     economic integration , beginning with the European Monetary
+                     System , which Britain is committed to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead">Below is another example in which the subject is a
+                     bank.
+                  </p>
+                  <br>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Banca Nazionale del Lavoro (it/its) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Banca Nazionale del Lavoro - or BNL for
+                        short - is Italy's largest bank. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     said <input type="text" size="15" name="test_1" readonly="true"> potential losses from lending to Iraq could reach 1.175
+                     trillion lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     Atlanta branch . <input type="text" size="15" name="test_1" readonly="true"> previously reported that <input type="text" size="15" name="test_1" readonly="true">
+                     Georgia branch had taken on loan commitments topping $ 3 billion
+                     without the Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="22" name="test_1" readonly="true" value="Banca Nazionale del Lavoro"> said <input type="text" size="15" name="test_1" value="its" readonly="true">
+                     potential losses from lending to Iraq could reach 1.175 trillion
+                     lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" value="this bank's" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" value="its" readonly="true"> Atlanta branch . <input type="text" size="15" name="test_1" value="BNL" readonly="true">
+                     previously reported that <input type="text" size="15" name="test_1" value="its" readonly="true"> Georgia branch
+                     had taken on loan commitments topping $ 3 billion without the
+                     Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="lead"> Feel free to fill the gaps according to your own
+                     judgment and preference. However, please, do not fill all of
+                     them with only one type of reference (e.g., always ‘Banca
+                     Nazionale del Lavoro’). For empty references, you should fill
+                     the respective gap with the symbol “-”. 
+                  </p>
+                  
+               </section>
+               
+            </div>
+            
+            <div class="text-justify">
+               
+               <h3>Demographic information</h3>
+               <br>
+               
+               <h5>Before starting the task, we would like to ask you to indicate your
+                  gender, age and your English language proficiency level. Your
+                  information will be used for research purposes only. All your data
+                  will be held anonymously.
+               </h5>
+               <br>
+               
+               <table id="ff-table" class="table table-striped small" style="font-size: 14px">
+                  
+                  <tbody>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Gender:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="male" name="gender" value="male">
+                              <label for="male">Male</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="female" name="gender" value="female">
+                              <label for="female">Female</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="other" name="gender" value="other">
+                              <label for="other">Other</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Age:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           <input type="number" name="age" min="10" max="100">
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>English language proficiency:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="native" name="lng" value="native_speaker">
+                              <label for="male">Native speaker</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="fluent" name="lng" value="fluent">
+                              <label for="female">Fluent</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="intermediate" name="lng" value="Intermediate">
+                              <label for="other">Intermediate</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="basic" name="lng" value="basic">
+                              <label for="other">Basic</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                  </tbody>
+                  
+               </table>
+               
+            </div>
+            
+         </div>
+         <br>
+         
+         <hr class="my-4">
+         <br>
+         
+         <div id="other_7811_wsj1555.xml">
+            
+            <h3>
+               <strong>Text 1</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Task Broker (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Task Broker is a program from Hewlett-Packard Co. which allows computers in a
+                  network to send tasks to each other.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Hewlett-Packard Co. will announce today <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_1" id="other_7811_wsj1555_1"> .
+               </p>
+               
+               <p class="lead"> Called Task Broker , <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_2" id="other_7811_wsj1555_2"> acts something like
+                  an auctioneer among a group of computers wired together . If a machine has a big
+                  computing task , <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_3" id="other_7811_wsj1555_3">
+                  asks other computers in the network for " bids " on the job . <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_4" id="other_7811_wsj1555_4"> then determines
+                  which machine is free to do the task most quickly and sends the task to that
+                  machine .
+               </p>
+               
+               <p class="lead"> Hewlett-Packard claims that <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_5" id="other_7811_wsj1555_5"> allows a network to
+                  run three times as many tasks as conventional networks and will run each task
+                  twice as fast .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_6" id="other_7811_wsj1555_6"> , said analyst John
+                  McCarthy at Forrester Research Inc. , a computer-market research company , "
+                  is a key building block as people move to this new model of distributed
+                  processing . " In today's computer networks , some machines often sit idle
+                  while others are overtaxed . With <input type="text" required maxlength="45" autocomplete="off" name="other_7811_wsj1555_7" id="other_7811_wsj1555_7"> , he said , " You get more bang for the buck you
+                  've spent on computers . "
+               </p>
+               
+               <p class="lead"> The program , which will be shipped in January 1990 ,
+                  runs on the Unix operating system .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_11061_wsj2383.xml">
+            
+            <h3>
+               <strong>Text 2</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>ASKO (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German
+                  retailer.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_1" id="org_11061_wsj2383_1"> plans to challenge the
+                  legality of a widely employed anti-takeover defense of companies in the
+                  Netherlands .
+               </p>
+               
+               <p class="lead"> The eventual court decision could become a landmark in
+                  Dutch corporate law because the lawsuit <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_2" id="org_11061_wsj2383_2"> plans to file would be the first to challenge the
+                  entire principle and practice of companies issuing voting preferred shares to
+                  management-controlled trusts to dilute voting power of common stockholders
+                  .
+               </p>
+               
+               <p class="lead"> Up to now only specific aspects of these defenses have
+                  been challenged , though unsuccessfully , <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_3" id="org_11061_wsj2383_3"> Dutch lawyers noted .
+               </p>
+               
+               <p class="lead"> Should the courts uphold the validity of this type of
+                  defense , <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_4" id="org_11061_wsj2383_4">
+                  will then ask the court to overturn such a vote-diluting maneuver recently
+                  deployed by Koninklijke Ahold NV . <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_5" id="org_11061_wsj2383_5"> says the Dutch-based international food retailer
+                  hadn't reasonable grounds to issue preferred stock to a friendly trust and thus
+                  dilute the worth and voting power of <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_6" id="org_11061_wsj2383_6"> and other shareholders .
+               </p>
+               
+               <p class="lead"> Speaking through <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_7" id="org_11061_wsj2383_7"> Dutch lawyers , <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_8" id="org_11061_wsj2383_8"> also disclosed <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_9" id="org_11061_wsj2383_9"> holds a 15 % stake in
+                  Ahold . It was previously thought <input type="text" required maxlength="45" autocomplete="off" name="org_11061_wsj2383_10" id="org_11061_wsj2383_10"> held a 13.6 % stake that was accumulated since
+                  July .
+               </p>
+               
+               <p class="lead"> A spokesman for Ahold said his company is confident of
+                  its own position and the propriety of the preferred-share issue .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_5350_wsj1347.xml">
+            
+            <h3>
+               <strong>Text 3</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Alaska (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Alaska is the most northerly state within the United States of America.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Exxon Corp. filed suit against <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_1" id="citycountry_5350_wsj1347_1"> ,
+                  charging state officials interfered with the oil company's initial efforts to
+                  treat last spring's giant oil spill .
+               </p>
+               
+               <p class="lead"> The action is a counterclaim to a suit filed by <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_2" id="citycountry_5350_wsj1347_2"> in
+                  August against Exxon and six other oil companies . <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_3" id="citycountry_5350_wsj1347_3"> suit
+                  alleges that Exxon's response to the spill failed to prevent contamination of
+                  hundreds of miles of shoreline along Prince William Sound . That suit and Exxon's countersuit were filed in a state court in Anchorage .
+               </p>
+               
+               <p class="lead"> Neither suit lists specific dollar claims , largely
+                  because damage assessment hasn't yet been completed . Legal strategists say
+                  that damage claims against the oil giant and others could well exceed $ 1
+                  billion . Litigation , if not settled out of court , could drag on for years
+                  .
+               </p>
+               
+               <p class="lead"> Exxon said in its suit that it will seek reimbursement
+                  from <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_4" id="citycountry_5350_wsj1347_4"> for that
+                  part of the cleanup costs and damage claims it says resulted from <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_5" id="citycountry_5350_wsj1347_5"> conduct
+                  . The oil company claims that Alaskan officials prevented Exxon from spraying
+                  dispersant onto the almost 11 million gallons of oil dumped when one of its
+                  tankers ran into an underwater reef .
+               </p>
+               
+               <p class="lead"> Craig Tillery , an <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_6" id="citycountry_5350_wsj1347_6"> assistant attorney general , said in an
+                  interview last night that Exxon's accusations " are not new . Exxon has made
+                  them before , at which point <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_7" id="citycountry_5350_wsj1347_7"> demonstrated they were untrue . <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_8" id="citycountry_5350_wsj1347_8"> will
+                  vigorously defend against any counterclaim . "
+               </p>
+               
+               <p class="lead"> Since the spill last March , Exxon and <input type="text" required maxlength="45" autocomplete="off" name="citycountry_5350_wsj1347_9" id="citycountry_5350_wsj1347_9"> have
+                  been wrangling over whether spraying dispersant on the oil in the first hours
+                  after the spill , when the weather was clear and calm , would have helped limit
+                  the environmental damage .
+               </p>
+               
+               <p class="lead"> Exxon claims that use of dispersants , which break an oil
+                  slick into microscopic droplets , was a crucial part of its immediate response
+                  plan and that state officials banned their use during the two days of fair
+                  weather following the spill .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_9636_wsj2326.xml">
+            
+            <h3>
+               <strong>Text 4</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>George Bush (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>George H. W. Bush (senior) was president of the United States from 1989 to
+                  1993.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_1" id="human_9636_wsj2326_1">
+                  administration , trying to blunt growing demands from Western Europe for a
+                  relaxation of controls on exports to the Soviet bloc , is questioning whether
+                  Italy's Ing . C. Olivetti &amp; Co. supplied militarily valuable technology to
+                  the Soviets .
+               </p>
+               
+               <p class="lead"> Most of the Western European members of Coordinating
+                  Committee on Multilateral Export Controls , the unofficial forum through which
+                  the U.S. and its allies align their export-control policies , are expected to
+                  argue for more liberal export rules at a meeting to be held in Paris Oct. 25 and
+                  26 . They plan to press specifically for a relaxation of rules governing exports
+                  of machine tools , computers and other high-technology products .
+               </p>
+               
+               <p class="lead"> But the <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_2" id="human_9636_wsj2326_2"> administration says it wants to see evidence
+                  that all Cocom members are complying fully with existing export-control
+                  procedures before it will support further liberalization . To make its point ,
+                  it is challenging the Italian government to explain reports that Olivetti may
+                  have supplied the Soviet Union with sophisticated computer-driven devices that
+                  could be used to build parts for combat aircraft .
+               </p>
+               
+               <p class="lead"> The London Sunday Times , which first reported the U.S.
+                  concerns , cited a U.S. intelligence report as the source of the allegations
+                  that Olivetti exported $ 25 million in " embargoed , state-of-the-art ,
+                  flexible manufacturing systems to the Soviet aviation industry . " Olivetti
+                  reportedly began shipping these tools in 1984 .
+               </p>
+               
+               <p class="lead"> A State Department spokesman acknowledged that the U.S.
+                  is discussing the allegations with the Italian government and Cocom , but
+                  declined to confirm any details . Italian President Francesco Cossiga promised a
+                  quick investigation into whether Olivetti broke Cocom rules . <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_3" id="human_9636_wsj2326_3"> called <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_4" id="human_9636_wsj2326_4"> attention to the
+                  matter during the Italian leader's visit here last week .
+               </p>
+               
+               <p class="lead"> Olivetti has denied that it violated Cocom rules ,
+                  asserting that the reported shipments were properly licensed by the Italian
+                  authorities .
+               </p>
+               
+               <p class="lead"> Although the legality of these sales is still an open
+                  question , the disclosure couldn't be better timed to support the position of
+                  export-control hawks in the Pentagon and the intelligence community . " It
+                  seems to me that a story like this breaks just before every important Cocom
+                  meeting , " said a Washington lobbyist for a number of U.S. computer companies
+                  .
+               </p>
+               
+               <p class="lead"> The <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_5" id="human_9636_wsj2326_5">
+                  administration has sent conflicting signals about its export-control policies ,
+                  reflecting unhealed divisions among several competing agencies . Last summer ,
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_6" id="human_9636_wsj2326_6"> moved the
+                  administration in the direction of gradual liberalization when <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_7" id="human_9636_wsj2326_7"> told a North
+                  Atlantic Treaty Organization meeting that <input type="text" required maxlength="45" autocomplete="off" name="human_9636_wsj2326_8" id="human_9636_wsj2326_8"> would allow some exceptions to the Cocom embargo
+                  of strategic goods . But more recently , the Pentagon and the Commerce
+                  Department openly feuded over the extent to which Cocom should liberalize
+                  exports of personal computers to the bloc .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_10424_wsj2367.xml">
+            
+            <h3>
+               <strong>Text 5</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Addison (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Addison is a small suburb in the city of Dallas in Texas.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_1" id="citycountry_10424_wsj2367_1"> has got
+                  trouble . Trouble with a capital T and that rhymes with P and that stands for
+                  pool .
+               </p>
+               
+               <p class="lead"> More than 30 years ago , Prof. Harold Hill , the con man
+                  in Meredith Willson's " The Music Man , " warned the citizens of River City ,
+                  Iowa , against the game . Now kindred spirits on <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_2" id="citycountry_10424_wsj2367_2"> town
+                  council have barred the town's fanciest hotel , the Grand Kempinski , from
+                  installing three free pool tables in its new lounge .
+               </p>
+               
+               <p class="lead"> Mayor Lynn Spruill and two members of the council said
+                  they were worried about setting a precedent that would permit pool halls along
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_3" id="citycountry_10424_wsj2367_3"> main
+                  street . And the mayor , in an admonition that bears a rhythmic resemblance to
+                  Prof. Hill's , warned that " alcohol leads to betting , which leads to fights .
+                  "
+               </p>
+               
+               <p class="lead"> The council's action is yet another blow to a sport that
+                  its fans claim has been maligned unjustly for years . " Obviously they 're not
+                  in touch with what's going on , " says Tom Manske , vice president of the
+                  National Pocket Billiards Association . Pool is hot in New York and Chicago , he
+                  insists , where " upscale , suit-and-tie places " are adding tables . With
+                  today's tougher drunk driving laws , he adds , " people don't want to just sit
+                  around and drink . "
+               </p>
+               
+               <p class="lead"> Besides , rowdy behavior seems unlikely at the Grand
+                  Kempinski , where rooms average $ 200 a night and the cheap mixed drinks go for
+                  $ 3.50 a pop . At the lounge , manager Elizabeth Dyer won't admit patrons in
+                  jeans , T-shirts or tennis shoes .
+               </p>
+               
+               <p class="lead"> But a majority of the Addison council didn't buy those
+                  arguments . Introducing pool , argued Councilwoman Riley Reinker , would be
+                  dangerous . " It would open a can of worms . "
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_4" id="citycountry_10424_wsj2367_4"> is no
+                  stranger to cans of worms , either . After <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_5" id="citycountry_10424_wsj2367_5">
+                  previous mayor committed suicide last year , an investigation disclosed that
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_6" id="citycountry_10424_wsj2367_6">
+                  officials regularly voted on their own projects , gave special favors to
+                  developer friends and dipped into <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10424_wsj2367_7" id="citycountry_10424_wsj2367_7"> coffers for trips and retreats
+                  .
+               </p>
+               
+               <p class="lead"> The revelations embarrassed town officials , although
+                  they argued that the problems weren't as severe as the media suggested
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_1376_wsj0909.xml">
+            
+            <h3>
+               <strong>Text 6</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Jim Wright (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Jim Wright is a former congressman in the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Call <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_1" id="human_1376_wsj0909_1"> office in downtown Fort Worth , Texas , these
+                  days and the receptionist still answers the phone , " <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_2" id="human_1376_wsj0909_2"> office. "
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_3" id="human_1376_wsj0909_3"> , who resigned as
+                  speaker of the House after an investigation of <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_4" id="human_1376_wsj0909_4"> financial dealings ,
+                  is ensconced in <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_5" id="human_1376_wsj0909_5">
+                  district office , maintained by taxpayers on a $ 200,000 allowance . <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_6" id="human_1376_wsj0909_6"> is negotiating a
+                  rich book contract to boot .
+               </p>
+               
+               <p class="lead"> One of the hottest tickets on Washington's social
+                  calendar this fall was a charity benefit honoring former Congressman Tony Coelho
+                  , who landed a million-dollar job on Wall Street after resigning over a
+                  controversial junk-bond investment last summer .
+               </p>
+               
+               <p class="lead"> Michael Deaver , the former White House aide , has become
+                  the most recent addition to the teeming ranks of fallen politicians and
+                  officials earning their way as lobbyists and consultants here . Mr. Deaver has
+                  reopened a public-relations business .
+               </p>
+               
+               <p class="lead"> Surviving scandal has become a rite of political passage
+                  at a time when a glut of scandal has blunted this town's sensibility . Let the
+                  president demand strict new ethics rules : With four sitting House members
+                  accused of sexual misdeeds , amid the unfolding HUD scandal and after the <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_7" id="human_1376_wsj0909_7"> debacle , " people
+                  are slightly dulled by scandal , " says political humorist Art Buchwald . " It
+                  now takes something really weird to inspire public outrage . "
+               </p>
+               
+               <p class="lead"> Not all the scandal-tripped have enjoyed soft landings .
+                  But many have . " These people bounce back more resiliently than regular people
+                  , " says Washington writer Suzanne Garment , who is working on a history of
+                  post-Watergate scandal .
+               </p>
+               
+               <p class="lead"> Given their own penchant for book writing , it is
+                  surprising that none of the masters of scandal survival have yet published a
+                  guide to the art . For there is an emerging protocol -- indeed , an etiquette --
+                  to it . Among the rules :
+               </p>
+               
+               <p class="lead"> Pretend Nothing Happened</p>
+               
+               <p class="lead"> As if <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_8" id="human_1376_wsj0909_8"> were still in <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_9" id="human_1376_wsj0909_9"> old job , <input type="text" required maxlength="45" autocomplete="off" name="human_1376_wsj0909_10" id="human_1376_wsj0909_10"> , by resigning
+                  with his title instead of being forced from his job , by law enjoys a $ 120,000
+                  annual office expense allowance , three paid staffers , up to $ 67,000 for
+                  stationery and telephones and continued use of the franking privilege
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_5192_wsj1331.xml">
+            
+            <h3>
+               <strong>Text 7</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>James T. Sherwin (hi/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>James T. Sherwin is the vice-chairman of GAF Corp.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> GAF , Part III is scheduled to begin today .</p>
+               
+               <p class="lead"> After two mistrials , the stakes in the stock
+                  manipulation trial of GAF Corp. and <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_1" id="human_5192_wsj1331_1"> have changed considerably . The first two GAF
+                  trials were watched closely on Wall Street because they were considered to be
+                  important tests of the government's ability to convince a jury of allegations
+                  stemming from its insider-trading investigations .
+               </p>
+               
+               <p class="lead"> In an eight-count indictment , the government charged GAF
+                  , a Wayne , N.J. , chemical maker , and <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_2" id="human_5192_wsj1331_2"> with illegally attempting to manipulate the
+                  common stock of Union Carbide Corp. in advance of GAF's planned sale of a large
+                  block of the stock in 1986 .
+               </p>
+               
+               <p class="lead"> The government's credibility in the GAF case depended
+                  heavily on its star witness , Boyd L. Jefferies , the former Los Angeles
+                  brokerage chief who was implicated by former arbitrager Ivan Boesky , and then
+                  pointed the finger at <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_3" id="human_5192_wsj1331_3"> ,
+                  takeover speculator Salim B. Lewis and corporate raider Paul Bilzerian . The GAF
+                  trials were viewed as previews of the government's strength in its cases
+                  against Mr. Lewis and Mr. Bilzerian . Mr. Jefferies's performance as a witness
+                  was expected to affect his sentencing .
+               </p>
+               
+               <p class="lead"> But GAF's bellwether role was short-lived . The first
+                  GAF trial ended in a mistrial after four weeks when U.S. District Judge Mary
+                  Johnson Lowe found that a prosecutor improperly , but unintentionally , withheld
+                  a document . After 93 hours of deliberation , the jurors in the second trial
+                  said they were hopelessly deadlocked , and another mistrial was declared on
+                  March 22 .
+               </p>
+               
+               <p class="lead"> Meanwhile , a federal jury found Mr. Bilzerian guilty on
+                  securities fraud and other charges in June . A month later , Mr. Jefferies was
+                  spared a jail term by a federal judge who praised him for helping the government
+                  . In August , Mr. Lewis pleaded guilty to three felony counts .
+               </p>
+               
+               <p class="lead"> Nevertheless , the stakes are still high for the players
+                  directly involved in the GAF case . The mistrials have left the reputations of
+                  GAF , <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_4" id="human_5192_wsj1331_4"> and GAF Chairman
+                  Samuel Heyman in limbo . For <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_5" id="human_5192_wsj1331_5"> , a conviction could carry penalties of five
+                  years in prison and a $ 250,000 fine on each count . GAF faces potential fines
+                  of $ 500,000 for each count .
+               </p>
+               
+               <p class="lead"> Individuals familiar with the case said that throughout
+                  September , defense attorneys were talking with the government in an effort to
+                  prevent a trial , but by the end of the month the talks had ended .
+               </p>
+               
+               <p class="lead"> There is much speculation among attorneys not involved
+                  that the strategy of GAF's attorney , Arthur Liman , and <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_6" id="human_5192_wsj1331_6"> counsel , Stephen
+                  Kaufman , will include testimony by <input type="text" required maxlength="45" autocomplete="off" name="human_5192_wsj1331_7" id="human_5192_wsj1331_7"> or Mr. Heyman . Neither testified at the
+                  previous trials .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_7471_wsj1514.xml">
+            
+            <h3>
+               <strong>Text 8</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Vickers PLC (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering
+                  company.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_1" id="org_7471_wsj1514_1"> said an investment unit
+                  controlled by New Zealand financier Ron Brierley raised its stake in <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_2" id="org_7471_wsj1514_2"> Friday to 15.02 % from
+                  about 14.6 % Thursday and from 13.7 % the previous week .
+               </p>
+               
+               <p class="lead"> I.E.P. Securities Ltd. , a unit of Mr. Brierley's Hong
+                  Kong-based Industrial Equity ( Pacific ) Ltd. , boosted its holdings in <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_3" id="org_7471_wsj1514_3"> to 38.8 million shares
+                  .
+               </p>
+               
+               <p class="lead"> The latest purchase follows small increases in his
+                  holdings made over the past five months . In May , Mr. Brierley's stake shrank
+                  to 8.7 % after ranging between 9 % and 11 % for much of the previous year
+                  .
+               </p>
+               
+               <p class="lead"> " Ron Brierley clearly views <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_4" id="org_7471_wsj1514_4"> as a good investment , "
+                  a <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_5" id="org_7471_wsj1514_5"> spokesman said . The
+                  spokesman refused to comment on speculation that Industrial Equity might use its
+                  interest as a platform to launch a hostile bid for <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_6" id="org_7471_wsj1514_6"> .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_7471_wsj1514_7" id="org_7471_wsj1514_7"> makes tanks for the U.K.
+                  army , Rolls Royce cars , and has marine and medical businesses .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_2926_wsj1135.xml">
+            
+            <h3>
+               <strong>Text 9</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>A comprehensive proposal (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>This text is about a "comprehensive" proposal from the United States for
+                  overhauling agricultural trade that could help break an impasse in the current round
+                  of multilateral trade negotiations.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The Bush administration said it is submitting <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_1" id="other_2926_wsj1135_1"> .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_2" id="other_2926_wsj1135_2"> reiterates the U.S.
+                  desire to scrap or reduce a host of trade-distorting subsidies on farm products
+                  . But <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_3" id="other_2926_wsj1135_3"> would allow
+                  considerable flexibility in determining how and when these goals would be
+                  achieved . <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_4" id="other_2926_wsj1135_4">
+                  also would ease the transition to freer agriculture trade by allowing some
+                  countries to convert non-tariff barriers into tariffs that , together with
+                  existing tariffs , then would be phased out over 10 years .
+               </p>
+               
+               <p class="lead"> Trade Representative Carla Hills , who along with
+                  Agriculture Secretary Clayton Yeutter unveiled <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_5" id="other_2926_wsj1135_5"> , said she is
+                  confident <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_6" id="other_2926_wsj1135_6">
+                  will gain considerable support from the U.S.'s trading partners . Mr. Yeutter ,
+                  seeking to allay European objections to an earlier U.S. plan that called for
+                  eliminating all farm-trade barriers by the year 2000 , said <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_7" id="other_2926_wsj1135_7"> wouldn't " put
+                  farmers out of business " but would only encourage them to " grow what the
+                  markets desire instead of what the government wants ."
+               </p>
+               
+               <p class="lead"> The U.S. is submitting <input type="text" required maxlength="45" autocomplete="off" name="other_2926_wsj1135_8" id="other_2926_wsj1135_8"> today in Geneva ,
+                  hoping that the initiative will spur members of the General Agreement on Tariffs
+                  and Trade to reach agreement on new trade rules before their current negotiating
+                  round concludes in December 1990 . Another U.S. proposal filed Monday urges more
+                  " fair play " in services trade , including predictable and clear rules and
+                  equality in the treatment of foreign and domestic service companies
+                  .
+               </p>
+               
+               <p class="lead"> Unlike the earlier U.S. farm-trade proposal which
+                  struck European countries as too extreme , the latest plan would provide some
+                  room for maneuver . For instance , the new U.S. package makes clear there would
+                  be a transition period during which GATT members could use a combination of
+                  tariffs and quotas to cushion their farmers from foreign competition . It also
+                  says countries could temporarily raise tariffs on certain products if they
+                  experience an unusually heavy volume of imports .
+               </p>
+               
+               <p class="lead"> Instead of proposing a complete elimination of farm
+                  subsidies , as the earlier U.S. proposal did , the new package calls for the
+                  elimination of only the most tradedistorting ones . Less objectionable ones
+                  would be subject only to some restraints , and others with a " relatively minor
+                  trade impact " would be allowed to continue under certain conditions
+                  .
+               </p>
+               
+               <p class="lead"> The new U.S. plan also would establish procedures to
+                  prevent countries from using health and sanitation rules to impede trade
+                  arbitrarily . The goal would be to resolve disputes such as one prompted by the
+                  European Community's current attempt to bar imports of beef from
+                  hormone-treated U.S. cattle .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_8539_wsj1590.xml">
+            
+            <h3>
+               <strong>Text 10</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Nigel Lawson (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this
+                  story was written).
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> In the wake of a slide in sterling , a tailspin in the
+                  stock market , and a string of problematic economic indicators , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_1" id="human_8539_wsj1590_1"> promised gradual
+                  improvement in the U.K. economy .
+               </p>
+               
+               <p class="lead"> In a speech prepared for delivery to London's financial
+                  community , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_2" id="human_8539_wsj1590_2">
+                  summed up current economic policy as a battle to wring inflation out of the
+                  British economy , using high interest rates as " the essential instrument " to
+                  carry out the campaign . Two weeks after boosting base rates to 15 % , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_3" id="human_8539_wsj1590_3"> pledged that "
+                  rates will have to remain high for some time to come . "
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_4" id="human_8539_wsj1590_4"> also made it clear
+                  that <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_5" id="human_8539_wsj1590_5"> would be watching
+                  exchange rates carefully . A sinking pound makes imports more expensive and
+                  increases businesses ' expectations of future inflation , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_6" id="human_8539_wsj1590_6"> argued . In an
+                  apparent warning to currency traders who have lately been selling the British
+                  currency , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_7" id="human_8539_wsj1590_7">
+                  stated that the exchange rates will have a " major role in the assessment of
+                  monetary conditions . "
+               </p>
+               
+               <p class="lead"> In reaffirming the current monetary policy of using high
+                  interest rates to fight inflation and shore up the pound , <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_8" id="human_8539_wsj1590_8"> dismissed other
+                  approaches to managing the economy . <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_9" id="human_8539_wsj1590_9"> said <input type="text" required maxlength="45" autocomplete="off" name="human_8539_wsj1590_10" id="human_8539_wsj1590_10"> monitors the money-supply figures , but doesn't give them paramount importance , as some private and government economists
+                  have suggested . Mr. Lawson also dismissed the possibility of imposing direct
+                  credit controls on Britain's financial system .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+      </body>
+      
+   </crowd-form>
+   
+</list>

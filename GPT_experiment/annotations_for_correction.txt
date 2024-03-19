@@ -1,0 +1,453 @@
+ID	form	correct_ref	gen_refex	Target	Title
+0001	proper	yes	Kenneth Roman	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0002	pron	yes	he	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0006	proper	yes	Kenneth Roman's	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0007	pron	yes	his	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0011	proper	yes	The United States Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0012	pron	yes	it	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0013	desc	yes	the currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0014	desc	yes	the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0015	desc	yes	the US Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0016	pron	yes	its	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0017	proper	yes	the United States Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0021	proper	yes	The Talking Chip	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0024	pron	yes	its	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0026	pron	yes	it	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0028	proper	yes	George W. Bush's	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0029	proper	yes	George W. Bush	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0032	desc	no	George W. Bush's position	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0035	proper	yes	Detrex Corp.	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0036	desc	yes	the company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0037	pron	yes	its	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0039	pron	yes	it	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0040	desc	yes	The company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0045	proper	yes	Dr Shin Yonehara and Dr Nobuyuku Kobayashi	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0047	pron	yes	they	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0049	desc	yes	The two Japanese scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0050	pron	yes	their	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0051	desc	yes	Dr Shin Yonehara and Dr Nobuyuku Kobayashi said	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0052	proper	yes	Nick Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0053	pron	yes	he	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0055	desc	yes	Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0059	pron	yes	his	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0060	proper	yes	Public Service co.	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0061	desc	yes	the New Hampshire company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0062	desc	yes	the company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0063	proper	yes	Public Service co.'s	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0064	desc	yes	the corporation	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0065	pron	yes	It	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0066	pron	yes	its	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0068	proper	yes	Canada's	Canada (it/its)	Canada is a large country in North America with many natural resources.
+0071	proper	yes	Canada	Canada (it/its)	Canada is a large country in North America with many natural resources.
+0077	proper	yes	Venice	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0079	desc	yes	the city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0080	desc	yes	The Italian city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0081	pron	yes	it	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0082	proper	yes	Venice's	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0083	desc	yes	the canal city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0088	pron	yes	He	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0098	desc	yes	the U.S. Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0099	desc	no	its stability	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0100	desc	yes	the dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0102	desc	yes	the U.S. currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0105	desc	yes	the speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0106	desc	no	the advertisement	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0108	desc	no	The application of this technology	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0109	desc	no	this initiative	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0110	desc	no	this innovation	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0115	desc	no	George W. Bush's stance	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0123	desc	no	The manufacturing company	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0126	desc	no	The corporation	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0129	prop	yes	Dr Yonehara and Dr Kobayashi	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0130	desc	yes	these two Japanese scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0132	desc	yes	The scientists	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0136	desc	no	the FBI Agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0137	desc	yes	this TV series character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0140	desc	no	the show	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0141	pron	yes	him	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0147	desc	no	the United States company's	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0150	desc	no	the American company	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0178	desc	yes	the official currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0181	desc	yes	the US currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0182	desc	no	the state of the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0183	desc	no	the value of the Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0191	desc	no	This technology	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0193	desc	yes	this speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0219	desc	yes	the FBI agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0222	desc	yes	this TV series agent	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0223	desc	no	Nick Mancuso's performance	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0224	desc	yes	the character played by Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0232	pron	yes	it	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0233	desc	no	the firm	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0244	desc	no	this Italian city	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0261	desc	yes	The official currency of the United States	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0265	desc	yes	the monetary unit of The United States	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0267	desc	yes	this currency	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0268	desc	yes	The dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0269	desc	yes	the American Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0270	prop	yes	the Talking Chip	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0276	pron	yes	It	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0290	pron	yes	It	Detrex Corp. (it/its)	Detrex Corp. is a company in the United States which manufactures chemicals.
+0305	desc	no	our lead character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0306	desc	no	the performance of Nick Mancuso	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0331	desc	no	Venetian	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0337	desc	yes	The former chairman and CEO	Kenneth Roman (he/him/his)	Kenneth Roman is the 59-year-old former chairman and chief executive officer of the Ogilvy Group.
+0349	desc	yes	the US dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0352	desc	yes	US Dollar	The United States Dollar (it/its)	The United States Dollar is the official currency of the United States, and frequently used in international business.
+0359	desc	yes	This speech synthesiser	The Talking Chip (it/its)	The Talking Chip - was a speech synthesiser laminated into an advertisement for Texas Instruments that appeared in the magazine Business Week.
+0362	desc	no	Bush's	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0364	desc	no	Bush's position	George W. Bush (he/him/his)	George W. Bush was president of the United States.
+0379	pron	yes	They	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0382	pron	no	Their	Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)	Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at Yamaguchi University.
+0387	prop	yes	Nick	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0389	desc	yes	the TV series detective	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0390	desc	yes	this character	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0391	desc	yes	Mancuso's	Nick Mancuso (he/him/his)	Nick Mancuso is an FBI Agent in a TV series.
+0396	desc	yes	the company's officials	Public Service co. (it/its)	Public Service co. is a company in New Hampshire in the United States.
+0409	prop	yes	"""Venice"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0411	desc	yes	"""the city"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0414	desc	no	"""Venetian"""	Venice (it/its)	Venice is a city in Italy famous for its canals.
+0416	desc	yes	the Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0417	desc	yes	the program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0418	pron	yes	it	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0419	prop	yes	Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0420	desc	yes	this software	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0421	desc	yes	The Task Broker	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0423	prop	yes	Addison	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0424	desc	yes	Addison's	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0430	prop	yes	Alaska	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0432	desc	yes	Alaska's	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0435	desc	no	Alaskan	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0437	pron	yes	It	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0439	desc	yes	a comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0440	desc	yes	This proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0441	desc	yes	the comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0442	desc	yes	The proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0443	desc	yes	this comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0444	desc	yes	the proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0445	desc	yes	this proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0447	prop	yes	ASKO	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0449	desc	yes	the West German company	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0450	pron	yes	it	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0452	pron	yes	its	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0457	prop	yes	Nigel Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0458	pron	yes	he	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0459	desc	yes	the Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0460	prop	yes	Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0463	desc	yes	the UK's former Chancellor	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0467	prop	yes	James T. Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0472	desc	no	James T. Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0474	prop	yes	Vickers PLC	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0475	desc	yes	the company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0476	pron	yes	it	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0477	desc	yes	the UK defense and engineering firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0478	desc	yes	Vickers'	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0480	desc	yes	The defense and engineering firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0481	desc	yes	George Bush's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0482	desc	yes	Bush's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0483	prop	yes	Bush	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0484	pron	yes	his	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0487	pron	yes	he	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0489	desc	yes	Jim Wright's	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0490	prop	yes	Jim Wright	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0493	pron	yes	his	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0494	pron	yes	He	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0498	pron	yes	he	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0504	desc	yes	The Hewlett-Packard program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0507	pron	no	its	Addison (it/its)	Addison is a small suburb in the city of Dallas in Texas.
+0514	pron	yes	it	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0517	pron	yes	its	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0525	desc	yes	The comprehensive plan	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0527	desc	yes	the proposed plan	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0528	desc	yes	the extensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0529	desc	yes	the American comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0532	desc	yes	the company	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0534	pron	yes	It	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0535	desc	yes	ASKO's	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0543	pron	yes	He	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0551	prop	no	Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0552	pron	no	him	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0555	desc	no	Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0558	prop	yes	Vickers	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0561	desc	yes	Vickers PLC's	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0586	desc	yes	the software	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0587	desc	yes	This program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0597	desc	yes	the state	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0604	desc	yes	the most northerly state within the United States of America	Alaska (it/its)	Alaska is the most northerly state within the United States of America.
+0608	desc	yes	The said proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0611	desc	yes	the said proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0625	desc	yes	the former Chancellor	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0634	prop	no	Mr. Sherwin	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0636	desc	yes	the vice-chairman of GAF Corp.	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0638	desc	no	Mr. Sherwin's	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0639	desc	yes	the vice-chairman of GAF	James T. Sherwin (hi/him/his)	James T. Sherwin is the vice-chairman of GAF Corp.
+0642	desc	yes	the UK defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0645	desc	yes	the United Kingdom defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0646	pron	yes	It	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0649	prop	yes	George Bush	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0651	desc	yes	Bush administration's	George Bush (he/him/his)	George H. W. Bush (senior) was president of the United States from 1989 to 1993.
+0658	desc	yes	Wright's	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0664	prop	yes	Wright	Jim Wright (he/him/his)	Jim Wright is a former congressman in the United States.
+0669	desc	yes	this program	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0689	desc	yes	The comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0691	desc	yes	The same proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0698	desc	no	the lawyers of ASKO	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0700	prop	yes	ASKO Deutsche Kaufhaus AG	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0709	desc	yes	The Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0712	desc	yes	The former Chancellor of the Exchequer	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0713	prop	yes	Mr. Lawson	Nigel Lawson (he/him/his)	Nigel Lawson was the Chancellor of the Exchequer in the United Kingdom (when this story was written).
+0726	desc	yes	the firm	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0728	desc	yes	the defense and engineering company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0729	desc	yes	The UK company	Vickers PLC (it/its)	Vickers PLC - or Vickers for short - is a United Kingdom defense and engineering company.
+0753	desc	yes	This system	Task Broker (it/its)	Task Broker is a program from Hewlett-Packard Co. which allows computers in a network to send tasks to each other.
+0772	desc	yes	This comprehensive proposal	A comprehensive proposal (it/its)	"This text is about a ""comprehensive"" proposal from the United States for overhauling agricultural trade that could help break an impasse in the current round of multilateral trade negotiations."
+0781	desc	no	the West German company's	ASKO (it/its)	ASKO Deutsche Kaufhaus AG - or ASKO for short - is a West German retailer.
+0831	proper	yes	Heidi Ehman	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0832	pron	yes	her	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0833	pron	yes	she	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0840	proper	yes	Ronald B. Koenig	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0841	pron	yes	He	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0842	proper	yes	Koenig	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0843	pron	yes	he	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0844	pron	yes	him	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0846	pron	yes	his	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+0848	proper	yes	Goodson Newspaper Group Inc.	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0849	proper	yes	Goodson	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0850	pron	yes	its	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0851	desc	yes	The company	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0853	pron	yes	It	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0855	pron	yes	it	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+0856	proper	yes	Allen D. Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0857	pron	yes	He	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0858	proper	yes	Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0859	pron	yes	he	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0860	pron	yes	his	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0865	pron	yes	him	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0866	proper	yes	U.S. News & World Report	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0868	desc	yes	U.S. News & World Report's	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0873	pron	yes	its	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+0875	desc	yes	California's	California (it/its)	California is a state on the west coast of the United States.
+0877	proper	yes	California	California (it/its)	California is a state on the west coast of the United States.
+0878	desc	no	Californian	California (it/its)	California is a state on the west coast of the United States.
+0883	desc	yes	the United States	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0885	desc	yes	United States'	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0891	proper	yes	Charles Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0892	pron	yes	he	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0893	proper	yes	Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0895	proper	yes	Charles	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0899	desc	yes	"""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0900	desc	yes	the film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0902	desc	yes	this movie	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0904	desc	yes	the movie	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0906	proper	yes	Buell	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0907	pron	yes	its	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0908	desc	yes	The company's	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0909	proper	yes	Buell Industries Inc.	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0910	pron	yes	it	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0912	desc	yes	The Waterbury, Conn., company	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0919	none	no	unexpectedly	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+0939	proper	yes	Mr. Tharp	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0945	desc	yes	Tharp's	Allen D. Tharp (he/him/his)	Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+0957	desc	yes	the California	California (it/its)	California is a state on the west coast of the United States.
+0964	pron	yes	it	California (it/its)	California is a state on the west coast of the United States.
+0965	prop	yes	The United States	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0967	desc	no	American	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+0977	desc	yes	the chairman of Contel	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+0982	prop	yes	"the movie ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0983	desc	yes	"the film ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0985	desc	yes	the given film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0987	desc	yes	this film	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+0994	desc	no	The Waterbury firm	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+0997	pron	yes	She	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+1014	prop	yes	Goodson's	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+1052	prop	no	America	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1053	prop	yes	the U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1068	prop	yes	"The movie ""Days of Rage"""	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1076	desc	no	The company	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1083	none	no	suddenly	Heidi Ehman (she/her)	Heidi Ehman is a 24-year-old, politically active woman.
+1113	desc	yes	the magazine	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1114	desc	yes	the magazine's	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1116	pron	yes	it	U.S. News & World Report (it/its)	U.S. News & World Report is a popular weekly magazine in the United States.
+1139	prop	yes	Mr. Wohlstetter	Charles Wohlstetter (he/him/his)	Charles Wohlstetter , 79 years old , is the chairman of Contel Corporation.
+1155	desc	no	The firm	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1158	desc	no	The corporation	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1174	pron	yes	His	Ronald B. Koenig	Ronald B. Koenig is a 55-year old senior managing director in a brokerage company.
+1181	prop	no	Goodson Newspaper Group	Goodson (it/its)	Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United States.
+1213	prop	no	U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1216	prop	yes	The U.S.	The United States (it/its)	The United States of America is a large and highly populated country in North America. For many years, The U.S. tended to dominate the 32-nation Organization of American States.
+1230	pron	yes	it	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1233	pron	yes	It	"The movie ""Days of Rage"""	"""Days of Rage"" is a film about the conflict between Palestinians and Israel."
+1236	pron	yes	Its	Buell (it/its)	Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn., that makes industrial fasteners and metal stampings.
+1241	prop	yes	Anne Bogart	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1242	pron	yes	She	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1243	pron	yes	her	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1249	prop	yes	Saab-Scania	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1250	pron	yes	its	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1251	prop	yes	SAAB	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1252	desc	yes	the Swedish auto and aerospace company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1254	prop	yes	Saab-Scania's	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1255	desc	yes	the Swedish company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1256	pron	yes	it	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1257	prop	yes	James Schwartz	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1258	pron	yes	his	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1259	pron	yes	him	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1260	prop	yes	Schwartz	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1261	pron	yes	He	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1262	pron	yes	he	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1265	prop	yes	Anne Volokh	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1266	pron	yes	her	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1268	pron	yes	she	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1274	prop	yes	Anne Volokh's	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1275	prop	yes	Hepatitis	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1276	desc	yes	the disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1277	desc	yes	this viral infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1278	pron	yes	it	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1280	desc	yes	this infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1281	desc	no	the virus	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1283	prop	yes	Roger Rosenblatt	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1284	pron	yes	He	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1285	pron	yes	he	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1286	pron	yes	his	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1287	prop	yes	Rosenblatt	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1290	desc	yes	Computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1291	desc	yes	these chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1292	pron	yes	them	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1293	desc	yes	These computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1294	pron	yes	their	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1295	desc	yes	these computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1297	desc	yes	the chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1298	desc	no	these devices	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1299	prop	yes	Turkey	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1301	pron	yes	its	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1306	pron	yes	it	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1308	prop	yes	Avis Inc.	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1309	pron	yes	it	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1310	prop	yes	Avis	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1313	pron	yes	its	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1316	desc	yes	Avis's	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1317	prop	yes	Mexico	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1318	pron	yes	its	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1319	pron	yes	it	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1329	prop	yes	Bogart	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1341	prop	yes	Saab	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1351	desc	yes	Volokh's	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1353	prop	yes	Volokh	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1359	pron	yes	Her	Anne Volokh (she/her)	Anne Volokh is a wealthy publisher in the United States.
+1362	desc	yes	the infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1365	desc	yes	the viral infection	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1369	desc	no	The magazine	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1371	pron	yes	His	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1378	desc	yes	These chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1382	desc	no	These chipsets	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1385	desc	yes	the Middle Eastern country	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1389	desc	yes	the Nato member	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1391	pron	yes	itself	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1392	desc	yes	this country	Turkey (it/its)	Turkey is a country in the Middle East and a member of Nato.
+1395	desc	yes	The rental car company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1399	desc	yes	the company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1401	desc	yes	the company's	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1403	desc	yes	Mexico's	Mexico (it/its)	Mexico is a Spanish-speaking country in North America.
+1423	prop	yes	Saab-Scania AB	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1425	desc	yes	the said company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1433	proper	yes	James	James Schwartz (he/him/his)	James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+1446	desc	yes	the viral disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1447	desc	yes	this infectious disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1461	desc	yes	the new chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1465	desc	yes	the ceramic chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1468	pron	yes	they	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1480	desc	yes	the rental car company	Avis Inc. (it/its)	Avis Inc. - or Avis for short - is a rental car company in the United States.
+1511	desc	yes	the company	Saab-Scania (it/its)	Saab-Scania AB - known widely as SAAB - is a Swedish auto and aerospace company.
+1552	desc	yes	the computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1583	proper	yes	Anne Bogart's	Anne Bogart (she/her)	Anne Bogart is an artistic director at a theatre.
+1617	desc	yes	this disease	Hepatitis (it/its)	Hepatitis is a group of viral infections affecting the liver.
+1624	desc	no	A representative	Roger Rosenblatt (he/him/his)	"Roger Rosenblatt was the editor of the magazine ""U.S. News & World Report"" in the United States."
+1631	desc	yes	these innovative computer chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1635	desc	yes	these ceramic circuit chips	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1637	desc	yes	these new technologies	Computer chips (they/them/their)	This article is about a new computer chip with ceramic circuits whose data survives even without power.
+1666	proper	yes	Alan Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1667	pron	yes	his	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1668	proper	yes	Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1669	pron	yes	him	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1673	proper	yes	Senator Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1675	pron	yes	its	Canada (it/its)	Canada is a large country in North America.
+1676	pron	yes	it	Canada (it/its)	Canada is a large country in North America.
+1682	desc	yes	a converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1683	desc	yes	the converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1684	desc	yes	this technology	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1685	desc	yes	such a device	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1686	desc	yes	new converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1687	desc	no	Converters	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1689	desc	yes	this product	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1690	proper	yes	Alcee Hastings	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1691	pron	yes	him	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1692	pron	yes	his	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1693	pron	yes	His	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1694	pron	yes	he	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1697	pron	yes	He	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1699	proper	yes	Drexel's	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1700	pron	yes	its	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1702	proper	yes	Drexel	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1709	proper	yes	Israel	Israel (it/its)	Israel is a small country on the Middle East.
+1710	pron	yes	it	Israel (it/its)	Israel is a small country on the Middle East.
+1711	pron	yes	Its	Israel (it/its)	Israel is a small country on the Middle East.
+1712	pron	yes	its	Israel (it/its)	Israel is a small country on the Middle East.
+1716	proper	yes	Carla Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1717	pron	yes	she	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1718	proper	yes	Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1719	desc	yes	the spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1721	desc	yes	the United States Trade Department's spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1724	desc	yes	the United States Trade Department's representative	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1725	proper	yes	Valley Federal	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1726	prop	yes	Valley Federal's	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1728	pron	yes	it	Valley Federal (it/its)	Valley Federal Savings & Loan Association - or Valley Federal for short - is a bank in the United States.
+1732	prop	yes	William McDonough	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1733	pron	yes	He	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1734	prop	yes	McDonough	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1736	pron	yes	his	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1742	desc	yes	the new guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1743	desc	yes	These guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1744	desc	yes	The guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1745	desc	yes	these guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1746	desc	yes	under these guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1748	desc	yes	the guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1749	desc	yes	these new guidelines	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1755	prop	yes	Senator Alan Cranston	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1765	pron	yes	it's	Canada (it/its)	Canada is a large country in North America.
+1768	desc	yes	such a converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1770	desc	yes	converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1772	desc	yes	the product	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1773	pron	yes	it	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1778	prop	yes	Hastings	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1779	desc	yes	his court	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1787	desc	yes	the company's	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+1801	desc	yes	The spokesperson for the United States Trade Department	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1803	pron	yes	She	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1804	prop	yes	Mrs. Hills	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1805	desc	yes	The U.S. spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1808	desc	yes	The spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1819	pron	yes	him	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1823	desc	yes	The 38-year-old architect	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1836	pron	yes	he	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+1853	desc	yes	this technological innovation	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1855	desc	yes	These converters	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1856	desc	yes	the device	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1857	desc	yes	this converter	A converter (it/its)	This article is about a converter for transforming conventional motion-picture film into high-definition video.
+1865	desc	yes	The U.S. District Judge	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1903	desc	yes	McDonough's approach	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1904	pron	yes	His	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1907	desc	yes	The eco-conscious architect	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+1913	pron	yes	they	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1916	desc	yes	the new directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1917	desc	yes	these new procedures	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1945	prop	yes	Hastings'	Alcee Hastings (he/him/his)	Alcee Hastings is a 53-year-old male U.S. District Judge.
+1975	desc	yes	The U.S. Trade Department’s spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+1996	desc	yes	The new rules	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+1998	desc	yes	the new regulations	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2007	prop	yes	Alan Cranston's	Alan Cranston (he/him/his)	Senator Alan Cranston is a politician in the United States.
+2043	desc	yes	the company	Drexel (it/its)	Drexel Burnham Lambert Inc. - or Drexel for short - is a company in the United States.
+2055	desc	yes	the spokesperson for the United States Trade Department	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+2056	desc	yes	the U.S. spokesperson	Carla Hills (she/her)	Carla Hills is a spokesperson for the United States Trade Department.
+2073	pron	yes	he	William McDonough (he/him/his)	William McDonough is a 38-year-old architect concerned about ecology.
+2079	desc	yes	These directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2083	desc	yes	The regulations	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.
+2084	desc	yes	these directives	New guidelines (they/them/their)	This article is about new guidelines from the Justice Department about prosecutions under the federal racketeering law.

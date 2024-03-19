@@ -1,0 +1,83 @@
+REF_1555_1: Task Broker
+REF_1555_2: the program
+REF_1555_3: it
+REF_1555_4: the software
+REF_1555_5: the Task Broker
+REF_1555_6: This system
+REF_1555_7: Task Broker
+REF 2367_1: Addison
+REF 2367_2: Addison's
+REF 2367_3: Addison's
+REF 2367_4: Addison
+REF 2367_5: Addison's
+REF 2367_6: Addison's
+REF 2367_7: Addison's
+REF 1347_1: Alaska
+REF 1347_2: it
+REF 1347_3: Alaska's
+REF 1347_4: Alaska
+REF 1347_5: its
+REF 1347_6: Alaska's
+REF 1347_7: it
+REF 1347_8: Alaska
+REF 1347_9: it
+REF 1135_1: a comprehensive proposal
+REF 1135_2: This comprehensive proposal
+REF 1135_3: the proposal
+REF 1135_4: The comprehensive proposal
+REF 1135_5: the comprehensive proposal 
+REF 1135_6: the proposal
+REF 1135_7: The proposal
+REF 1135_8: this comprehensive proposal
+REF 2383_1: ASKO
+REF 2383_2: it
+REF 2383_3: the West German company's
+REF 2383_4: ASKO
+REF 2383_5: it
+REF 2383_6: ASKO's
+REF 2383_7: its
+REF 2383_8: ASKO 
+REF 2383_9: it
+REF 2383_10: ASKO
+REF_1590_1: Nigel Lawson
+REF_1590_2: he
+REF_1590_3: Lawson
+REF_1590_4: Lawson
+REF_1590_5: he
+REF_1590_6: Lawson
+REF_1590_7: the Chancellor of the Exchequer
+REF_1590_8: Lawson
+REF_1590_9: the former Chancellor
+REF_1590_10: he
+REF_1331_1: James T. Sherwin
+REF_1331_2: Sherwin
+REF_1331_3: him
+REF_1331_4: Sherwin
+REF_1331_5: James T. Sherwin
+REF_1331_6: Sherwin's
+REF_1331_7: James T. Sherwin
+REF_1514_1: Vickers PLC
+REF_1514_2: Vickers PLC
+REF_1514_3: the United Kingdom defense and engineering company
+REF_1514_4: the company
+REF_1514_5: Vickers'
+REF_1514_6: the firm
+REF_1514_7: Vickers
+REF 2326_1: George Bush's
+REF 2326_2: Bush's
+REF 2326_3: Bush
+REF 2326_4: his
+REF 2326_5: Bush's
+REF 2326_6: Bush
+REF 2326_7: he
+REF 2326_8: he
+REF 0909_1: Jim Wright's
+REF 0909_2: Jim Wright
+REF 0909_3: Jim Wright
+REF 0909_4: Jim Wright's
+REF 0909_5: Jim Wright's
+REF 0909_6: Jim Wright
+REF 0909_7: Jim Wright
+REF 0909_8: Jim Wright
+REF 0909_9: his
+REF 0909_10: he

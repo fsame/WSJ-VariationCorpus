@@ -1,0 +1,17 @@
+subject: Detrex Corp. (it/its)
+helper sentence: Detrex Corp. is a company in the United States which manufactures
+chemicals.
+text: REF 1362_1 said a reserve REF 1362_2 is establishing to cover
+expected pollution cleanup costs at an Ohio plant reduced REF 1362_3 third-quarter net income
+by $ 1.9 million . REF 1362_4 declined to say if
+REF 1362_5 would post a loss in the
+third quarter . REF 1362_6
+earned $ 774,000 in the quarter last year . REF 1362_7 is setting aside $ 3.1
+million for the cleanup , but said the reserve reduced REF 1362_8 quarterly income by only
+$ 1.9 million because of tax considerations . In addition , REF 1362_9 said REF 1362_10 signed a consent decree with Ohio to build a $
+1.4 million pollution-control facility at the Ashtabula chemical manufacturing
+plant by Aug. 1 , 1990 . Detrex said it is one of at least 17 companies notified
+by the Environmental Protection Agency that they may be potentially responsible
+for cleaning up the Fields Brook watershed near Detrex 's Ashtabula plant at a
+total cost the EPA estimates at $48 million -- a figure Detrex said the
+companies dispute.

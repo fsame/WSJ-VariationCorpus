@@ -1,0 +1,12 @@
+subject: James Schwartz (he/him/his)
+helper sentence: James Schwartz is a 40-year-old financial planner in Englewood, Colorado.
+text: WHEN REF 1567_1 was just a lad REF 1567_2 father gave REF 1567_3 a piece of career
+advice . " He told me to choose an area where just by being mediocre I could be
+great , " recalls REF 1567_4 .
+REF 1567_5 tried management
+consulting , traded in turquoise for a while , and even managed professional
+wrestlers . Now REF 1567_6
+has settled into a career that fits the bill -- financial planning . It should be noted that REF 1567_7 is a puckish sort
+who likes to give REF 1567_8
+colleagues the needle . But in this case the needle has a very sharp point
+.

@@ -1,0 +1,82 @@
+REF 1615_1: Heidi Ehman
+REF 1615_2: her
+REF 1615_3: she
+REF 1615_4: she
+REF 1615_5: Heidi Ehman
+REF 1615_6: her
+REF 1615_7: unexpectedly 
+REF 1615_8: she
+REF 1615_9: Heidi Ehman
+REF 1234_1: Ronald B. Koenig
+REF 1234_2: He
+REF 1234_3: Koenig
+REF 1234_4: he
+REF 1234_5: him
+REF 1234_6: Koenig
+REF 1234_7: his
+REF 1234_8: Koenig
+REF 1316_1: Goodson Newspaper Group Inc.
+REF 1316_2: Goodson
+REF 1316_3: its
+REF 1316_4: The company
+REF 1316_5: it
+REF 1316_6: Goodson Newspaper Group Inc.
+REF 1316_7: The company
+REF 1316_8: it
+REF 1570_1: Allen D. Tharp
+REF 1570_2: Mr. Tharp
+REF 1570_3: Tharp
+REF 1570_4: he
+REF 1570_5: his
+REF 1570_6: he
+REF 1570_7: Tharp
+REF 1570_8: Tharp's
+REF 1570_9: Allen D. Tharp
+REF 1570_10: him
+REF 2436_1: U.S. News & World Report
+REF 2436_2: U.S. News & World Report
+REF 2436_3: U.S. News & World Report's
+REF 2436_4: U.S. News & World Report's
+REF 2436_5: U.S. News & World Report
+REF 2436_6: U.S. News & World Report's
+REF 2436_7: U.S. News & World Report
+REF 2436_8: its
+REF 2436_9: U.S. News & World Report
+REF_1147_1: the California
+REF_1147_2: California's
+REF_1147_3: California
+REF_1147_4: Californian
+REF_1147_5: California
+REF_1147_6: California
+REF_1147_7: California's
+REF_1147_8: it
+REF_0910_1: The United States
+REF_0910_2: The United States
+REF_0910_3: American
+REF_0910_4: The United States
+REF_0910_5: The United States
+REF_0910_6: The United States
+REF_0910_7: The United States
+REF_0910_8: The United States
+REF_0591_1: Charles Wohlstetter
+REF_0591_2: he
+REF_0591_3: Wohlstetter
+REF_0591_4: Charles
+REF_0591_5: the chairman of Contel
+REF_0591_6: Charles Wohlstetter
+REF_0591_7: he
+REF_0591_8: Wohlstetter
+REF_1412_1: "Days of Rage"
+REF_1412_2: the movie "Days of Rage"
+REF_1412_3: the film "Days of Rage"
+REF_1412_4: this movie
+REF_1412_5: the given film
+REF_1412_6: "Days of Rage" 
+REF_1412_7: this film
+REF 1175_1: Buell
+REF 1175_2: its
+REF 1175_3: The company's
+REF 1175_4: Buell
+REF 1175_5: it
+REF 1175_6: its
+REF 1175_7: The Waterbury firm

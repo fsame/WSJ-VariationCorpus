@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+         crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+      <style>
+         #borderDemo {border: 3px outset #1C6EA4;border-radius: 20px;}
+      </style>
+      <style>
+         #boxdemo {border: 2px groove #999FA4;
+         border-radius: 10px;
+         background: #E8E8E8;}
+      </style>
+      <style>
+         #demoFont {
+         font-size: 24px;
+         letter-spacing: 0px;
+         word-spacing: 0px;
+         color: #000000;
+         text-decoration: none;
+         font-style: normal;
+         font-variant: small-caps;
+         text-transform: none;}
+      </style>
+      <style> .div-1 { background-color: #EBEBEB; } </style>
+   </head>
+   
+   <crowd-form answer-format="flatten-objects">
+      
+      <body class="container">
+         
+         <div id="firstpage">
+            
+            <div class="text-center">
+               <br>
+               
+               <div id="borderDemo">
+                  <strong>Welcome!</strong> Thank you for participating in our
+                  research. Please read the instructions carefully. 
+               </div>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <section id="Proceedings">
+                  
+                  <h3>Proceedings</h3>
+                  
+                  <p class="lead">If you have done a variant of this task today,
+                     please do not continue. We can only use one response set per
+                     responder.
+                  </p>
+                  
+                  <p class="lead"> In the next pages, you will be presented with 10
+                     texts, consisting of news texts, from an American newspaper.
+                     Each text will talk about one specific subject, which can be,
+                     for example, a person, a company, a group, a country or a
+                     commercial product. 
+                  </p>
+                  
+                  <p class="lead"> In each text, all references to one subject are
+                     replaced by empty boxes. Your goal is to fill those gaps,
+                     referring to the main subject of the text, so that the text
+                     becomes easy to understand. 
+                  </p>
+                  
+                  <p class="lead"> Always talk about the whole subject: so if the
+                     topic is *Mr and Mrs Smith* and you know they are a couple from
+                     London, then you can fill a box with "Mr and Mrs Smith", "the
+                     London couple", "this couple", "they", "Mr and Mrs Smith's",
+                     "the couple's" and so on. But a box is never about "Mr Smith" or
+                     "Mrs Smith" on their own.
+                  </p>
+                  
+                  <p class="lead"> Although we show you words like "he", "she", "it",
+                     "they" or similar, you do not have to use them. In the box you
+                     can put any way of identifying the subject. If the subject is
+                     "Joe Biden, the president of the United States" you can put "Joe
+                     Biden" or "Mr Biden" or "Joe Biden's" or "the president of the
+                     United States" or "the president" or "the president's" or "him"
+                     or "his", or any other way of identifying this person. 
+                  </p>
+                  
+                  <p class="lead"> At the start of each text, you will see a line
+                     which gives you the subject of the text, and the thing or person
+                     you need to refer to as you fill out the boxes. To help you
+                     understand how to talk about the thing or person you will also
+                     have a helper sentence providing more information. For
+                     example:
+                  </p>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Margaret Thatcher (she/her) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Margaret Thatcher was the prime
+                        minister of the United Kingdom. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  
+                  <p class="lead"> Based on that description, here is an example of
+                     what a text looks like: 
+                  </p>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     instinctive response to the latest upheaval in <input type="text" size="15" name="test_1" readonly="true">
+                     government is to promise business as usual . That may be the
+                     last thing <input type="text" size="15" name="test_1" readonly="true"> needs . As the air clears from last week
+                     's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="15" name="test_1" readonly="true"> and
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     new chancellor of the exchequer , the untested John Major , need
+                     to haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="15" name="test_1" readonly="true"> has to
+                     come to terms with European economic integration , beginning
+                     with the European Monetary System , which Britain is committed
+                     to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead"> Please notice that there are many ways in which you
+                     can fill the gaps. Here, for example, is one variant: 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="18" value="Margaret Thatcher 's" name="test_1" readonly="true"> instinctive response to the
+                     latest upheaval in <input type="text" value="her" size="18" name="test_1" readonly="true"> government is to promise
+                     business as usual . That may be the last thing <input type="text" value="she" size="18" name="test_1" readonly="true"> needs . As the air clears from last week
+                     's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="18" value="The prime minister" name="test_1" readonly="true"> and <input type="text" size="18" value="her" name="test_1" readonly="true"> new
+                     chancellor of the exchequer , the untested John Major , need to
+                     haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="18" value="Mrs. Thatcher" name="test_1" readonly="true"> has to come to terms with European
+                     economic integration , beginning with the European Monetary
+                     System , which Britain is committed to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead">Below is another example in which the subject is a
+                     bank.
+                  </p>
+                  <br>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Banca Nazionale del Lavoro (it/its) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Banca Nazionale del Lavoro - or BNL for
+                        short - is Italy 's largest bank. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     said <input type="text" size="15" name="test_1" readonly="true"> potential losses from lending to Iraq could reach 1.175
+                     trillion lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     Atlanta branch . <input type="text" size="15" name="test_1" readonly="true"> previously reported that <input type="text" size="15" name="test_1" readonly="true">
+                     Georgia branch had taken on loan commitments topping $ 3 billion
+                     without the Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="22" name="test_1" readonly="true" value="Banca Nazionale del Lavoro"> said <input type="text" size="15" name="test_1" value="its" readonly="true">
+                     potential losses from lending to Iraq could reach 1.175 trillion
+                     lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" value="this bank's" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" value="its" readonly="true"> Atlanta branch . <input type="text" size="15" name="test_1" value="BNL" readonly="true">
+                     previously reported that <input type="text" size="15" name="test_1" value="its" readonly="true"> Georgia branch
+                     had taken on loan commitments topping $ 3 billion without the
+                     Rome - based management 's approval . 
+                  </p>
+                  
+                  <p class="lead"> Feel free to fill the gaps according to your own
+                     judgment and preference. However, please, do not fill all of
+                     them with only one type of reference (e.g., always ‘Banca
+                     Nazionale del Lavoro’). For empty references, you should fill
+                     the respective gap with the symbol “-”. 
+                  </p>
+                  
+               </section>
+               
+            </div>
+            
+            <div class="text-justify">
+               
+               <h3>Demographic information</h3>
+               <br>
+               
+               <h5>Before starting the task, we would like to ask you to indicate your
+                  gender, age and your English language proficiency level. Your
+                  information will be used for research purposes only. All your data
+                  will be held anonymously.
+               </h5>
+               <br>
+               
+               <table id="ff-table" class="table table-striped small" style="font-size: 14px">
+                  
+                  <tbody>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Gender:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="male" name="gender" value="male">
+                              <label for="male">Male</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="female" name="gender" value="female">
+                              <label for="female">Female</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="other" name="gender" value="other">
+                              <label for="other">Other</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Age:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           <input type="number" name="age" min="10" max="100">
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>English language proficiency:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="native" name="lng" value="native_speaker">
+                              <label for="male">Native speaker</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="fluent" name="lng" value="fluent">
+                              <label for="female">Fluent</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="intermediate" name="lng" value="Intermediate">
+                              <label for="other">Intermediate</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="basic" name="lng" value="basic">
+                              <label for="other">Basic</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                  </tbody>
+                  
+               </table>
+               
+            </div>
+            
+         </div>
+         <br>
+         
+         <hr class="my-4">
+         <br>
+         
+         <div id="human_6062_wsj1397.xml">
+            
+            <h3>
+               <strong>Text 1</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Nick Mancuso (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Nick Mancuso is an FBI Agent in a TV series.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> When last we left him , <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_1" id="human_6062_wsj1397_1"> had solved a murder
+                  mystery , unraveled a Washington political scandal , and racked up some pretty
+                  good ratings numbers in the miniseries `` Favorite Son . '' What next for <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_2" id="human_6062_wsj1397_2"> ? A spinoff series ,
+                  of course .
+               </p>
+               
+               <p class="lead"> There are plenty of worse inspirations for shows -- and
+                  most of them had already made the fall lineup : a nun raising some lovable
+                  orphans . A den mother raising some lovable teen models . A bunch of tans and
+                  bathing suits posing as lovable lifeguards .
+               </p>
+               
+               <p class="lead"> In that context , Robert Loggia 's riveting performance
+                  as <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_3" id="human_6062_wsj1397_3"> seems a better
+                  franchise for a series than most . Week by week on `` Mancuso FBI '' ( NBC ,
+                  Fridays , 10 p.m . ET ) , <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_4" id="human_6062_wsj1397_4">
+                  pokes around the crime styles of the rich , famous and powerful of the
+                  Washington scene -- a loose cannon on deck at the FBI .
+               </p>
+               
+               <p class="lead"> Over the first few weeks , `` Mancuso FBI '' has sprung
+                  straight from the headlines , which is either a commendable stab at topicality ,
+                  or a lack of imagination , or both . The opening show featured a secretary of
+                  defense designate accused of womanizing ( a la John Tower ) . When his secretary
+                  is found floating dead in the pol 's pool , <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_5" id="human_6062_wsj1397_5"> is called in to
+                  investigate .
+               </p>
+               
+               <p class="lead"> Last week , a young black girl claimed she had been raped
+                  by a white police officer ( a la Tawana Brawley ) . In this week 's show , there
+                  's an unsafe nuclear weaponsmaking facility ( a la Rocky Flats ) .
+               </p>
+               
+               <p class="lead"> Along the way , we 're introduced to the supporting cast
+                  : a blond bombshell secretary ( Randi Brazen -- her real name , honest ) , a
+                  scheming young boss ( Fredric Lehne ) , another blonde bombshell who 's also an
+                  idealistic lawyer ( Lindsay Frost ) , and a forensics expert ( Charles Siebert )
+                  .
+               </p>
+               
+               <p class="lead"> If all of this seems a little stale , it 's redeemed in
+                  part by some tricky plot twists : The usual suspects are found to be guilty ,
+                  then not guilty , then guilty -- but of a different crime . ( In last week 's
+                  rape case , for example , the girl turns out to have been a victim of incest ,
+                  and the biggest villains are the politicians who exploit the case . ) Most of
+                  all though , the show is redeemed by <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_6" id="human_6062_wsj1397_6"> .
+               </p>
+               
+               <p class="lead"> What makes <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_7" id="human_6062_wsj1397_7"> so endearing is <input type="text" required maxlength="45" autocomplete="off" name="human_6062_wsj1397_8" id="human_6062_wsj1397_8"> hard - bitten
+                  cynicism -- earned , we discover , when he was assigned to the civil rights
+                  movement back in the 1960s . He was n't protecting the Freedom Marchers ; he was
+                  tailing them as subversives .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_3922_wsj1246.xml">
+            
+            <h3>
+               <strong>Text 2</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Dr Shin Yonehara and Dr Nobuyuku Kobayashi (they/them/their)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Dr Shin Yonehara and Dr Nobuyuku Kobayashi are two Japanese scientists at
+                  Yamaguchi University.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_1" id="human_3922_wsj1246_1"> said they discovered an
+                  antibody that , in laboratory test - tube experiments , kills AIDS - infected
+                  cells while preserving healthy cells .
+               </p>
+               
+               <p class="lead"> If further experiments are successful , the work would
+                  represent a major advance in research on acquired immune deficiency syndrome .
+                  The drug AZT , the only treatment currently on the market , claims only to help
+                  stop the spread of AIDS , not to cure it .
+               </p>
+               
+               <p class="lead"> But several analysts and Japanese scientists familiar
+                  with the study , which was announced at a conference in Nagoya yesterday ,
+                  expressed skepticism over the significance of the results . And <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_3" id="human_3922_wsj1246_3"> acknowledged <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_4" id="human_3922_wsj1246_4"> still must do much
+                  more work before <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_5" id="human_3922_wsj1246_5">
+                  can say whether the treatment would actually cure humans .
+               </p>
+               
+               <p class="lead"> Shin Yonehara , a research scientist at the Tokyo
+                  Metropolitan Institute of Medical Science , said the antibody he discovered
+                  works by recognizing an antigen called a Fas - antigen , which is characteristic
+                  of an infected cell . The antibody then kills the cell .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_6" id="human_3922_wsj1246_6"> said <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_7" id="human_3922_wsj1246_7"> experiments showed
+                  that the antibody wiped out an average of 60 % of AIDS - infected cells within
+                  three days . In some of the experiments , it killed almost all the infected
+                  cells , <input type="text" required maxlength="45" autocomplete="off" name="human_3922_wsj1246_8" id="human_3922_wsj1246_8"> said . Meanwhile ,
+                  fewer than 10 % of the healthy cells were killed .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_12559_wsj2440.xml">
+            
+            <h3>
+               <strong>Text 3</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>The Talking Chip (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>The Talking Chip - was a speech synthesiser laminated into an advertisement for
+                  Texas Instruments that appeared in the magazine Business Week.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Business Week subscribers may hear this week 's issue
+                  talking back to them .
+               </p>
+               
+               <p class="lead"> A four - page ad from Texas Instruments Inc. , running in
+                  approximately 140,000 issues of the Oct. 20 " Corporate Elite " issue of the
+                  McGraw - Hill Inc. publication , contains <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_1" id="other_12559_wsj2440_1"> . Readers who pull off a piece of tape and
+                  press a switch will hear a tiny -- but distinctly human - sounding -- voice
+                  announce , " I am <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_2" id="other_12559_wsj2440_2">
+                  , " as <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_3" id="other_12559_wsj2440_3"> launches into a 15
+                  - second discourse on <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_4" id="other_12559_wsj2440_4">
+                  own attributes .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_5" id="other_12559_wsj2440_5"> is n't cheap --
+                  the per - ad cost to Texas Instruments is about $ 4 , and that 's without adding
+                  in Business Week 's charge -- but Texas Instruments believes <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_6" id="other_12559_wsj2440_6"> is a first .
+                  Previous efforts have included musical ads , featuring simple tone-generating
+                  chips that play a tune , but <input type="text" required maxlength="45" autocomplete="off" name="other_12559_wsj2440_7" id="other_12559_wsj2440_7"> is much more sophisticated , with none of the
+                  robotic flatness that one hears , for example , when calling telephone directory
+                  services.
+               </p>
+               
+               <p class="lead"> And for those who miss the message the first time around
+                  , not to worry : Three tiny batteries provide enough juice for as many as 650
+                  replays .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_2457_wsj1102.xml">
+            
+            <h3>
+               <strong>Text 4</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>The United States Dollar (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>The United States Dollar is the official currency of the United States, and
+                  frequently used in international business.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_1" id="other_2457_wsj1102_1"> finished lower
+                  yesterday , after tracking another rollercoaster session on Wall Street
+                  .
+               </p>
+               
+               <p class="lead"> Concern about the volatile U.S. stock market had faded in
+                  recent sessions , and traders appeared content to let <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_2" id="other_2457_wsj1102_2"> languish in a narrow
+                  range until tomorrow , when the preliminary report on third - quarter U.S. gross
+                  national product is released .
+               </p>
+               
+               <p class="lead"> But seesaw gyrations in the Dow Jones Industrial Average
+                  yesterday put Wall Street back in the spotlight and inspired market participants
+                  to bid <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_3" id="other_2457_wsj1102_3"> lower .
+               </p>
+               
+               <p class="lead"> UAL 's decision to remain an independent company sent
+                  share prices tumbling . By midmorning , the DJIA had plunged 80 points and
+                  foreign - exchange dealers quickly drove <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_4" id="other_2457_wsj1102_4"> down .
+               </p>
+               
+               <p class="lead"> When the DJIA modestly rebounded , <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_5" id="other_2457_wsj1102_5"> bounced back in
+                  choppy dealings but ended the day below the levels of late Monday . Stock prices
+                  , meanwhile , posted significant gains in later trading and closed down by only
+                  3.69 points on the day .
+               </p>
+               
+               <p class="lead"> Some dealers said that the market 's strong reaction to
+                  Wall Street reflects a general uneasiness about <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_6" id="other_2457_wsj1102_6"> . They added that
+                  the DJIA 's swift drop proved an easy excuse for the market to drive <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_7" id="other_2457_wsj1102_7"> in the direction
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_8" id="other_2457_wsj1102_8"> was already headed
+                  .
+               </p>
+               
+               <p class="lead"> In late New York trading yesterday , <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_9" id="other_2457_wsj1102_9"> was quoted at 1.8355
+                  marks , down from 1.8470 marks Monday , and at 141.45 yen , down from 141.90 yen
+                  late Monday . Sterling was quoted at $ 1.6055 , up from $ 1.6030 late Monday
+                  .
+               </p>
+               
+               <p class="lead"> In Tokyo Wednesday , <input type="text" required maxlength="45" autocomplete="off" name="other_2457_wsj1102_10" id="other_2457_wsj1102_10"> opened for trading
+                  at 141.57 yen , down from Tuesday 's Tokyo close of 142.10 yen .
+               </p>
+               
+               <p class="lead"> Tom Trettien , a vice president with Banque Paribas in
+                  New York , sees a break in the dollar 's long - term upward trend , a trend that
+                  began in January 1988 .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_1670_wsj1017.xml">
+            
+            <h3>
+               <strong>Text 5</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>George W. Bush (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>George W. Bush was president of the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The Democratic - controlled House , by a margin of 51
+                  votes , failed to override <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_1" id="human_1670_wsj1017_1">
+                  veto of legislation renewing federal support of Medicaid abortions for poor
+                  women who are victims of rape and incest .
+               </p>
+               
+               <p class="lead"> The 231 - 191 roll call illustrates the limits of power a
+                  resurgent abortion - rights movement still faces . It continues to gain strength
+                  in the chamber but remains far short of the two-thirds majority required to
+                  prevail over <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_2" id="human_1670_wsj1017_2">.
+               </p>
+               
+               <p class="lead"> Democrats voted to override by a 3 - 1 margin , but
+                  Republicans were equally firm in support of <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_3" id="human_1670_wsj1017_3"> .
+               </p>
+               
+               <p class="lead"> Yesterday 's vote dealt with the largest of these bills ,
+                  an estimated $ 156.7 billion measure funding the departments of Labor ,
+                  Education , and Health and Human Services . To gain more leverage ,
+                  abortion-rights advocates may seek to fold the bill into an omnibus continuing
+                  resolution next month . But the stark numbers yesterday -- when 282 votes were
+                  needed -- indicate <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_4" id="human_1670_wsj1017_4">
+                  is in a commanding position for at least this year . " Unless <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_5" id="human_1670_wsj1017_5"> changes , they lose
+                  , " said a Democratic leadership aide .
+               </p>
+               
+               <p class="lead"> The action came as Congress sent to <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_6" id="human_1670_wsj1017_6"> last night a stopgap
+                  spending bill to keep the government operating through Nov. 15 and provide $
+                  2.85 billion in emergency funds to assist in the recovery from Hurricane Hugo
+                  and the California earthquake. By a lopsided 97 - 1 margin , the Senate approved
+                  the measure after attaching further provisions sought by the influential
+                  California delegation and , despite reservations , the House adopted the bill on
+                  a 303 - 107 roll call .
+               </p>
+               
+               <p class="lead"> The package is more than $ 1 billion above the
+                  recommendations of Budget Director Richard Darman this week . But given the
+                  political importance of California , the administration was content to use its
+                  influence to prevent any Senate amendments adding further new appropriations.
+                  The $ 2.85 billion measure comes on top of $ 1.1 billion appropriated after Hugo
+                  struck the Carolinas and Caribbean last month , and these totals do n't reflect
+                  the additional benefit of low-interest disaster loans .
+               </p>
+               
+               <p class="lead"> The bill last night includes $ 500 million to help
+                  finance this credit and further raises the obligation ceiling for the Small
+                  Business Administration sixfold to $ 1.8 billion to accommodate the expected
+                  loan activity . In direct cash assistance , $ 1 billion is provided in federal
+                  highway construction funds , and $ 1.35 billion is divided between general
+                  emergency aid and a reserve to be available to <input type="text" required maxlength="45" autocomplete="off" name="human_1670_wsj1017_7" id="human_1670_wsj1017_7"> to meet
+                  unanticipated costs from the two disasters.
+               </p>
+               
+               <p class="lead"> In the Senate , Majority Whip Alan Cranston used his
+                  position to win not only the expanded credit but also more generous treatment
+                  than the House had permitted in the distribution of highway funds in the next
+                  six months.
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_3053_wsj1145.xml">
+            
+            <h3>
+               <strong>Text 6</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Public Service co. (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Public Service co. is a company in New Hampshire in the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Northeast Utilities raised its bid for <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_1" id="org_3053_wsj1145_1"> to $ 2.25 billion from $
+                  1.85 billion .
+               </p>
+               
+               <p class="lead"> Northeast 's raised bid , which was supported by PS of
+                  New Hampshire 's official shareholder committee , is a prelude to what is
+                  expected to be a round of higher bids by the other groups trying to acquire
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_2" id="org_3053_wsj1145_2"> .
+               </p>
+               
+               <p class="lead"> The $ 2.25 billion value claimed by Northeast , based in
+                  Hartford , Conn. , is the highest yet given to a bid . Some of the three other
+                  bidding groups are expected to increase their offers tomorrow , a date set for
+                  revised offers by a bankruptcy court judge . A hearing is set for Nov. 15 , but
+                  participants do n't expect a resolution until July 1990 .
+               </p>
+               
+               <p class="lead"> Under the new Northeast Utilities plan , it would pay $
+                  1.65 billion in cash to creditors and assume $ 100 million in pollution control
+                  bonds . Secured creditors would recover both principal and interest , while
+                  unsecured creditors would receive only principal and interest accrued before
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_3" id="org_3053_wsj1145_3"> filed for Bankruptcy
+                  Code protection in January
+               </p>
+               
+               <p class="lead"> The biggest change in Northeast 's offer was in
+                  improvements made for equity holders who had been given short shrift previously
+                  . Assuming full operation of the Seabrook nuclear power plant , which is
+                  completed but is n't yet operating , equity holders would receive up to $ 500
+                  million in cash , preferred stock and new 10-year Seabrook bonds . Northeast 's
+                  previous offer had proposed that equity holders receive just $ 165 million
+                  .
+               </p>
+               
+               <p class="lead"> In addition , Northeast promised the State of New
+                  Hampshire that rate increases would be limited to 5.5 % annually for seven years
+                  . Its previous proposal had conditioned rate limits on Seabrook operations and
+                  other contingencies .
+               </p>
+               
+               <p class="lead"> Wilbur Ross , financial adviser to the equity holders
+                  said , " Given the state 's strong bargaining position, we believe the NU plan
+                  provides the best recovery available" to <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_4" id="org_3053_wsj1145_4"> equity holders .
+               </p>
+               
+               <p class="lead"> Officials of <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_5" id="org_3053_wsj1145_5"> could n't be reached for comment . <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_6" id="org_3053_wsj1145_6"> has filed an internal
+                  reorganization plan <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_7" id="org_3053_wsj1145_7">
+                  valued at $ 2.2 billion that would require 5.5 % rate increases . That plan
+                  would leave existing preferred shareholders with at least a 41 % stake and give
+                  common shareholders as little as 13 % .
+               </p>
+               
+               <p class="lead"> New England Electric System , Westborough , Mass. , has
+                  proposed buying <input type="text" required maxlength="45" autocomplete="off" name="org_3053_wsj1145_8" id="org_3053_wsj1145_8"> for $
+                  2 billion as part of a plan that would require rate increases of only 4.8 %
+                  annually for seven years . The state of New Hampshire has favored that plan
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_10328_wsj2363.xml">
+            
+            <h3>
+               <strong>Text 7</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Canada (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Canada is a large country in North America with many natural resources.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Interprovincial Pipe Line Co. said it will delay a
+                  proposed two-step , 830 million Canadian - dollar ( US$ 705.6 million )
+                  expansion of its system because <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_1" id="citycountry_10328_wsj2363_1"> output of crude oil is shrinking
+                  .
+               </p>
+               
+               <p class="lead"> Interprovincial , <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_2" id="citycountry_10328_wsj2363_2"> biggest oil pipeline operator and a major
+                  transporter of crude to the U.S. , said revised industry forecasts indicate that
+                  Canadian oil output will total about 1.64 million barrels a day by 1991 , 8 %
+                  lower than a previous estimate . Canadian crude production averaged about 1.69
+                  million barrels a day during 1989 's first half , about 1 % below the 1988 level
+                  .
+               </p>
+               
+               <p class="lead"> " The capability of existing fields to deliver oil is
+                  dropping , '' and oil exploration activity is also down dramatically , as many
+                  producers shift their emphasis to natural gas , said Ronald Watkins , vice
+                  president for government and industry relations with Interprovincial 's parent ,
+                  Interhome Energy Inc . Mr. Watkins said volume on Interprovincial 's system is
+                  down about 2 % since January and is expected to fall further , making expansion
+                  unnecessary until perhaps the mid-1990s .
+               </p>
+               
+               <p class="lead"> " There has been a swing of the pendulum back to the gas
+                  side , " he said .
+               </p>
+               
+               <p class="lead"> Many of <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_3" id="citycountry_10328_wsj2363_3"> oil and gas producers say the outlook for
+                  natural gas is better than it is for oil , and have shifted their exploration
+                  and development budgets accordingly . The number of active drilling rigs in
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_4" id="citycountry_10328_wsj2363_4"> is
+                  down 30 % from a year ago , and the number of completed oil wells is " down more
+                  than that , due to the increasing focus on gas exploration , " said Robert Feick
+                  , manager of crude oil with Calgary 's Independent Petroleum Association of
+                  Canada , an industry group .
+               </p>
+               
+               <p class="lead"> Mr. Watkins said the main reason for the production
+                  decline is shrinking output of light crude from mature , conventional fields in
+                  western Canada . Interprovincial transports about 75 % of all crude produced in
+                  western Canada , and almost 60 % of Interprovincial 's total volume consists of
+                  light crude .
+               </p>
+               
+               <p class="lead"> Nearly all of the crude oil that <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_5" id="citycountry_10328_wsj2363_5">
+                  exports to the U.S. is transported on Interprovincial 's system , whose main
+                  line runs from Edmonton to major U.S. and Canadian cities in the Great Lakes
+                  region , including Chicago , Buffalo , Toronto and Montreal .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_6" id="citycountry_10328_wsj2363_6">
+                  current oil exports to the U.S. total about 600,000 barrels a day , or about 9.1
+                  % of net U.S. crude imports , said John Lichtblau , president of the New
+                  York-based Petroleum Industry Research Foundation . That ranks <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_7" id="citycountry_10328_wsj2363_7"> as the
+                  fourth largest source of imported crude , behind Saudi Arabia , Nigeria and
+                  Mexico .
+               </p>
+               
+               <p class="lead"> Mr. Lichtblau said <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_8" id="citycountry_10328_wsj2363_8"> declining crude output , combined with
+                  the fast-shrinking output of U.S. crude , will help intensify U.S. reliance on
+                  oil from overseas , particularly the Middle East . " It 's very much a growing
+                  concern . But when something is inevitable , you learn to live with it , " he
+                  said .
+               </p>
+               
+               <p class="lead"> Mr. Lichtblau stressed that the delay of Interprovincial
+                  's proposed expansion wo n't by itself increase U.S. dependence on offshore
+                  crude , however , since Canadian imports are limited in any case by <input type="text" required maxlength="45" autocomplete="off" name="citycountry_10328_wsj2363_9" id="citycountry_10328_wsj2363_9">
+                  falling output .
+               </p>
+               
+               <p class="lead"> Under terms of its proposed two-step expansion , which
+                  would have required regulatory approval , Interprovincial intended to add
+                  200,000 barrels a day of additional capacity to its system , beginning with a
+                  modest expansion by 1991 .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_9432_wsj2136.xml">
+            
+            <h3>
+               <strong>Text 8</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Venice (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Venice is a city in Italy famous for its canals.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Dun &amp; Bradstreet Corp. 's Market Data Retrieval unit
+                  said it acquired School and College Construction Reports service from
+                  Intelligence for Education Inc . Terms were n't disclosed .
+               </p>
+               
+               <p class="lead"> The service supplies weekly reports on school and college
+                  construction plans.
+               </p>
+               
+               <p class="lead"> Market Data Retrieval is a compiler of educational
+                  information and provides related services. Closely held Intelligence in
+                  Education , of Larchmont , N.Y. , is an educational publisher and consultant
+                  .
+               </p>
+               
+               <p class="lead"> A battle is raging in <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_1" id="citycountry_9432_wsj2136_1"> over
+                  plans to have <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_2" id="citycountry_9432_wsj2136_2"> be the site for a universal exposition in
+                  2000 .
+               </p>
+               
+               <p class="lead"> The plans include a subway system , a congress center ,
+                  floating trees , fanciful fountains -- and as many as 60,000 additional tourists
+                  a day .
+               </p>
+               
+               <p class="lead"> Expo enthusiasts argue that holding the fair would
+                  attract businesses , create jobs and help renovate abandoned sections of <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_3" id="citycountry_9432_wsj2136_3"> . But
+                  opponents fear overcrowding . " <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_4" id="citycountry_9432_wsj2136_4"> already has too many tourists , and <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_5" id="citycountry_9432_wsj2136_5"> ca n't
+                  hold them all , " says Pierluigi Beggiato , the president of the <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_6" id="citycountry_9432_wsj2136_6">
+                  hoteliers association .
+               </p>
+               
+               <p class="lead"> About 40 Italian businesses , including Fiat S.p . A. and
+                  Ing . C. Olivetti &amp; Co. , have formed a consortium to lobby for holding the
+                  expo in <input type="text" required maxlength="45" autocomplete="off" name="citycountry_9432_wsj2136_7" id="citycountry_9432_wsj2136_7">
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_4932_wsj1317.xml">
+            
+            <h3>
+               <strong>Text 9</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Kenneth Roman (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Kenneth Roman is the 59-year-old former chairman and chief executive officer of
+                  the Ogilvy Group.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Just five months after Ogilvy Group was swallowed up in
+                  an unsolicited takeover , <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_1" id="human_4932_wsj1317_1">
+                  said <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_2" id="human_4932_wsj1317_2"> is leaving to take a
+                  top post at American Express Co .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_3" id="human_4932_wsj1317_3"> abruptly announced
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_4" id="human_4932_wsj1317_4"> will leave the
+                  venerable ad agency , whose largest client is American Express , to become
+                  American Express 's executive vice president for corporate affairs and
+                  communications . <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_5" id="human_4932_wsj1317_5">
+                  will succeed Harry L. Freeman , 57 , who has said he will retire in December .
+                  Mr. Freeman said in August that he would retire by the end of this year to take
+                  " executive responsibility " for an embarrassing effort to discredit banker
+                  Edmond Safra . American Express representatives apparently influenced the
+                  publication of unfavorable articles about Mr. Safra . The company later
+                  apologized and agreed to make $ 8 million in contributions to charities chosen
+                  by him .
+               </p>
+               
+               <p class="lead"> Although Mr. Freeman is retiring , he will continue to
+                  work as a consultant for American Express on a project basis .
+               </p>
+               
+               <p class="lead"> Ad industry executives were n't surprised by <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_6" id="human_4932_wsj1317_6"> decision to leave
+                  Ogilvy. The agency , under <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_7" id="human_4932_wsj1317_7">
+                  direction , bitterly fought a takeover attempt by WPP Group PLC of London before
+                  succumbing in May . And although <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_8" id="human_4932_wsj1317_8"> and WPP 's chief executive , Martin Sorrell ,
+                  have gone out of their way to be publicly supportive of each other , people
+                  close to <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_9" id="human_4932_wsj1317_9">
+                  say <input type="text" required maxlength="45" autocomplete="off" name="human_4932_wsj1317_10" id="human_4932_wsj1317_10"> was unhappy giving
+                  up control of the company . Some executives also cite tension because of efforts
+                  by Mr. Sorrell , a financial man , to cut costs at the agency .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_5431_wsj1362.xml">
+            
+            <h3>
+               <strong>Text 10</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Detrex Corp. (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Detrex Corp. is a company in the United States which manufactures
+                  chemicals.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_1" id="org_5431_wsj1362_1"> said a reserve <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_2" id="org_5431_wsj1362_2"> is establishing to cover
+                  expected pollution cleanup costs at an Ohio plant reduced <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_3" id="org_5431_wsj1362_3"> third-quarter net income
+                  by $ 1.9 million .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_4" id="org_5431_wsj1362_4"> declined to say if
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_5" id="org_5431_wsj1362_5"> would post a loss in the
+                  third quarter . <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_6" id="org_5431_wsj1362_6">
+                  earned $ 774,000 in the quarter last year .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_7" id="org_5431_wsj1362_7"> is setting aside $ 3.1
+                  million for the cleanup , but said the reserve reduced <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_8" id="org_5431_wsj1362_8"> quarterly income by only
+                  $ 1.9 million because of tax considerations .
+               </p>
+               
+               <p class="lead"> In addition , <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_9" id="org_5431_wsj1362_9"> said <input type="text" required maxlength="45" autocomplete="off" name="org_5431_wsj1362_10" id="org_5431_wsj1362_10"> signed a consent decree with Ohio to build a $
+                  1.4 million pollution-control facility at the Ashtabula chemical manufacturing
+                  plant by Aug. 1 , 1990 .
+               </p>
+               
+               <p class="lead"> Detrex said it is one of at least 17 companies notified
+                  by the Environmental Protection Agency that they may be potentially responsible
+                  for cleaning up the Fields Brook watershed near Detrex 's Ashtabula plant at a
+                  total cost the EPA estimates at $48 million -- a figure Detrex said the
+                  companies dispute.
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+      </body>
+      
+   </crowd-form>
+   
+</list>

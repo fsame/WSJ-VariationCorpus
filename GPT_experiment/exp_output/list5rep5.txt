@@ -1,0 +1,84 @@
+REF 1366_1: Alan Cranston
+REF 1366_2: his
+REF 1366_3: he
+REF 1366_4: him
+REF 1366_5: Alan Cranston
+REF 1366_6: Alan Cranston's
+REF 1366_7: his
+REF 1366_8: Alan Cranston
+REF 0910_1: Canada
+REF 0910_2: its
+REF 0910_3: it
+REF 0910_4: Canada
+REF 0910_5: it
+REF 0910_6: its
+REF 0910_7: Canada
+REF 0910_8: its
+REF_1386_1: a converter
+REF_1386_2: the converter
+REF_1386_3: it
+REF_1386_4: the converter
+REF_1386_5: converter
+REF_1386_6: Converters
+REF_1386_7: the converter
+REF_1386_8: it
+REF_1396_1: Alcee Hastings
+REF_1396_2: him
+REF_1396_3: his
+REF_1396_4: His
+REF_1396_5: Hastings
+REF_1396_6: his court
+REF_1396_7: him
+REF_1396_8: Hastings
+REF_1396_9: Alcee Hastings
+REF_1296_1: Drexel's
+REF_1296_2: its
+REF_1296_3: its
+REF_1296_4: Drexel
+REF_1296_5: the company's
+REF_1296_6: its
+REF_1296_7: its
+REF_1296_8: Drexel 
+REF_1296_9: the company
+REF_1296_10: Drexel
+REF 1141_1: Israel
+REF 1141_2: it
+REF 1141_3: Its
+REF 1141_4: its
+REF 1141_5: Israel
+REF 1141_6: it
+REF 1141_7: its
+REF 0020_1: Carla Hills
+REF 0020_2: Hills
+REF 0020_3: she
+REF 0020_4: the spokesperson for the United States Trade Department
+REF 0020_5: the U.S. spokesperson
+REF 0020_6: Carla Hills
+REF 0020_7: she
+REF 0020_8: Hills
+REF 0020_9: Carla Hills
+REF 2353_1: Valley Federal
+REF 2353_2: Valley Federal's
+REF 2353_3: Valley Federal
+REF 2353_4: it
+REF 2353_5: Valley Federal
+REF 2353_6: it
+REF 2353_7: Valley Federal
+REF 1455_1: William McDonough
+REF 1455_2: He
+REF 1455_3: McDonough
+REF 1455_4: him
+REF 1455_5: his
+REF 1455_6: he
+REF 1455_7: his
+REF 1455_8: William McDonough
+REF 1455_9: He
+REF 1455_10: his
+REF 1159_1: the new guidelines
+REF 1159_2: These directives
+REF 1159_3: The guidelines
+REF 1159_4: they
+REF 1159_5: these guidelines
+REF 1159_6: The regulations
+REF 1159_7: these directives
+REF 1159_8: the new guidelines

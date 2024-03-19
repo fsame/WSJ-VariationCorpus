@@ -1,0 +1,83 @@
+REF_1317_1: Kenneth Roman
+REF_1317_2: he
+REF_1317_3: Kenneth Roman
+REF_1317_4: he
+REF_1317_5: He
+REF_1317_6: Kenneth Roman's
+REF_1317_7: his
+REF_1317_8: Kenneth Roman
+REF_1317_9: Kenneth Roman
+REF_1317_10: he
+REF 1102_1: The United States Dollar
+REF 1102_2: The official currency of the United States
+REF 1102_3: it
+REF 1102_4: the US currency
+REF 1102_5: the dollar
+REF 1102_6: the monetary unit of The United States
+REF 1102_7: it
+REF 1102_8: this currency
+REF 1102_9: The dollar
+REF 1102_10: the American Dollar
+REF 2440_1: the Talking Chip
+REF 2440_2: the Talking Chip
+REF 2440_3: the speech synthesiser
+REF 2440_4: its
+REF 2440_5: The Talking Chip
+REF 2440_6: the Talking Chip
+REF 2440_7: It
+REF_1017_1: George W. Bush's
+REF_1017_2: George W. Bush
+REF_1017_3: George W. Bush
+REF_1017_4: George W. Bush 
+REF_1017_5: George W. Bush's stance
+REF_1017_6: George W. Bush
+REF_1017_7: George W. Bush
+REF 1362_1: Detrex Corp.
+REF 1362_2: it
+REF 1362_3: its
+REF 1362_4: The company
+REF 1362_5: it
+REF 1362_6: Detrex Corp.
+REF 1362_7: It
+REF 1362_8: its
+REF 1362_9: the company
+REF 1362_10: it
+REF 1246_1: Dr Shin Yonehara and Dr Nobuyuku Kobayashi
+REF 1246_3: Dr Shin Yonehara and Dr Nobuyuku Kobayashi
+REF 1246_4: these two Japanese scientists
+REF 1246_5: they
+REF 1246_6: Dr Shin Yonehara and Dr Nobuyuku Kobayashi
+REF 1246_7: their
+REF 1246_8: Dr Shin Yonehara and Dr Nobuyuku Kobayashi
+REF_1397_1: Nick Mancuso
+REF_1397_2: he
+REF_1397_3: Mancuso
+REF_1397_4: the FBI agent
+REF_1397_5: our lead character
+REF_1397_6: the performance of Nick Mancuso
+REF_1397_7: Mancuso
+REF_1397_8: his
+REF_1145_1: Public Service co.
+REF_1145_2: it
+REF_1145_3: the company
+REF_1145_4: Public Service co.'s
+REF_1145_5: the New Hampshire company
+REF_1145_6: It
+REF_1145_7: Public Service co.
+REF_1145_8: the company
+REF 2363_1: Canada's 
+REF 2363_2: Canada's
+REF 2363_3: Canada's
+REF 2363_4: Canada
+REF 2363_5: Canada
+REF 2363_6: Canada's
+REF 2363_7: Canada
+REF 2363_8: Canada's
+REF 2363_9: Canada's
+REF_2136_1: Venice
+REF_2136_2: Venice
+REF_2136_3: Venice
+REF_2136_4: Venice
+REF_2136_5: Venice
+REF_2136_6: Venetian
+REF_2136_7: Venice

@@ -1,0 +1,85 @@
+REF 1163_1: Anne Bogart
+REF 1163_2: She
+REF 1163_3: her
+REF 1163_4: Bogart
+REF 1163_5: her
+REF 1163_6: her
+REF 1163_7: her
+REF 1163_8: Bogart
+REF 1078_1: Saab-Scania
+REF 1078_2: its
+REF 1078_3: SAAB
+REF 1078_4: the Swedish auto and aerospace company
+REF 1078_5: Saab-Scania AB
+REF 1078_6: its
+REF 1078_7: the said company
+REF 1078_8: it
+REF_1567_1: James Schwartz
+REF_1567_2: his
+REF_1567_3: him
+REF_1567_4: Schwartz
+REF_1567_5: He 
+REF_1567_6: he
+REF_1567_7: James
+REF_1567_8: his
+REF_1367_1: Anne Volokh
+REF_1367_2: Anne Volokh's
+REF_1367_3: Anne Volokh
+REF_1367_4: she
+REF_1367_5: she
+REF_1367_6: Anne Volokh
+REF_1367_7: she
+REF_1367_8: she
+REF_1367_9: Anne Volokh
+REF_1367_10: Anne Volokh's
+REF_1587_1: Hepatitis
+REF_1587_2: the viral disease
+REF_1587_3: this infectious disease
+REF_1587_4: it
+REF_1587_5: the disease
+REF_1587_6: Hepatitis
+REF_1587_7: the virus
+REF_1587_8: this infection
+REF 2436_1: Roger Rosenblatt
+REF 2436_2: The magazine
+REF 2436_3: he
+REF 2436_4: his
+REF 2436_5: Rosenblatt
+REF 2436_6: his
+REF 2436_7: Rosenblatt
+REF 1373_1: Computer chips
+REF 1373_2: the new chips
+REF 1373_3: them
+REF 1373_4: These chips
+REF 1373_5: their
+REF 1373_6: the ceramic chips
+REF 1373_7: these chips
+REF 1373_8: these computer chips
+REF 1373_9: they
+REF_1846_1: Turkey
+REF_1846_2: Turkey
+REF_1846_3: its
+REF_1846_4: Turkey
+REF_1846_5: its
+REF_1846_6: it
+REF_1846_7: its
+REF_1846_8: it
+REF_1846_9: Turkey
+REF 2394_1: Avis Inc.
+REF 2394_2: it
+REF 2394_3: the rental car company
+REF 2394_4: the company
+REF 2394_5: Avis
+REF 2394_6: its
+REF 2394_7: the company
+REF 2394_8: Avis Inc.
+REF 2394_9: Avis's
+REF_1529_1: Mexico
+REF_1529_2: its
+REF_1529_3: it
+REF_1529_4: its
+REF_1529_5: its
+REF_1529_6: Mexico
+REF_1529_7: it
+REF_1529_8: Mexico
+REF_1529_9: its

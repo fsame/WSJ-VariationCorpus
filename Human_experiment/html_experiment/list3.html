@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+         integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+         crossorigin="anonymous" />
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+      <style>
+         #borderDemo {border: 3px outset #1C6EA4;border-radius: 20px;}
+      </style>
+      <style>
+         #boxdemo {border: 2px groove #999FA4;
+         border-radius: 10px;
+         background: #E8E8E8;}
+      </style>
+      <style>
+         #demoFont {
+         font-size: 24px;
+         letter-spacing: 0px;
+         word-spacing: 0px;
+         color: #000000;
+         text-decoration: none;
+         font-style: normal;
+         font-variant: small-caps;
+         text-transform: none;}
+      </style>
+      <style> .div-1 { background-color: #EBEBEB; } </style>
+   </head>
+   <crowd-form answer-format="flatten-objects">
+      
+      <body class="container">
+         
+         <div id="firstpage">
+            
+            <div class="text-center">
+               <br>
+               
+               <div id="borderDemo">
+                  <strong>Welcome!</strong> Thank you for participating in our
+                  research. Please read the instructions carefully. 
+               </div>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <section id="Proceedings">
+                  
+                  <h3>Proceedings</h3>
+                  
+                  <p class="lead">If you have done a variant of this task today,
+                     please do not continue. We can only use one response set per
+                     responder.
+                  </p>
+                  
+                  <p class="lead"> In the next pages, you will be presented with 10
+                     texts, consisting of news texts, from an American newspaper.
+                     Each text will talk about one specific subject, which can be,
+                     for example, a person, a company, a group, a country or a
+                     commercial product. 
+                  </p>
+                  
+                  <p class="lead"> In each text, all references to one subject are
+                     replaced by empty boxes. Your goal is to fill those gaps,
+                     referring to the main subject of the text, so that the text
+                     becomes easy to understand. 
+                  </p>
+                  
+                  <p class="lead"> Always talk about the whole subject: so if the
+                     topic is *Mr and Mrs Smith* and you know they are a couple from
+                     London, then you can fill a box with "Mr and Mrs Smith", "the
+                     London couple", "this couple", "they", "Mr and Mrs Smith's",
+                     "the couple's" and so on. But a box is never about "Mr Smith" or
+                     "Mrs Smith" on their own.
+                  </p>
+                  
+                  <p class="lead"> Although we show you words like "he", "she", "it",
+                     "they" or similar, you do not have to use them. In the box you
+                     can put any way of identifying the subject. If the subject is
+                     "Joe Biden, the president of the United States" you can put "Joe
+                     Biden" or "Mr Biden" or "Joe Biden's" or "the president of the
+                     United States" or "the president" or "the president's" or "him"
+                     or "his", or any other way of identifying this person. 
+                  </p>
+                  
+                  <p class="lead"> At the start of each text, you will see a line
+                     which gives you the subject of the text, and the thing or person
+                     you need to refer to as you fill out the boxes. To help you
+                     understand how to talk about the thing or person you will also
+                     have a helper sentence providing more information. For
+                     example:
+                  </p>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Margaret Thatcher (she/her) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Margaret Thatcher was the prime
+                        minister of the United Kingdom. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  
+                  <p class="lead"> Based on that description, here is an example of
+                     what a text looks like: 
+                  </p>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     instinctive response to the latest upheaval in <input type="text" size="15" name="test_1" readonly="true">
+                     government is to promise business as usual . That may be the
+                     last thing <input type="text" size="15" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="15" name="test_1" readonly="true"> and
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     new chancellor of the exchequer , the untested John Major , need
+                     to haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="15" name="test_1" readonly="true"> has to
+                     come to terms with European economic integration , beginning
+                     with the European Monetary System , which Britain is committed
+                     to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead"> Please notice that there are many ways in which you
+                     can fill the gaps. Here, for example, is one variant: 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="18" value="Margaret Thatcher's" name="test_1" readonly="true"> instinctive response to the
+                     latest upheaval in <input type="text" value="her" size="18" name="test_1" readonly="true"> government is to promise
+                     business as usual . That may be the last thing <input type="text" value="she" size="18" name="test_1" readonly="true"> needs . As the air clears from last week's storm of resignations and reshufflings , the government faces
+                     a daunting job of rebuilding confidence in its policies . <input type="text" size="18" value="The prime minister" name="test_1" readonly="true"> and <input type="text" size="18" value="her" name="test_1" readonly="true"> new
+                     chancellor of the exchequer , the untested John Major , need to
+                     haul the country through something like a recession to bring
+                     down inflation and set the economy moving again . <input type="text" size="18" value="Mrs. Thatcher" name="test_1" readonly="true"> has to come to terms with European
+                     economic integration , beginning with the European Monetary
+                     System , which Britain is committed to joining fully someday . 
+                  </p>
+                  
+                  <p class="lead">Below is another example in which the subject is a
+                     bank.
+                  </p>
+                  <br>
+                  
+                  <div class="jumbotron lead">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">subject:
+                           </span>Banca Nazionale del Lavoro (it/its) 
+                     </p>
+                     
+                     <hr class="my-4">
+                     
+                     <p>
+                        <span style="font-weight: 700;" id="demoFont">helper
+                           sentence: </span>Banca Nazionale del Lavoro - or BNL for
+                        short - is Italy's largest bank. 
+                     </p>
+                     
+                  </div>
+                  <br>
+                  <span style="font-weight: 700;" id="demoFont">example - do not type
+                     here</span>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     said <input type="text" size="15" name="test_1" readonly="true"> potential losses from lending to Iraq could reach 1.175
+                     trillion lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" readonly="true">
+                     Atlanta branch . <input type="text" size="15" name="test_1" readonly="true"> previously reported that <input type="text" size="15" name="test_1" readonly="true">
+                     Georgia branch had taken on loan commitments topping $ 3 billion
+                     without the Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="jumbotron lead">
+                     <input type="text" size="22" name="test_1" readonly="true" value="Banca Nazionale del Lavoro"> said <input type="text" size="15" name="test_1" value="its" readonly="true">
+                     potential losses from lending to Iraq could reach 1.175 trillion
+                     lire ( $ 872 million ) , marking <input type="text" size="15" name="test_1" value="this bank's" readonly="true"> first
+                     quantification of potential costs of unauthorized lending by
+                     <input type="text" size="15" name="test_1" value="its" readonly="true"> Atlanta branch . <input type="text" size="15" name="test_1" value="BNL" readonly="true">
+                     previously reported that <input type="text" size="15" name="test_1" value="its" readonly="true"> Georgia branch
+                     had taken on loan commitments topping $ 3 billion without the
+                     Rome-based management's approval . 
+                  </p>
+                  
+                  <p class="lead"> Feel free to fill the gaps according to your own
+                     judgment and preference. However, please, do not fill all of
+                     them with only one type of reference (e.g., always ‘Banca
+                     Nazionale del Lavoro’). For empty references, you should fill
+                     the respective gap with the symbol “-”. 
+                  </p>
+                  
+               </section>
+               
+            </div>
+            
+            <div class="text-justify">
+               
+               <h3>Demographic information</h3>
+               <br>
+               
+               <h5>Before starting the task, we would like to ask you to indicate your
+                  gender, age and your English language proficiency level. Your
+                  information will be used for research purposes only. All your data
+                  will be held anonymously.
+               </h5>
+               <br>
+               
+               <table id="ff-table" class="table table-striped small" style="font-size: 14px">
+                  
+                  <tbody>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Gender:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="male" name="gender" value="male">
+                              <label for="male">Male</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="female" name="gender" value="female">
+                              <label for="female">Female</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="other" name="gender" value="other">
+                              <label for="other">Other</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>Age:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           <input type="number" name="age" min="10" max="100">
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                     <tr>
+                        
+                        <td>
+                           <strong>English language proficiency:</strong>
+                           
+                        </td>
+                        
+                        <td>
+                           
+                           <div>
+                              <input type="radio" id="native" name="lng" value="native_speaker">
+                              <label for="male">Native speaker</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="fluent" name="lng" value="fluent">
+                              <label for="female">Fluent</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="intermediate" name="lng" value="Intermediate">
+                              <label for="other">Intermediate</label>
+                              <span style="padding-left: 2px;"></span>
+                              <span style="padding-left: 2px;"></span>
+                              <input type="radio" id="basic" name="lng" value="basic">
+                              <label for="other">Basic</label>
+                              
+                           </div>
+                           
+                        </td>
+                        
+                     </tr>
+                     
+                  </tbody>
+                  
+               </table>
+               
+            </div>
+            
+         </div>
+         <br>
+         
+         <hr class="my-4">
+         <br>
+         
+         <div id="citycountry_1432_wsj0910.xml">
+            
+            <h3>
+               <strong>Text 1</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>The United States (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>The United States of America is a large and highly populated country in North
+                  America. For many years, The U.S. tended to dominate the 32-nation Organization of
+                  American States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The Canadian government , with a view to becoming more
+                  politically active in Latin America , is expected to announce tomorrow its
+                  application to join the Organization of American States , a Washington-based
+                  regional agency .
+               </p>
+               
+               <p class="lead"> The expected Canadian move has been welcomed by the Bush
+                  administration even though Canada has opposed such U.S. actions as the trade
+                  embargo against Cuba , the invasion of Grenada and the military support for
+                  Nicaragua's Contra guerrillas .
+               </p>
+               
+               <p class="lead"> Latin American countries have long urged Canada to join
+                  the OAS in the hopes that it would be a counterweight to <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_1" id="citycountry_1432_wsj0910_1">
+                  .
+               </p>
+               
+               <p class="lead"> Even though <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_2" id="citycountry_1432_wsj0910_2"> also has supported Canadian membership ,
+                  it hasn't been a <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_3" id="citycountry_1432_wsj0910_3"> priority . " The fact that we might not
+                  side with the Americans may be a reason why Canada's membership in the OAS hasn't been , over the years , an item high on the U.S. agenda , " said Allan
+                  Gotlieb , former Canadian ambassador to <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_4" id="citycountry_1432_wsj0910_4"> .
+               </p>
+               
+               <p class="lead"> The Canadian application is expected to be announced in
+                  San Jose , Costa Rica , by Canadian Prime Minister Brian Mulroney , who is
+                  attending a centenary celebration of Costa Rican democracy . " Canada has a
+                  larger and more beneficial role to play in the hemisphere , " Mr. Mulroney said
+                  recently .
+               </p>
+               
+               <p class="lead"> Some Canadian political commentators have opposed Canada's joining what they see as a U.S.-dominated organization . " Canada could do
+                  plenty of things to get serious about Latin America without running the risk of
+                  getting caught in the cross fire " between <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_5" id="citycountry_1432_wsj0910_5"> and
+                  Latin American members of the OAS , said Jeffrey Simpson , a columnist in
+                  Toronto's Globe &amp; Mail newspaper .
+               </p>
+               
+               <p class="lead"> Canada , at times , could be an awkward OAS partner for
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_6" id="citycountry_1432_wsj0910_6"> if its
+                  United Nations voting record is an indication . In U.N. General Assembly votes
+                  last year , Canada voted the same as <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_7" id="citycountry_1432_wsj0910_7"> only 63 % of the time . France voted the
+                  same as <input type="text" required maxlength="45" autocomplete="off" name="citycountry_1432_wsj0910_8" id="citycountry_1432_wsj0910_8"> 76 % of
+                  the time , West Germany 79 % and Britain 83 % .
+               </p>
+               
+               <p class="lead"> Larry Birns , director of the Washington-based Council
+                  on Hemispheric Affairs , a liberal research group , said that Latin American
+                  countries would be " profoundly disappointed " if Canada were to follow the U.S.
+                  lead in the OAS .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_829_wsj0591.xml">
+            
+            <h3>
+               <strong>Text 2</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Charles Wohlstetter (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Charles Wohlstetter , 79 years old , is the chairman of Contel
+                  Corporation.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Several of the New York Stock Exchange's own listed
+                  companies , led by giant Contel Corp. , are joining for the first time to
+                  complain about program trading and the exchange's role in it .
+               </p>
+               
+               <p class="lead"> Claiming program trading has turned the Big Board into a
+                  " gambling casino , " <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_1" id="human_829_wsj0591_1">
+                  said that <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_2" id="human_829_wsj0591_2"> and
+                  at least 20 other corporate executives are forming an unprecedented alliance
+                  .
+               </p>
+               
+               <p class="lead"> The group , <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_3" id="human_829_wsj0591_3"> said in an interview , wants to end the market's
+                  wild price swings that critics blame on computer-aided program-trading
+                  strategies . The group will complain to Washington , to the heads of program -
+                  trading firms and to the heads of the Big Board itself , <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_4" id="human_829_wsj0591_4"> said .
+               </p>
+               
+               <p class="lead"> " They should call { the exchange } Trump East , "
+                  charged <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_5" id="human_829_wsj0591_5"> .
+               </p>
+               
+               <p class="lead"> " What is the mission of the financial community -- to
+                  help some scavengers or schemers , or help corporate America ? "
+               </p>
+               
+               <p class="lead"> Contel is a $ 6 billion telephone and electronics company
+                  . Pressure has been building on the Big Board in the past two weeks to do
+                  something about market volatility , which many investors say is caused by
+                  program trading .
+               </p>
+               
+               <p class="lead"> The market's Friday-the-13th plunge of 190 points in
+                  the Dow Jones Industrial Average , and the Big Board's understated response to
+                  it , galvanized some longstanding dissatisfaction among companies listed on the
+                  exchange .
+               </p>
+               
+               <p class="lead"> Last month , program trading accounted for a record 13.8
+                  % of average daily Big Board volume . <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_6" id="human_829_wsj0591_6"> , for example , said <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_7" id="human_829_wsj0591_7"> wrote to Big Board
+                  Chairman John J. Phelan Jr. about program trading after the 190-point Dow
+                  plunge , and as in previous queries , " what I get back is gobbledygook . "
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_829_wsj0591_8" id="human_829_wsj0591_8"> said he's upset that
+                  Mr. Phelan , trying to calm investors after the plunge , said that investors
+                  would simply have to get used to the market's big price swings .
+               </p>
+               
+               <p class="lead"> The Big Board " is partly to blame { for the price swings
+                  } , because they 're cowards , " said Mr. Wohlstetter .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="citycountry_3166_wsj1147.xml">
+            
+            <h3>
+               <strong>Text 3</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>California (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>California is a state on the west coast of the United States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> The House approved a short-term spending bill to keep the
+                  government operating through Nov. 15 and provide $ 2.85 billion in emergency
+                  funds to assist in the recovery from Hurricane Hugo and the <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_1" id="citycountry_3166_wsj1147_1">
+                  earthquake .
+               </p>
+               
+               <p class="lead"> The 321-99 roll call vote reflected broad support for
+                  the disaster assistance , but the cost to the Treasury is sure to aggravate
+                  budget pressures this year and next under the Gramm-Rudman deficit reduction law
+                  .
+               </p>
+               
+               <p class="lead"> By a lopsided 401-18 margin , the chamber rejected an
+                  effort to waive Gramm-Rudman for purposes of addressing the two disasters , and
+                  budget analysts estimate the increased appropriations will widen the fiscal 1990
+                  deficit by at least $ 1.44 billion unless offsetting spending cuts or new
+                  revenues are found by Congress .
+               </p>
+               
+               <p class="lead"> The budget impact will be greater still in fiscal 1991,
+                  and the issue forced a confrontation between the Appropriations Committee
+                  leadership and Budget Committee Chairman Leon Panetta , whose <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_2" id="citycountry_3166_wsj1147_2"> district
+                  was at the center of the earthquake last week . Going to the well of the chamber
+                  , Mr. Panetta demanded the costs be fully counted . His prominent role put him
+                  in the awkward position of challenging the very committee members on whom <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_3" id="citycountry_3166_wsj1147_3"> will be
+                  most dependent in the months ahead .
+               </p>
+               
+               <p class="lead"> " We do not come to this House asking for any handout , "
+                  said the <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_4" id="citycountry_3166_wsj1147_4"> Democrat . " We do not intend to hide
+                  these costs from the American people . "
+               </p>
+               
+               <p class="lead"> The $ 2.85 billion package incorporates $ 500 million for
+                  low-interest disaster loans , $ 1 billion in highway construction funds , and
+                  $ 1.35 billion divided between general emergency assistance and a reserve to be
+                  available to President Bush to meet unanticipated costs from the two disasters .
+                  The funds are in addition to $ 1.1 billion appropriated last month to assist in
+                  the recovery from Hugo , bringing the total for the two disasters to nearly $ 4
+                  billion in unanticipated spending .
+               </p>
+               
+               <p class="lead"> Because of the vagaries of Gramm-Rudman , the immediate
+                  impact is relatively small . But the appropriations set in motion spending that
+                  adds to an already grim budget picture for fiscal 1991 . Within the
+                  appropriations process , the situation is even more difficult since the costs
+                  will be counted against the share of funds to be allocated to those
+                  subcommittees that recently have had the greatest difficulty in staying the
+                  .
+               </p>
+               
+               <p class="lead"> The underlying bill approved yesterday is required to
+                  keep the government operating past midnight tonight , and this urgency has
+                  contributed to the speed -- and , critics say , mistakes -- that have
+                  accompanied the package of disaster assistance . The hastily drafted measure
+                  could hurt <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_5" id="citycountry_3166_wsj1147_5"> by requiring <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_6" id="citycountry_3166_wsj1147_6"> to put
+                  up more matching funds for emergency highway assistance than otherwise would be
+                  required . And <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_7" id="citycountry_3166_wsj1147_7"> delegation is fearful that the new funding
+                  will be counted against a separate $ 185 million in federal highway funds it
+                  would expect to receive under its normal allocation this year .
+               </p>
+               
+               <p class="lead"> Also , the high price of San Francisco real estate puts
+                  <input type="text" required maxlength="45" autocomplete="off" name="citycountry_3166_wsj1147_8" id="citycountry_3166_wsj1147_8"> at odds
+                  with federal regulations more attuned to the national average . For example ,
+                  disaster loans , which will go to small businesses and homeowners , offer credit
+                  as low as 4 % in some cases .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_8623_wsj1615.xml">
+            
+            <h3>
+               <strong>Text 4</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Heidi Ehman (she/her)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Heidi Ehman is a 24-year-old, politically active woman.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_1" id="human_8623_wsj1615_1"> might have stepped
+                  from a recruiting poster for young Republicans . White , 24 years old , a singer
+                  in <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_2" id="human_8623_wsj1615_2"> church choir ,
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_3" id="human_8623_wsj1615_3"> symbolizes a
+                  generation that gave its heart and its vote to Ronald Reagan . " I felt kind of
+                  safe , " <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_4" id="human_8623_wsj1615_4">
+                  says .
+               </p>
+               
+               <p class="lead"> No longer . When the Supreme Court opened the door this
+                  year to new restrictions on abortion , <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_5" id="human_8623_wsj1615_5"> opened <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_6" id="human_8623_wsj1615_6"> mind to Democratic politics . Then a political novice, <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_8" id="human_8623_wsj1615_8"> stepped into a whirl
+                  of " pro-choice " marches , house parties and fund-raisers . Now <input type="text" required maxlength="45" autocomplete="off" name="human_8623_wsj1615_9" id="human_8623_wsj1615_9"> leads a grassroots
+                  abortion-rights campaign in Passaic County for pro-choice Democratic
+                  gubernatorial candidate James Florio .
+               </p>
+               
+               <p class="lead"> " This is one where I cross party lines , " she says ,
+                  rejecting the anti-abortion stance of Rep. Florio's opponent , Reagan -
+                  Republican Rep. James Courter .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_4912_wsj1316.xml">
+            
+            <h3>
+               <strong>Text 5</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Goodson (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Goodson Newspaper Group Inc. - or Goodson for short - is a company in the United
+                  States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Ingersoll Publications Co. agreed to buy the New Haven
+                  Register in a transaction valued at $ 275 million from <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_1" id="org_4912_wsj1316_1"> .
+               </p>
+               
+               <p class="lead"> As part of the agreement , <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_2" id="org_4912_wsj1316_2"> also terminated the
+                  contract under which Ingersoll manages <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_3" id="org_4912_wsj1316_3"> 66 newspapers , ending a long association between
+                  the two companies that has turned increasingly bitter recently . <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_4" id="org_4912_wsj1316_4"> has accused Ingersoll of
+                  paying less attention to its properties and more to such ventures as the recent
+                  launch of the St. Louis Sun .
+               </p>
+               
+               <p class="lead"> Under the terms of the accord , Ingersoll will pay about
+                  $ 255 million for the Register , a daily that <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_5" id="org_4912_wsj1316_5"> bought for about $ 170
+                  million in 1986 . <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_6" id="org_4912_wsj1316_6"> will
+                  pay the additional $ 20 million in settlement of the management contract .
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_7" id="org_4912_wsj1316_7"> also announced that
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_4912_wsj1316_8" id="org_4912_wsj1316_8"> hired the former
+                  president and senior vice president of Ingersoll to run the Goodson papers .
+                  Both executives left the company after clashes with Chairman Ralph Ingersoll Jr
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="org_3473_wsj1175.xml">
+            
+            <h3>
+               <strong>Text 6</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Buell (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Buell Industries Inc. - or Buell for short - is a company in Waterbury, Conn.,
+                  that makes industrial fasteners and metal stampings.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_1" id="org_3473_wsj1175_1"> halved <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_2" id="org_3473_wsj1175_2"> quarterly dividend to
+                  five cents a share , payable Nov. 17 to stock of record Nov. 3 . <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_3" id="org_3473_wsj1175_3"> quarterly dividend had
+                  been 10 cents a share since April 30 , 1988 . <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_4" id="org_3473_wsj1175_4"> recently said <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_5" id="org_3473_wsj1175_5"> would incur an aftertax
+                  charge of about $ 3.6 million in <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_6" id="org_3473_wsj1175_6"> fourth quarter ending Tuesday , in connection with
+                  the sale and discontinuance of several lines at a plant . <input type="text" required maxlength="45" autocomplete="off" name="org_3473_wsj1175_7" id="org_3473_wsj1175_7"> has 2.3 million shares
+                  outstanding .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_3851_wsj1234.xml">
+            
+            <h3>
+               <strong>Text 7</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Ronald B. Koenig (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Ronald B. Koenig is a 55-year old senior managing director in a brokerage
+                  company.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_1" id="human_3851_wsj1234_1"> was named a senior
+                  managing director of the Gruntal &amp; Co. brokerage subsidiary of this
+                  insurance and financial-services firm . <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_2" id="human_3851_wsj1234_2"> will build the corporate-finance and
+                  investment-banking business of Gruntal , which has primarily been a retail -
+                  based firm . <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_3" id="human_3851_wsj1234_3">
+                  was chairman and co-chief executive officer of Ladenburg , Thalmann &amp; Co.
+                  until July , when <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_4" id="human_3851_wsj1234_4">
+                  was named co-chairman of the investment-banking firm along with Howard L. Blum
+                  Jr. , who then became the sole chief executive . Yesterday , Mr. Blum , 41 ,
+                  said he wasn't aware of plans at Ladenburg to name a co-chairman to succeed
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_5" id="human_3851_wsj1234_5"> and said the board
+                  would need to approve any appointments or title changes . Mr. Blum added he wasn't surprised <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_6" id="human_3851_wsj1234_6">
+                  resigned , but <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_7" id="human_3851_wsj1234_7">
+                  departure was " nothing that we desired or worked for . " <input type="text" required maxlength="45" autocomplete="off" name="human_3851_wsj1234_8" id="human_3851_wsj1234_8"> said : " I just got
+                  a tremendous offer from Gruntal . "
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="human_8174_wsj1570.xml">
+            
+            <h3>
+               <strong>Text 8</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>Allen D. Tharp (he/him/his)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>Allen D. Tharp is male catfish farmer in Humphreys County in Mississippi.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> AMONG THE CATFISH farmers in the watery delta land of
+                  Humphreys County , Miss. , <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_1" id="human_8174_wsj1570_1">
+                  was one of the best known and most enterprising .
+               </p>
+               
+               <p class="lead">
+                  <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_2" id="human_8174_wsj1570_2"> sold quarter-inch
+                  fingerlings to stock other farmers ' ponds , and <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_3" id="human_8174_wsj1570_3"> bought back
+                  one-pound-or-so food-fish that <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_4" id="human_8174_wsj1570_4"> " live-hauled " to market along with <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_5" id="human_8174_wsj1570_5"> own whiskery crop .
+                  And <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_6" id="human_8174_wsj1570_6"> nearly always bought
+                  and sold for cash .
+               </p>
+               
+               <p class="lead"> Along the way , <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_7" id="human_8174_wsj1570_7"> omitted a total of $ 1.5 million from <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_8" id="human_8174_wsj1570_8"> receipts reported on
+                  federal tax returns for three years . The returns landed in the hands of an
+                  Internal Revenue Service criminal investigator , Samuel James Baker . Mr. Baker
+                  interviewed or wrote to hundreds of catfish farmers , live-haulers and
+                  processors throughout the South before coming up with detailed estimates of
+                  purchases and sales , in pounds and dollars , by <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_9" id="human_8174_wsj1570_9"> and others
+                  .
+               </p>
+               
+               <p class="lead"> Unknown to <input type="text" required maxlength="45" autocomplete="off" name="human_8174_wsj1570_10" id="human_8174_wsj1570_10"> , he had fouled his net on a special IRS
+                  project to catch catfish farmers and haulers inclined to cheat on their taxes .
+                  Confronted with the evidence , Mr. Tharp pleaded guilty to one charge of filing
+                  a false return and was fined $ 5,000 and sentenced to 18 months in prison
+                  .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_12504_wsj2436.xml">
+            
+            <h3>
+               <strong>Text 9</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>U.S. News &amp; World Report (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>U.S. News &amp; World Report is a popular weekly magazine in the United
+                  States.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> Roger Rosenblatt , editor of <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_1" id="other_12504_wsj2436_1"> , resigned Friday
+                  from <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_2" id="other_12504_wsj2436_2"> .
+               </p>
+               
+               <p class="lead"> Mr. Rosenblatt said he resigned because of difficulties
+                  with commuting between his home in New York and <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_3" id="other_12504_wsj2436_3"> editorial offices
+                  in Washington . " Frankly , I missed my family , " said Mr. Rosenblatt
+                  .
+               </p>
+               
+               <p class="lead"> In Mr. Rosenblatt's tenure , <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_4" id="other_12504_wsj2436_4"> advertising pages
+                  and circulation have grown significantly . But at 2.3 million weekly paid
+                  circulation , <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_5" id="other_12504_wsj2436_5">
+                  still ranks third behind Time Warner Inc.'s Time magazine , with 4.4 million
+                  circulation , and Washington Post Co.'s Newsweek , with 3.3 million circulation
+                  .
+               </p>
+               
+               <p class="lead"> Mortimer B. Zuckerman , chairman and editor in chief ,
+                  said Mr. Rosenblatt would be succeeded starting today by Michael Ruby , <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_6" id="other_12504_wsj2436_6"> executive editor ,
+                  and Merrill McLoughlin , a senior writer . Mr. Ruby and Ms. McLoughlin are
+                  married to each other . Mr. Zuckerman said <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_7" id="other_12504_wsj2436_7"> would maintain
+                  <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_8" id="other_12504_wsj2436_8"> editorial format ,
+                  which is a mix of analysis and trend stories with service-oriented , how-to
+                  articles .
+               </p>
+               
+               <p class="lead"> Mr. Rosenblatt , a senior writer at Time magazine before
+                  joining <input type="text" required maxlength="45" autocomplete="off" name="other_12504_wsj2436_9" id="other_12504_wsj2436_9"> , said he had
+                  numerous job offers from other magazines while he was editor . The offers were
+                  to work as a writer , not an editor .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+         <div id="other_6176_wsj1412.xml">
+            
+            <h3>
+               <strong>Text 10</strong>
+               
+            </h3>
+            <br>
+            
+            <div class="jumbotron lead">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">subject: </span>The movie "Days of Rage" (it/its)
+               </p>
+               
+               <hr class="my-4">
+               
+               <p>
+                  <span style="font-weight: 700;" id="demoFont">helper sentence: </span>"Days of Rage" is a film about the conflict between Palestinians and
+                  Israel.
+               </p>
+               
+            </div>
+            <br>
+            
+            <div class="text-justify">
+               
+               <p class="lead"> How interestingly clever of Robert Goldberg to use the
+                  form of pretend advocacy journalism to explain his perception of <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_1" id="other_6176_wsj1412_1"> in his television
+                  critique ( Leisure &amp; Arts , Sept 11 ) . He chastises Jo Franklin-Trout for
+                  her inept presentation of advocacy journalism , judging <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_2" id="other_6176_wsj1412_2"> as " intellectually
+                  slipshod . " Was not the title very clear ? One example he gives : " She didn't
+                  ask " ( why the Palestinian children are soldiers throwing stones ) . Really now
+                  , did she have to ask ? Were not the pictures and happenings , which have been
+                  continuing news headlines , answers enough ?
+               </p>
+               
+               <p class="lead"> Mr. Goldberg contends that even as " propaganda " <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_3" id="other_6176_wsj1412_3"> fails because <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_4" id="other_6176_wsj1412_4"> presents only one
+                  view . Of course the Palestinians complain about their treatment ; of course the
+                  Israelis feel put upon . But his complaint that <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_5" id="other_6176_wsj1412_5"> doesn't contain
+                  balanced comments from Israelis about how badly the Palestinians are behaving is
+                  irrelevant . It's like doing a documentary on apartheid and insisting that
+                  equal time be given to how terrific white South Africans are . <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_6" id="other_6176_wsj1412_6"> did emphasize how
+                  long the Israeli / Palestinian stalemate has existed by tracing the conflict to
+                  the days of World War I when the British tried to guarantee both a Jewish state
+                  and a Palestinian state without specifying how it was to be .
+               </p>
+               
+               <p class="lead"> Well , " Days of Rage " airing with before-and-after
+                  packaging , and after repeated delays , was a beginning . Every issue is
+                  multisided . <input type="text" required maxlength="45" autocomplete="off" name="other_6176_wsj1412_7" id="other_6176_wsj1412_7">
+                  attempts to show a side rarely seen in our media .
+               </p>
+               
+               <p class="lead"> Now we must endure a rash of critics who apparently wish
+                  to know details of one side only .
+               </p>
+               
+            </div>
+            <br>
+            
+            <hr class="my-4">
+            
+         </div>
+         
+      </body>
+      
+   </crowd-form>
+   
+</list>
